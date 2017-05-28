@@ -6,11 +6,11 @@ import org.apache.spark.streaming._
 import org.apache.spark.streaming.dstream.DStream
 import org.apache.spark.streaming.kafka._
 import org.apache.spark.rdd.RDD
-import com.dp.dptech.entity.dp.DPUserLog
-import com.dp.dptech.utils.SQLUtilities
+//import com.dp.dptech.entity.dp.DPUserLog
+//import com.dp.dptech.utils.SQLUtilities
 import org.apache.spark.sql.SQLContext
 import java.util.Properties
-import org.apache.spark.sql.cassandra.CassandraSQLContext
+//import org.apache.spark.sql.cassandra.CassandraSQLContext
 import java.io.FileInputStream
 
 /**
@@ -52,8 +52,8 @@ object KafkaConsumer {
     println("STARTING READING: topics: " + topicsSet + "   Kafka servers: " + metadata_broker_list + "  spark servers: " + spark_cassandra_connection_host)
     println("----------No of lines read: " + lines.count().count())
 
-    val cc = new CassandraSQLContext(ssc.sparkContext)
-    cc.setKeyspace("ks_dptech")
+//    val cc = new CassandraSQLContext(ssc.sparkContext)
+//    cc.setKeyspace("ks_dptech")
 
     lines foreachRDD {
       (dpRdd, time) =>

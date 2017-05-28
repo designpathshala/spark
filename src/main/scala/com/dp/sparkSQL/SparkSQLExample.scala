@@ -1,10 +1,9 @@
+package com.dp.sparkSQL
 
 import org.apache.spark.sql.Row
 import org.apache.spark.sql.types._
 import org.apache.spark._
 import org.apache.spark.sql.SQLContext
-
-package com.dp.sparkSQL
 
 object SparkSQLExample {
 

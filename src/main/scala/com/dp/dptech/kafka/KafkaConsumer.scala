@@ -6,8 +6,6 @@ import org.apache.spark.streaming._
 import org.apache.spark.streaming.dstream.DStream
 import org.apache.spark.streaming.kafka._
 import org.apache.spark.rdd.RDD
-//import com.dp.dptech.entity.dp.DPUserLog
-//import com.dp.dptech.utils.SQLUtilities
 import org.apache.spark.sql.SQLContext
 import java.util.Properties
 //import org.apache.spark.sql.cassandra.CassandraSQLContext

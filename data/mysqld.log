@@ -1,0 +1,3002 @@
+140611 16:09:04 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+140611 16:09:04 [Note] Plugin 'FEDERATED' is disabled.
+140611 16:09:04 InnoDB: The InnoDB memory heap is disabled
+140611 16:09:04 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140611 16:09:04 InnoDB: Compressed tables use zlib 1.2.7
+140611 16:09:04 InnoDB: Using Linux native AIO
+140611 16:09:04 InnoDB: Initializing buffer pool, size = 128.0M
+140611 16:09:04 InnoDB: Completed initialization of buffer pool
+InnoDB: The first specified data file ./ibdata1 did not exist:
+InnoDB: a new database to be created!
+140611 16:09:04  InnoDB: Setting file ./ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+140611 16:09:04  InnoDB: Log file ./ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file ./ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+140611 16:09:05  InnoDB: Log file ./ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file ./ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: 127 rollback segment(s) active.
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+140611 16:09:05  InnoDB: Waiting for the background threads to start
+140611 16:09:06 InnoDB: 5.5.37 started; log sequence number 0
+140611 16:09:06 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+140611 16:09:06 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+140611 16:09:06 [Note] Server socket created on IP: '0.0.0.0'.
+140611 16:09:06 [Note] Event Scheduler: Loaded 0 events
+140611 16:09:06 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+140611 16:09:07 [Note] /usr/libexec/mysqld: Normal shutdown
+
+140611 16:09:07 [Note] Event Scheduler: Purging the queue. 0 events
+140611 16:09:07  InnoDB: Starting shutdown...
+140611 16:09:08  InnoDB: Shutdown completed; log sequence number 1595675
+140611 16:09:08 [Note] /usr/libexec/mysqld: Shutdown complete
+
+140611 16:09:08 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+140611 16:12:20 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+140611 16:12:20 [Note] Plugin 'FEDERATED' is disabled.
+140611 16:12:20 InnoDB: The InnoDB memory heap is disabled
+140611 16:12:20 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140611 16:12:20 InnoDB: Compressed tables use zlib 1.2.7
+140611 16:12:20 InnoDB: Using Linux native AIO
+140611 16:12:20 InnoDB: Initializing buffer pool, size = 128.0M
+140611 16:12:20 InnoDB: Completed initialization of buffer pool
+140611 16:12:20 InnoDB: highest supported file format is Barracuda.
+140611 16:12:20  InnoDB: Waiting for the background threads to start
+140611 16:12:21 InnoDB: 5.5.37 started; log sequence number 1595675
+140611 16:12:21 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+140611 16:12:21 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+140611 16:12:21 [Note] Server socket created on IP: '0.0.0.0'.
+140611 16:12:21 [Note] Event Scheduler: Loaded 0 events
+140611 16:12:21 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+140611 16:12:22 [Note] /usr/libexec/mysqld: Normal shutdown
+
+140611 16:12:22 [Note] Event Scheduler: Purging the queue. 0 events
+140611 16:12:22  InnoDB: Starting shutdown...
+140611 16:12:23  InnoDB: Shutdown completed; log sequence number 1595675
+140611 16:12:23 [Note] /usr/libexec/mysqld: Shutdown complete
+
+140611 16:12:23 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+140611 16:20:04 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+140611 16:20:04 [Note] Plugin 'FEDERATED' is disabled.
+140611 16:20:04 InnoDB: The InnoDB memory heap is disabled
+140611 16:20:04 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140611 16:20:04 InnoDB: Compressed tables use zlib 1.2.7
+140611 16:20:04 InnoDB: Using Linux native AIO
+140611 16:20:04 InnoDB: Initializing buffer pool, size = 128.0M
+140611 16:20:04 InnoDB: Completed initialization of buffer pool
+140611 16:20:04 InnoDB: highest supported file format is Barracuda.
+140611 16:20:04  InnoDB: Waiting for the background threads to start
+140611 16:20:05 InnoDB: 5.5.37 started; log sequence number 1595675
+140611 16:20:05 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+140611 16:20:05 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+140611 16:20:05 [Note] Server socket created on IP: '0.0.0.0'.
+140611 16:20:05 [Note] Event Scheduler: Loaded 0 events
+140611 16:20:05 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+140611 16:20:06 [Note] /usr/libexec/mysqld: Normal shutdown
+
+140611 16:20:06 [Note] Event Scheduler: Purging the queue. 0 events
+140611 16:20:06  InnoDB: Starting shutdown...
+140611 16:20:07  InnoDB: Shutdown completed; log sequence number 1595675
+140611 16:20:07 [Note] /usr/libexec/mysqld: Shutdown complete
+
+140611 16:20:07 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+140611 16:23:27 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+140611 16:23:27 [Note] Plugin 'FEDERATED' is disabled.
+140611 16:23:27 InnoDB: The InnoDB memory heap is disabled
+140611 16:23:27 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140611 16:23:27 InnoDB: Compressed tables use zlib 1.2.7
+140611 16:23:27 InnoDB: Using Linux native AIO
+140611 16:23:27 InnoDB: Initializing buffer pool, size = 128.0M
+140611 16:23:27 InnoDB: Completed initialization of buffer pool
+140611 16:23:27 InnoDB: highest supported file format is Barracuda.
+140611 16:23:27  InnoDB: Waiting for the background threads to start
+140611 16:23:28 InnoDB: 5.5.37 started; log sequence number 1595675
+140611 16:23:28 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+140611 16:23:28 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+140611 16:23:28 [Note] Server socket created on IP: '0.0.0.0'.
+140611 16:23:28 [Note] Event Scheduler: Loaded 0 events
+140611 16:23:28 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+140611 16:23:29 [Note] /usr/libexec/mysqld: Normal shutdown
+
+140611 16:23:29 [Note] Event Scheduler: Purging the queue. 0 events
+140611 16:23:29  InnoDB: Starting shutdown...
+140611 16:23:30  InnoDB: Shutdown completed; log sequence number 1595675
+140611 16:23:30 [Note] /usr/libexec/mysqld: Shutdown complete
+
+140611 16:23:30 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+140611 16:24:19 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+140611 16:24:19 [Note] Plugin 'FEDERATED' is disabled.
+140611 16:24:19 InnoDB: The InnoDB memory heap is disabled
+140611 16:24:19 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140611 16:24:19 InnoDB: Compressed tables use zlib 1.2.7
+140611 16:24:19 InnoDB: Using Linux native AIO
+140611 16:24:19 InnoDB: Initializing buffer pool, size = 128.0M
+140611 16:24:19 InnoDB: Completed initialization of buffer pool
+140611 16:24:19 InnoDB: highest supported file format is Barracuda.
+140611 16:24:19  InnoDB: Waiting for the background threads to start
+140611 16:24:20 InnoDB: 5.5.37 started; log sequence number 1595675
+140611 16:24:20 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+140611 16:24:20 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+140611 16:24:20 [Note] Server socket created on IP: '0.0.0.0'.
+140611 16:24:20 [Note] Event Scheduler: Loaded 0 events
+140611 16:24:20 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+140612 20:13:14 [Note] /usr/libexec/mysqld: Normal shutdown
+
+140612 20:13:14 [Note] Event Scheduler: Purging the queue. 0 events
+140612 20:13:16 [Warning] /usr/libexec/mysqld: Forcing close of thread 100  user: 'hive'
+
+140612 20:13:16 [Warning] /usr/libexec/mysqld: Forcing close of thread 99  user: 'hive'
+
+140612 20:13:16 [Warning] /usr/libexec/mysqld: Forcing close of thread 96  user: 'hive'
+
+140612 20:13:16 [Warning] /usr/libexec/mysqld: Forcing close of thread 95  user: 'hive'
+
+140612 20:13:16  InnoDB: Starting shutdown...
+140612 20:13:17  InnoDB: Shutdown completed; log sequence number 3377014
+140612 20:13:17 [Note] /usr/libexec/mysqld: Shutdown complete
+
+140612 20:13:17 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+140612 20:13:17 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+140612 20:13:17 [Note] Plugin 'FEDERATED' is disabled.
+140612 20:13:18 InnoDB: The InnoDB memory heap is disabled
+140612 20:13:18 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140612 20:13:18 InnoDB: Compressed tables use zlib 1.2.7
+140612 20:13:18 InnoDB: Using Linux native AIO
+140612 20:13:18 InnoDB: Initializing buffer pool, size = 128.0M
+140612 20:13:18 InnoDB: Completed initialization of buffer pool
+140612 20:13:18 InnoDB: highest supported file format is Barracuda.
+140612 20:13:18  InnoDB: Waiting for the background threads to start
+140612 20:13:19 InnoDB: 5.5.37 started; log sequence number 3377014
+140612 20:13:19 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+140612 20:13:19 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+140612 20:13:19 [Note] Server socket created on IP: '0.0.0.0'.
+140612 20:13:19 [Note] Event Scheduler: Loaded 0 events
+140612 20:13:19 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+140619 16:33:21 [Note] /usr/libexec/mysqld: Normal shutdown
+
+140619 16:33:21 [Note] Event Scheduler: Purging the queue. 0 events
+140619 16:33:23 [Warning] /usr/libexec/mysqld: Forcing close of thread 437  user: 'hive'
+
+140619 16:33:23 [Warning] /usr/libexec/mysqld: Forcing close of thread 436  user: 'hive'
+
+140619 16:33:23 [Warning] /usr/libexec/mysqld: Forcing close of thread 434  user: 'hive'
+
+140619 16:33:23 [Warning] /usr/libexec/mysqld: Forcing close of thread 423  user: 'hive'
+
+140619 16:33:23 [Warning] /usr/libexec/mysqld: Forcing close of thread 422  user: 'hive'
+
+140619 16:33:23  InnoDB: Starting shutdown...
+140619 16:33:25  InnoDB: Shutdown completed; log sequence number 19847321
+140619 16:33:25 [Note] /usr/libexec/mysqld: Shutdown complete
+
+140619 16:33:25 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+140619 16:33:25 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+140619 16:33:26 [Note] Plugin 'FEDERATED' is disabled.
+140619 16:33:26 InnoDB: The InnoDB memory heap is disabled
+140619 16:33:26 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140619 16:33:26 InnoDB: Compressed tables use zlib 1.2.7
+140619 16:33:26 InnoDB: Using Linux native AIO
+140619 16:33:26 InnoDB: Initializing buffer pool, size = 128.0M
+140619 16:33:26 InnoDB: Completed initialization of buffer pool
+140619 16:33:26 InnoDB: highest supported file format is Barracuda.
+140619 16:33:26  InnoDB: Waiting for the background threads to start
+140619 16:33:27 InnoDB: 5.5.37 started; log sequence number 19847321
+140619 16:33:27 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+140619 16:33:27 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+140619 16:33:27 [Note] Server socket created on IP: '0.0.0.0'.
+140619 16:33:27 [Note] Event Scheduler: Loaded 0 events
+140619 16:33:27 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+140929 14:33:11 [Note] /usr/libexec/mysqld: Normal shutdown
+
+140929 14:33:11 [Note] Event Scheduler: Purging the queue. 0 events
+140929 14:33:11  InnoDB: Starting shutdown...
+140929 14:33:13  InnoDB: Shutdown completed; log sequence number 174671215
+140929 14:33:13 [Note] /usr/libexec/mysqld: Shutdown complete
+
+140929 14:33:13 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+140929 14:42:34 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+140929 14:42:34 [Note] Plugin 'FEDERATED' is disabled.
+140929 14:42:34 InnoDB: The InnoDB memory heap is disabled
+140929 14:42:34 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140929 14:42:34 InnoDB: Compressed tables use zlib 1.2.7
+140929 14:42:34 InnoDB: Using Linux native AIO
+140929 14:42:34 InnoDB: Initializing buffer pool, size = 128.0M
+140929 14:42:34 InnoDB: Completed initialization of buffer pool
+140929 14:42:34 InnoDB: highest supported file format is Barracuda.
+140929 14:42:35  InnoDB: Waiting for the background threads to start
+140929 14:42:36 InnoDB: 5.5.37 started; log sequence number 174671215
+140929 14:42:36 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+140929 14:42:36 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+140929 14:42:36 [Note] Server socket created on IP: '0.0.0.0'.
+140929 14:42:36 [Note] Event Scheduler: Loaded 0 events
+140929 14:42:36 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+140929 15:29:05 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+140929 15:29:05 [Note] Plugin 'FEDERATED' is disabled.
+140929 15:29:05 InnoDB: The InnoDB memory heap is disabled
+140929 15:29:05 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140929 15:29:05 InnoDB: Compressed tables use zlib 1.2.7
+140929 15:29:05 InnoDB: Using Linux native AIO
+140929 15:29:05 InnoDB: Initializing buffer pool, size = 128.0M
+140929 15:29:05 InnoDB: Completed initialization of buffer pool
+140929 15:29:05 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+140929 15:29:05  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+140929 15:29:06  InnoDB: Waiting for the background threads to start
+140929 15:29:07 InnoDB: 5.5.37 started; log sequence number 174673488
+140929 15:29:07 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+140929 15:29:07 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+140929 15:29:07 [Note] Server socket created on IP: '0.0.0.0'.
+140929 15:29:07 [Note] Event Scheduler: Loaded 0 events
+140929 15:29:07 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+140930 09:32:05 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+140930  9:32:05 [Note] Plugin 'FEDERATED' is disabled.
+140930  9:32:05 InnoDB: The InnoDB memory heap is disabled
+140930  9:32:05 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140930  9:32:05 InnoDB: Compressed tables use zlib 1.2.7
+140930  9:32:05 InnoDB: Using Linux native AIO
+140930  9:32:05 InnoDB: Initializing buffer pool, size = 128.0M
+140930  9:32:05 InnoDB: Completed initialization of buffer pool
+140930  9:32:05 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+140930  9:32:05  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+140930  9:32:06  InnoDB: Waiting for the background threads to start
+140930  9:32:07 InnoDB: 5.5.37 started; log sequence number 176114298
+140930  9:32:07 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+140930  9:32:07 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+140930  9:32:07 [Note] Server socket created on IP: '0.0.0.0'.
+140930  9:32:07 [Note] Event Scheduler: Loaded 0 events
+140930  9:32:07 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+140930 10:42:40 [Note] /usr/libexec/mysqld: Normal shutdown
+
+140930 10:42:40 [Note] Event Scheduler: Purging the queue. 0 events
+140930 10:42:40  InnoDB: Starting shutdown...
+140930 10:42:41  InnoDB: Shutdown completed; log sequence number 176114298
+140930 10:42:41 [Note] /usr/libexec/mysqld: Shutdown complete
+
+140930 10:42:41 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+140930 10:47:30 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+140930 10:47:30 [Note] Plugin 'FEDERATED' is disabled.
+140930 10:47:30 InnoDB: The InnoDB memory heap is disabled
+140930 10:47:30 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140930 10:47:30 InnoDB: Compressed tables use zlib 1.2.7
+140930 10:47:30 InnoDB: Using Linux native AIO
+140930 10:47:30 InnoDB: Initializing buffer pool, size = 128.0M
+140930 10:47:30 InnoDB: Completed initialization of buffer pool
+140930 10:47:30 InnoDB: highest supported file format is Barracuda.
+140930 10:47:30  InnoDB: Waiting for the background threads to start
+140930 10:47:31 InnoDB: 5.5.37 started; log sequence number 176114298
+140930 10:47:31 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+140930 10:47:31 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+140930 10:47:31 [Note] Server socket created on IP: '0.0.0.0'.
+140930 10:47:31 [Note] Event Scheduler: Loaded 0 events
+140930 10:47:31 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+140930 11:26:16 [Note] /usr/libexec/mysqld: Normal shutdown
+
+140930 11:26:16 [Note] Event Scheduler: Purging the queue. 0 events
+140930 11:26:16  InnoDB: Starting shutdown...
+140930 11:26:18  InnoDB: Shutdown completed; log sequence number 176226975
+140930 11:26:18 [Note] /usr/libexec/mysqld: Shutdown complete
+
+140930 11:26:18 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+140930 11:30:03 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+140930 11:30:03 [Note] Plugin 'FEDERATED' is disabled.
+140930 11:30:03 InnoDB: The InnoDB memory heap is disabled
+140930 11:30:03 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140930 11:30:03 InnoDB: Compressed tables use zlib 1.2.7
+140930 11:30:03 InnoDB: Using Linux native AIO
+140930 11:30:03 InnoDB: Initializing buffer pool, size = 128.0M
+140930 11:30:03 InnoDB: Completed initialization of buffer pool
+140930 11:30:03 InnoDB: highest supported file format is Barracuda.
+140930 11:30:03  InnoDB: Waiting for the background threads to start
+140930 11:30:04 InnoDB: 5.5.37 started; log sequence number 176226975
+140930 11:30:04 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+140930 11:30:04 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+140930 11:30:04 [Note] Server socket created on IP: '0.0.0.0'.
+140930 11:30:05 [Note] Event Scheduler: Loaded 0 events
+140930 11:30:05 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+140930 11:38:32 [Note] /usr/libexec/mysqld: Normal shutdown
+
+140930 11:38:32 [Note] Event Scheduler: Purging the queue. 0 events
+140930 11:38:32  InnoDB: Starting shutdown...
+140930 11:38:33  InnoDB: Shutdown completed; log sequence number 176226975
+140930 11:38:33 [Note] /usr/libexec/mysqld: Shutdown complete
+
+140930 11:38:33 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+140930 11:39:48 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+140930 11:39:48 [Note] Plugin 'FEDERATED' is disabled.
+140930 11:39:48 InnoDB: The InnoDB memory heap is disabled
+140930 11:39:48 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+140930 11:39:48 InnoDB: Compressed tables use zlib 1.2.7
+140930 11:39:48 InnoDB: Using Linux native AIO
+140930 11:39:48 InnoDB: Initializing buffer pool, size = 128.0M
+140930 11:39:48 InnoDB: Completed initialization of buffer pool
+140930 11:39:48 InnoDB: highest supported file format is Barracuda.
+140930 11:39:48  InnoDB: Waiting for the background threads to start
+140930 11:39:49 InnoDB: 5.5.37 started; log sequence number 176226975
+140930 11:39:49 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+140930 11:39:49 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+140930 11:39:49 [Note] Server socket created on IP: '0.0.0.0'.
+140930 11:39:49 [Note] Event Scheduler: Loaded 0 events
+140930 11:39:49 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+141030 10:43:58 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141030 10:43:58 [Note] Event Scheduler: Purging the queue. 0 events
+141030 10:44:00 [Warning] /usr/libexec/mysqld: Forcing close of thread 844  user: 'hive'
+
+141030 10:44:00 [Warning] /usr/libexec/mysqld: Forcing close of thread 843  user: 'hive'
+
+141030 10:44:00  InnoDB: Starting shutdown...
+141030 10:44:01  InnoDB: Shutdown completed; log sequence number 258444917
+141030 10:44:01 [Note] /usr/libexec/mysqld: Shutdown complete
+
+141030 10:44:02 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+141030 10:44:03 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+141030 10:44:03 [Note] Plugin 'FEDERATED' is disabled.
+141030 10:44:03 InnoDB: The InnoDB memory heap is disabled
+141030 10:44:03 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141030 10:44:03 InnoDB: Compressed tables use zlib 1.2.7
+141030 10:44:03 InnoDB: Using Linux native AIO
+141030 10:44:03 InnoDB: Initializing buffer pool, size = 128.0M
+141030 10:44:03 InnoDB: Completed initialization of buffer pool
+141030 10:44:03 InnoDB: highest supported file format is Barracuda.
+141030 10:44:03  InnoDB: Waiting for the background threads to start
+141030 10:44:04 InnoDB: 5.5.37 started; log sequence number 258444917
+141030 10:44:04 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+141030 10:44:04 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+141030 10:44:04 [Note] Server socket created on IP: '0.0.0.0'.
+141030 10:44:04 [Note] Event Scheduler: Loaded 0 events
+141030 10:44:04 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+141030 11:56:35 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141030 11:56:35 [Note] Event Scheduler: Purging the queue. 0 events
+141030 11:56:35  InnoDB: Starting shutdown...
+141030 11:56:37  InnoDB: Shutdown completed; log sequence number 258706807
+141030 11:56:37 [Note] /usr/libexec/mysqld: Shutdown complete
+
+141030 11:56:37 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+141030 12:02:01 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+141030 12:02:02 [Note] Plugin 'FEDERATED' is disabled.
+141030 12:02:02 InnoDB: The InnoDB memory heap is disabled
+141030 12:02:02 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141030 12:02:02 InnoDB: Compressed tables use zlib 1.2.7
+141030 12:02:02 InnoDB: Using Linux native AIO
+141030 12:02:02 InnoDB: Initializing buffer pool, size = 128.0M
+141030 12:02:02 InnoDB: Completed initialization of buffer pool
+141030 12:02:02 InnoDB: highest supported file format is Barracuda.
+141030 12:02:02  InnoDB: Waiting for the background threads to start
+141030 12:02:03 InnoDB: 5.5.37 started; log sequence number 258706807
+141030 12:02:03 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+141030 12:02:03 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+141030 12:02:03 [Note] Server socket created on IP: '0.0.0.0'.
+141030 12:02:03 [Note] Event Scheduler: Loaded 0 events
+141030 12:02:03 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+141030 12:14:21 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141030 12:14:21 [Note] Event Scheduler: Purging the queue. 0 events
+141030 12:14:21  InnoDB: Starting shutdown...
+141030 12:14:23  InnoDB: Shutdown completed; log sequence number 258841469
+141030 12:14:23 [Note] /usr/libexec/mysqld: Shutdown complete
+
+141030 12:14:23 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+141030 12:18:31 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+141030 12:18:31 [Note] Plugin 'FEDERATED' is disabled.
+141030 12:18:31 InnoDB: The InnoDB memory heap is disabled
+141030 12:18:31 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141030 12:18:31 InnoDB: Compressed tables use zlib 1.2.7
+141030 12:18:31 InnoDB: Using Linux native AIO
+141030 12:18:31 InnoDB: Initializing buffer pool, size = 128.0M
+141030 12:18:31 InnoDB: Completed initialization of buffer pool
+141030 12:18:31 InnoDB: highest supported file format is Barracuda.
+141030 12:18:31  InnoDB: Waiting for the background threads to start
+141030 12:18:32 InnoDB: 5.5.37 started; log sequence number 258841469
+141030 12:18:32 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+141030 12:18:32 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+141030 12:18:32 [Note] Server socket created on IP: '0.0.0.0'.
+141030 12:18:32 [Note] Event Scheduler: Loaded 0 events
+141030 12:18:32 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+141031 15:00:56 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141031 15:00:56 [Note] Event Scheduler: Purging the queue. 0 events
+141031 15:00:58 [Warning] /usr/libexec/mysqld: Forcing close of thread 29  user: 'hive'
+
+141031 15:00:58 [Warning] /usr/libexec/mysqld: Forcing close of thread 28  user: 'hive'
+
+141031 15:00:58 [Warning] /usr/libexec/mysqld: Forcing close of thread 25  user: 'hive'
+
+141031 15:00:58 [Warning] /usr/libexec/mysqld: Forcing close of thread 24  user: 'hive'
+
+141031 15:00:58  InnoDB: Starting shutdown...
+141031 15:01:00  InnoDB: Shutdown completed; log sequence number 263056530
+141031 15:01:00 [Note] /usr/libexec/mysqld: Shutdown complete
+
+141031 15:01:00 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+141031 15:01:00 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+141031 15:01:01 [Note] Plugin 'FEDERATED' is disabled.
+141031 15:01:01 InnoDB: The InnoDB memory heap is disabled
+141031 15:01:01 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141031 15:01:01 InnoDB: Compressed tables use zlib 1.2.7
+141031 15:01:01 InnoDB: Using Linux native AIO
+141031 15:01:01 InnoDB: Initializing buffer pool, size = 128.0M
+141031 15:01:01 InnoDB: Completed initialization of buffer pool
+141031 15:01:01 InnoDB: highest supported file format is Barracuda.
+141031 15:01:01  InnoDB: Waiting for the background threads to start
+141031 15:01:02 InnoDB: 5.5.37 started; log sequence number 263056530
+141031 15:01:02 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+141031 15:01:02 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+141031 15:01:02 [Note] Server socket created on IP: '0.0.0.0'.
+141031 15:01:02 [Note] Event Scheduler: Loaded 0 events
+141031 15:01:02 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+141105 12:51:32 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141105 12:51:32 [Note] Event Scheduler: Purging the queue. 0 events
+141105 12:51:34 [Warning] /usr/libexec/mysqld: Forcing close of thread 118  user: 'hive'
+
+141105 12:51:34 [Warning] /usr/libexec/mysqld: Forcing close of thread 117  user: 'hive'
+
+141105 12:51:34 [Warning] /usr/libexec/mysqld: Forcing close of thread 114  user: 'hive'
+
+141105 12:51:34 [Warning] /usr/libexec/mysqld: Forcing close of thread 113  user: 'hive'
+
+141105 12:51:34  InnoDB: Starting shutdown...
+141105 12:51:36  InnoDB: Shutdown completed; log sequence number 277442419
+141105 12:51:36 [Note] /usr/libexec/mysqld: Shutdown complete
+
+141105 12:51:36 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+141105 12:51:37 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+141105 12:51:37 [Note] Plugin 'FEDERATED' is disabled.
+141105 12:51:37 InnoDB: The InnoDB memory heap is disabled
+141105 12:51:37 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141105 12:51:37 InnoDB: Compressed tables use zlib 1.2.7
+141105 12:51:37 InnoDB: Using Linux native AIO
+141105 12:51:37 InnoDB: Initializing buffer pool, size = 128.0M
+141105 12:51:37 InnoDB: Completed initialization of buffer pool
+141105 12:51:37 InnoDB: highest supported file format is Barracuda.
+141105 12:51:37  InnoDB: Waiting for the background threads to start
+141105 12:51:38 InnoDB: 5.5.37 started; log sequence number 277442419
+141105 12:51:38 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+141105 12:51:38 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+141105 12:51:38 [Note] Server socket created on IP: '0.0.0.0'.
+141105 12:51:39 [Note] Event Scheduler: Loaded 0 events
+141105 12:51:39 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+141127 10:51:45 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141127 10:51:45 [Note] Event Scheduler: Purging the queue. 0 events
+141127 10:51:45  InnoDB: Starting shutdown...
+141127 10:51:47  InnoDB: Shutdown completed; log sequence number 343049146
+141127 10:51:47 [Note] /usr/libexec/mysqld: Shutdown complete
+
+141127 10:51:47 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+141127 10:54:12 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+141127 10:54:12 [Note] Plugin 'FEDERATED' is disabled.
+141127 10:54:12 InnoDB: The InnoDB memory heap is disabled
+141127 10:54:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141127 10:54:12 InnoDB: Compressed tables use zlib 1.2.7
+141127 10:54:12 InnoDB: Using Linux native AIO
+141127 10:54:12 InnoDB: Initializing buffer pool, size = 128.0M
+141127 10:54:12 InnoDB: Completed initialization of buffer pool
+141127 10:54:12 InnoDB: highest supported file format is Barracuda.
+141127 10:54:13  InnoDB: Waiting for the background threads to start
+141127 10:54:14 InnoDB: 5.5.37 started; log sequence number 343049146
+141127 10:54:14 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+141127 10:54:14 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+141127 10:54:14 [Note] Server socket created on IP: '0.0.0.0'.
+141127 10:54:14 [Note] Event Scheduler: Loaded 0 events
+141127 10:54:14 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+141202 20:59:58 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141202 20:59:58 [Note] Event Scheduler: Purging the queue. 0 events
+141202 21:00:00 [Warning] /usr/libexec/mysqld: Forcing close of thread 149  user: 'hive'
+
+141202 21:00:00 [Warning] /usr/libexec/mysqld: Forcing close of thread 148  user: 'hive'
+
+141202 21:00:00  InnoDB: Starting shutdown...
+141202 21:00:01  InnoDB: Shutdown completed; log sequence number 357156244
+141202 21:00:02 [Note] /usr/libexec/mysqld: Shutdown complete
+
+141202 21:00:02 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+141202 21:00:02 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+141202 21:00:02 [Note] Plugin 'FEDERATED' is disabled.
+141202 21:00:02 InnoDB: The InnoDB memory heap is disabled
+141202 21:00:02 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141202 21:00:02 InnoDB: Compressed tables use zlib 1.2.7
+141202 21:00:02 InnoDB: Using Linux native AIO
+141202 21:00:02 InnoDB: Initializing buffer pool, size = 128.0M
+141202 21:00:02 InnoDB: Completed initialization of buffer pool
+141202 21:00:02 InnoDB: highest supported file format is Barracuda.
+141202 21:00:03  InnoDB: Waiting for the background threads to start
+141202 21:00:04 InnoDB: 5.5.37 started; log sequence number 357156244
+141202 21:00:04 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+141202 21:00:04 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+141202 21:00:04 [Note] Server socket created on IP: '0.0.0.0'.
+141202 21:00:04 [Note] Event Scheduler: Loaded 0 events
+141202 21:00:04 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+141203 13:30:43 [Note] /usr/libexec/mysqld: Normal shutdown
+
+141203 13:30:43 [Note] Event Scheduler: Purging the queue. 0 events
+141203 13:30:43  InnoDB: Starting shutdown...
+141203 13:30:44  InnoDB: Shutdown completed; log sequence number 359413191
+141203 13:30:44 [Note] /usr/libexec/mysqld: Shutdown complete
+
+141203 13:30:44 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+141203 13:32:27 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+141203 13:32:27 [Note] Plugin 'FEDERATED' is disabled.
+141203 13:32:27 InnoDB: The InnoDB memory heap is disabled
+141203 13:32:27 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+141203 13:32:27 InnoDB: Compressed tables use zlib 1.2.7
+141203 13:32:27 InnoDB: Using Linux native AIO
+141203 13:32:27 InnoDB: Initializing buffer pool, size = 128.0M
+141203 13:32:27 InnoDB: Completed initialization of buffer pool
+141203 13:32:27 InnoDB: highest supported file format is Barracuda.
+141203 13:32:27  InnoDB: Waiting for the background threads to start
+141203 13:32:28 InnoDB: 5.5.37 started; log sequence number 359413191
+141203 13:32:28 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+141203 13:32:28 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+141203 13:32:28 [Note] Server socket created on IP: '0.0.0.0'.
+141203 13:32:28 [Note] Event Scheduler: Loaded 0 events
+141203 13:32:28 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150121 17:23:20 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150121 17:23:20 [Note] Event Scheduler: Purging the queue. 0 events
+150121 17:23:22 [Warning] /usr/libexec/mysqld: Forcing close of thread 1764  user: 'hive'
+
+150121 17:23:22 [Warning] /usr/libexec/mysqld: Forcing close of thread 1763  user: 'hive'
+
+150121 17:23:22 [Warning] /usr/libexec/mysqld: Forcing close of thread 1760  user: 'hive'
+
+150121 17:23:22 [Warning] /usr/libexec/mysqld: Forcing close of thread 1759  user: 'hive'
+
+150121 17:23:22  InnoDB: Starting shutdown...
+150121 17:23:23  InnoDB: Shutdown completed; log sequence number 501614896
+150121 17:23:23 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150121 17:23:24 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150121 17:23:25 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150121 17:23:25 [Note] Plugin 'FEDERATED' is disabled.
+150121 17:23:25 InnoDB: The InnoDB memory heap is disabled
+150121 17:23:25 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150121 17:23:25 InnoDB: Compressed tables use zlib 1.2.7
+150121 17:23:25 InnoDB: Using Linux native AIO
+150121 17:23:25 InnoDB: Initializing buffer pool, size = 128.0M
+150121 17:23:25 InnoDB: Completed initialization of buffer pool
+150121 17:23:25 InnoDB: highest supported file format is Barracuda.
+150121 17:23:25  InnoDB: Waiting for the background threads to start
+150121 17:23:26 InnoDB: 5.5.37 started; log sequence number 501614896
+150121 17:23:26 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150121 17:23:26 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150121 17:23:26 [Note] Server socket created on IP: '0.0.0.0'.
+150121 17:23:26 [Note] Event Scheduler: Loaded 0 events
+150121 17:23:26 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150128 12:07:24 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150128 12:07:24 [Note] Event Scheduler: Purging the queue. 0 events
+150128 12:07:26 [Warning] /usr/libexec/mysqld: Forcing close of thread 169  user: 'hive'
+
+150128 12:07:26 [Warning] /usr/libexec/mysqld: Forcing close of thread 168  user: 'hive'
+
+150128 12:07:26 [Warning] /usr/libexec/mysqld: Forcing close of thread 165  user: 'hive'
+
+150128 12:07:26 [Warning] /usr/libexec/mysqld: Forcing close of thread 164  user: 'hive'
+
+150128 12:07:26  InnoDB: Starting shutdown...
+150128 12:07:28  InnoDB: Shutdown completed; log sequence number 522845553
+150128 12:07:28 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150128 12:07:28 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150128 12:07:29 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150128 12:07:29 [Note] Plugin 'FEDERATED' is disabled.
+150128 12:07:29 InnoDB: The InnoDB memory heap is disabled
+150128 12:07:29 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150128 12:07:29 InnoDB: Compressed tables use zlib 1.2.7
+150128 12:07:29 InnoDB: Using Linux native AIO
+150128 12:07:29 InnoDB: Initializing buffer pool, size = 128.0M
+150128 12:07:29 InnoDB: Completed initialization of buffer pool
+150128 12:07:30 InnoDB: highest supported file format is Barracuda.
+150128 12:07:30  InnoDB: Waiting for the background threads to start
+150128 12:07:31 InnoDB: 5.5.37 started; log sequence number 522845553
+150128 12:07:31 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150128 12:07:31 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150128 12:07:31 [Note] Server socket created on IP: '0.0.0.0'.
+150128 12:07:31 [Note] Event Scheduler: Loaded 0 events
+150128 12:07:31 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150129 10:59:44 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150129 10:59:44 [Note] Event Scheduler: Purging the queue. 0 events
+150129 10:59:46 [Warning] /usr/libexec/mysqld: Forcing close of thread 26  user: 'hive'
+
+150129 10:59:46 [Warning] /usr/libexec/mysqld: Forcing close of thread 25  user: 'hive'
+
+150129 10:59:46  InnoDB: Starting shutdown...
+150129 10:59:48  InnoDB: Shutdown completed; log sequence number 526528930
+150129 10:59:48 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150129 10:59:48 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150129 10:59:48 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150129 10:59:48 [Note] Plugin 'FEDERATED' is disabled.
+150129 10:59:48 InnoDB: The InnoDB memory heap is disabled
+150129 10:59:48 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150129 10:59:48 InnoDB: Compressed tables use zlib 1.2.7
+150129 10:59:48 InnoDB: Using Linux native AIO
+150129 10:59:48 InnoDB: Initializing buffer pool, size = 128.0M
+150129 10:59:48 InnoDB: Completed initialization of buffer pool
+150129 10:59:48 InnoDB: highest supported file format is Barracuda.
+150129 10:59:49  InnoDB: Waiting for the background threads to start
+150129 10:59:50 InnoDB: 5.5.37 started; log sequence number 526528930
+150129 10:59:50 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150129 10:59:50 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150129 10:59:50 [Note] Server socket created on IP: '0.0.0.0'.
+150129 10:59:50 [Note] Event Scheduler: Loaded 0 events
+150129 10:59:50 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150129 11:00:25 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150129 11:00:25 [Note] Event Scheduler: Purging the queue. 0 events
+150129 11:00:27 [Warning] /usr/libexec/mysqld: Forcing close of thread 3  user: 'hive'
+
+150129 11:00:27 [Warning] /usr/libexec/mysqld: Forcing close of thread 2  user: 'hive'
+
+150129 11:00:27  InnoDB: Starting shutdown...
+150129 11:00:28  InnoDB: Shutdown completed; log sequence number 526528940
+150129 11:00:28 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150129 11:00:28 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150129 11:00:29 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150129 11:00:29 [Note] Plugin 'FEDERATED' is disabled.
+150129 11:00:29 InnoDB: The InnoDB memory heap is disabled
+150129 11:00:29 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150129 11:00:29 InnoDB: Compressed tables use zlib 1.2.7
+150129 11:00:29 InnoDB: Using Linux native AIO
+150129 11:00:29 InnoDB: Initializing buffer pool, size = 128.0M
+150129 11:00:29 InnoDB: Completed initialization of buffer pool
+150129 11:00:29 InnoDB: highest supported file format is Barracuda.
+150129 11:00:29  InnoDB: Waiting for the background threads to start
+150129 11:00:30 InnoDB: 5.5.37 started; log sequence number 526528940
+150129 11:00:30 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150129 11:00:30 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150129 11:00:30 [Note] Server socket created on IP: '0.0.0.0'.
+150129 11:00:30 [Note] Event Scheduler: Loaded 0 events
+150129 11:00:30 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150213 10:58:24 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150213 10:58:24 [Note] Event Scheduler: Purging the queue. 0 events
+150213 10:58:26 [Warning] /usr/libexec/mysqld: Forcing close of thread 295  user: 'hive'
+
+150213 10:58:26 [Warning] /usr/libexec/mysqld: Forcing close of thread 294  user: 'hive'
+
+150213 10:58:26 [Warning] /usr/libexec/mysqld: Forcing close of thread 291  user: 'hive'
+
+150213 10:58:26 [Warning] /usr/libexec/mysqld: Forcing close of thread 290  user: 'hive'
+
+150213 10:58:26  InnoDB: Starting shutdown...
+150213 10:58:28  InnoDB: Shutdown completed; log sequence number 580757110
+150213 10:58:28 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150213 10:58:28 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150213 10:58:30 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150213 10:58:30 [Note] Plugin 'FEDERATED' is disabled.
+150213 10:58:30 InnoDB: The InnoDB memory heap is disabled
+150213 10:58:30 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150213 10:58:30 InnoDB: Compressed tables use zlib 1.2.7
+150213 10:58:30 InnoDB: Using Linux native AIO
+150213 10:58:30 InnoDB: Initializing buffer pool, size = 128.0M
+150213 10:58:30 InnoDB: Completed initialization of buffer pool
+150213 10:58:30 InnoDB: highest supported file format is Barracuda.
+150213 10:58:30  InnoDB: Waiting for the background threads to start
+150213 10:58:31 InnoDB: 5.5.37 started; log sequence number 580757110
+150213 10:58:31 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150213 10:58:31 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150213 10:58:31 [Note] Server socket created on IP: '0.0.0.0'.
+150213 10:58:31 [Note] Event Scheduler: Loaded 0 events
+150213 10:58:31 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150227 11:26:37 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150227 11:26:37 [Note] Event Scheduler: Purging the queue. 0 events
+150227 11:26:39 [Warning] /usr/libexec/mysqld: Forcing close of thread 274  user: 'hive'
+
+150227 11:26:39 [Warning] /usr/libexec/mysqld: Forcing close of thread 273  user: 'hive'
+
+150227 11:26:39  InnoDB: Starting shutdown...
+150227 11:26:40  InnoDB: Shutdown completed; log sequence number 628963441
+150227 11:26:40 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150227 11:26:41 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150227 11:26:41 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150227 11:26:41 [Note] Plugin 'FEDERATED' is disabled.
+150227 11:26:41 InnoDB: The InnoDB memory heap is disabled
+150227 11:26:41 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150227 11:26:41 InnoDB: Compressed tables use zlib 1.2.7
+150227 11:26:41 InnoDB: Using Linux native AIO
+150227 11:26:41 InnoDB: Initializing buffer pool, size = 128.0M
+150227 11:26:41 InnoDB: Completed initialization of buffer pool
+150227 11:26:41 InnoDB: highest supported file format is Barracuda.
+150227 11:26:42  InnoDB: Waiting for the background threads to start
+150227 11:26:43 InnoDB: 5.5.37 started; log sequence number 628963441
+150227 11:26:43 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150227 11:26:43 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150227 11:26:43 [Note] Server socket created on IP: '0.0.0.0'.
+150227 11:26:43 [Note] Event Scheduler: Loaded 0 events
+150227 11:26:43 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150310 12:49:37 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150310 12:49:37 [Note] Event Scheduler: Purging the queue. 0 events
+150310 12:49:37  InnoDB: Starting shutdown...
+150310 12:49:38  InnoDB: Shutdown completed; log sequence number 666873812
+150310 12:49:38 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150310 12:49:39 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150310 12:50:23 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150310 12:50:24 [Note] Plugin 'FEDERATED' is disabled.
+150310 12:50:24 InnoDB: The InnoDB memory heap is disabled
+150310 12:50:24 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150310 12:50:24 InnoDB: Compressed tables use zlib 1.2.7
+150310 12:50:24 InnoDB: Using Linux native AIO
+150310 12:50:24 InnoDB: Initializing buffer pool, size = 128.0M
+150310 12:50:24 InnoDB: Completed initialization of buffer pool
+150310 12:50:24 InnoDB: highest supported file format is Barracuda.
+150310 12:50:24  InnoDB: Waiting for the background threads to start
+150310 12:50:25 InnoDB: 5.5.37 started; log sequence number 666873812
+150310 12:50:25 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150310 12:50:25 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150310 12:50:25 [Note] Server socket created on IP: '0.0.0.0'.
+150310 12:50:25 [Note] Event Scheduler: Loaded 0 events
+150310 12:50:25 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150320 18:41:27 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150320 18:41:27 [Note] Event Scheduler: Purging the queue. 0 events
+150320 18:41:27  InnoDB: Starting shutdown...
+150320 18:41:29  InnoDB: Shutdown completed; log sequence number 705265385
+150320 18:41:29 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150320 18:41:29 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150320 18:42:23 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150320 18:42:23 [Note] Plugin 'FEDERATED' is disabled.
+150320 18:42:23 InnoDB: The InnoDB memory heap is disabled
+150320 18:42:23 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150320 18:42:23 InnoDB: Compressed tables use zlib 1.2.7
+150320 18:42:23 InnoDB: Using Linux native AIO
+150320 18:42:23 InnoDB: Initializing buffer pool, size = 128.0M
+150320 18:42:23 InnoDB: Completed initialization of buffer pool
+150320 18:42:23 InnoDB: highest supported file format is Barracuda.
+150320 18:42:23  InnoDB: Waiting for the background threads to start
+150320 18:42:24 InnoDB: 5.5.37 started; log sequence number 705265385
+150320 18:42:24 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150320 18:42:24 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150320 18:42:24 [Note] Server socket created on IP: '0.0.0.0'.
+150320 18:42:24 [Note] Event Scheduler: Loaded 0 events
+150320 18:42:24 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150405 14:13:55 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150405 14:13:55 [Note] Event Scheduler: Purging the queue. 0 events
+150405 14:13:55  InnoDB: Starting shutdown...
+150405 14:13:57  InnoDB: Shutdown completed; log sequence number 768861575
+150405 14:13:57 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150405 14:13:57 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150405 14:15:21 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150405 14:15:21 [Note] Plugin 'FEDERATED' is disabled.
+150405 14:15:21 InnoDB: The InnoDB memory heap is disabled
+150405 14:15:21 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150405 14:15:21 InnoDB: Compressed tables use zlib 1.2.7
+150405 14:15:21 InnoDB: Using Linux native AIO
+150405 14:15:21 InnoDB: Initializing buffer pool, size = 128.0M
+150405 14:15:21 InnoDB: Completed initialization of buffer pool
+150405 14:15:21 InnoDB: highest supported file format is Barracuda.
+150405 14:15:21  InnoDB: Waiting for the background threads to start
+150405 14:15:22 InnoDB: 5.5.37 started; log sequence number 768861575
+150405 14:15:22 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150405 14:15:22 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150405 14:15:22 [Note] Server socket created on IP: '0.0.0.0'.
+150405 14:15:22 [Note] Event Scheduler: Loaded 0 events
+150405 14:15:22 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150415 12:04:40 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150415 12:04:40 [Note] Event Scheduler: Purging the queue. 0 events
+150415 12:04:40  InnoDB: Starting shutdown...
+150415 12:04:42  InnoDB: Shutdown completed; log sequence number 805100469
+150415 12:04:42 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150415 12:04:42 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150415 12:05:11 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150415 12:05:11 [Note] Plugin 'FEDERATED' is disabled.
+150415 12:05:11 InnoDB: The InnoDB memory heap is disabled
+150415 12:05:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150415 12:05:11 InnoDB: Compressed tables use zlib 1.2.7
+150415 12:05:11 InnoDB: Using Linux native AIO
+150415 12:05:11 InnoDB: Initializing buffer pool, size = 128.0M
+150415 12:05:11 InnoDB: Completed initialization of buffer pool
+150415 12:05:11 InnoDB: highest supported file format is Barracuda.
+150415 12:05:12  InnoDB: Waiting for the background threads to start
+150415 12:05:13 InnoDB: 5.5.37 started; log sequence number 805100469
+150415 12:05:13 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150415 12:05:13 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150415 12:05:13 [Note] Server socket created on IP: '0.0.0.0'.
+150415 12:05:13 [Note] Event Scheduler: Loaded 0 events
+150415 12:05:13 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150415 15:26:08 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150415 15:26:08 [Note] Event Scheduler: Purging the queue. 0 events
+150415 15:26:08  InnoDB: Starting shutdown...
+150415 15:26:10  InnoDB: Shutdown completed; log sequence number 805608676
+150415 15:26:10 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150415 15:26:10 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150415 15:32:13 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150415 15:32:13 [Note] Plugin 'FEDERATED' is disabled.
+150415 15:32:13 InnoDB: The InnoDB memory heap is disabled
+150415 15:32:13 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150415 15:32:13 InnoDB: Compressed tables use zlib 1.2.7
+150415 15:32:13 InnoDB: Using Linux native AIO
+150415 15:32:13 InnoDB: Initializing buffer pool, size = 128.0M
+150415 15:32:13 InnoDB: Completed initialization of buffer pool
+150415 15:32:13 InnoDB: highest supported file format is Barracuda.
+150415 15:32:13  InnoDB: Waiting for the background threads to start
+150415 15:32:14 InnoDB: 5.5.37 started; log sequence number 805608676
+150415 15:32:14 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150415 15:32:14 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150415 15:32:14 [Note] Server socket created on IP: '0.0.0.0'.
+150415 15:32:14 [Note] Event Scheduler: Loaded 0 events
+150415 15:32:14 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150427 10:25:41 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150427 10:25:41 [Note] Event Scheduler: Purging the queue. 0 events
+150427 10:25:43 [Warning] /usr/libexec/mysqld: Forcing close of thread 270  user: 'hive'
+
+150427 10:25:43 [Warning] /usr/libexec/mysqld: Forcing close of thread 269  user: 'hive'
+
+150427 10:25:43 [Warning] /usr/libexec/mysqld: Forcing close of thread 266  user: 'hive'
+
+150427 10:25:43 [Warning] /usr/libexec/mysqld: Forcing close of thread 265  user: 'hive'
+
+150427 10:25:43  InnoDB: Starting shutdown...
+150427 10:25:45  InnoDB: Shutdown completed; log sequence number 851318677
+150427 10:25:45 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150427 10:25:45 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150427 10:25:46 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150427 10:25:47 [Note] Plugin 'FEDERATED' is disabled.
+150427 10:25:47 InnoDB: The InnoDB memory heap is disabled
+150427 10:25:47 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150427 10:25:47 InnoDB: Compressed tables use zlib 1.2.7
+150427 10:25:47 InnoDB: Using Linux native AIO
+150427 10:25:47 InnoDB: Initializing buffer pool, size = 128.0M
+150427 10:25:47 InnoDB: Completed initialization of buffer pool
+150427 10:25:47 InnoDB: highest supported file format is Barracuda.
+150427 10:25:47  InnoDB: Waiting for the background threads to start
+150427 10:25:48 InnoDB: 5.5.37 started; log sequence number 851318677
+150427 10:25:48 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150427 10:25:48 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150427 10:25:48 [Note] Server socket created on IP: '0.0.0.0'.
+150427 10:25:48 [Note] Event Scheduler: Loaded 0 events
+150427 10:25:48 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150505 10:51:26 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150505 10:51:27 [Note] Event Scheduler: Purging the queue. 0 events
+150505 10:51:27  InnoDB: Starting shutdown...
+150505 10:51:28  InnoDB: Shutdown completed; log sequence number 883033697
+150505 10:51:28 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150505 10:51:28 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150505 10:56:32 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150505 10:56:32 [Note] Plugin 'FEDERATED' is disabled.
+150505 10:56:32 InnoDB: The InnoDB memory heap is disabled
+150505 10:56:32 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150505 10:56:32 InnoDB: Compressed tables use zlib 1.2.7
+150505 10:56:32 InnoDB: Using Linux native AIO
+150505 10:56:33 InnoDB: Initializing buffer pool, size = 128.0M
+150505 10:56:33 InnoDB: Completed initialization of buffer pool
+150505 10:56:33 InnoDB: highest supported file format is Barracuda.
+150505 10:56:33  InnoDB: Waiting for the background threads to start
+150505 10:56:34 InnoDB: 5.5.37 started; log sequence number 883033697
+150505 10:56:34 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150505 10:56:34 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150505 10:56:34 [Note] Server socket created on IP: '0.0.0.0'.
+150505 10:56:34 [Note] Event Scheduler: Loaded 0 events
+150505 10:56:34 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150511 12:23:35 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150511 12:23:35 [Note] Event Scheduler: Purging the queue. 0 events
+150511 12:23:35  InnoDB: Starting shutdown...
+150511 12:23:37  InnoDB: Shutdown completed; log sequence number 908258767
+150511 12:23:37 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150511 12:23:37 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150511 12:29:27 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150511 12:29:28 [Note] Plugin 'FEDERATED' is disabled.
+150511 12:29:28 InnoDB: The InnoDB memory heap is disabled
+150511 12:29:28 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150511 12:29:28 InnoDB: Compressed tables use zlib 1.2.7
+150511 12:29:28 InnoDB: Using Linux native AIO
+150511 12:29:28 InnoDB: Initializing buffer pool, size = 128.0M
+150511 12:29:28 InnoDB: Completed initialization of buffer pool
+150511 12:29:28 InnoDB: highest supported file format is Barracuda.
+150511 12:29:28  InnoDB: Waiting for the background threads to start
+150511 12:29:29 InnoDB: 5.5.37 started; log sequence number 908258767
+150511 12:29:29 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150511 12:29:29 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150511 12:29:29 [Note] Server socket created on IP: '0.0.0.0'.
+150511 12:29:29 [Note] Event Scheduler: Loaded 0 events
+150511 12:29:29 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150518 14:23:36 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150518 14:23:36 [Note] Event Scheduler: Purging the queue. 0 events
+150518 14:23:37  InnoDB: Starting shutdown...
+150518 14:23:38  InnoDB: Shutdown completed; log sequence number 939135838
+150518 14:23:38 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150518 14:23:38 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150518 14:24:17 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150518 14:24:17 [Note] Plugin 'FEDERATED' is disabled.
+150518 14:24:17 InnoDB: The InnoDB memory heap is disabled
+150518 14:24:17 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150518 14:24:17 InnoDB: Compressed tables use zlib 1.2.7
+150518 14:24:17 InnoDB: Using Linux native AIO
+150518 14:24:17 InnoDB: Initializing buffer pool, size = 128.0M
+150518 14:24:17 InnoDB: Completed initialization of buffer pool
+150518 14:24:17 InnoDB: highest supported file format is Barracuda.
+150518 14:24:17  InnoDB: Waiting for the background threads to start
+150518 14:24:18 InnoDB: 5.5.37 started; log sequence number 939135838
+150518 14:24:18 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150518 14:24:18 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150518 14:24:18 [Note] Server socket created on IP: '0.0.0.0'.
+150518 14:24:18 [Note] Event Scheduler: Loaded 0 events
+150518 14:24:18 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150531 21:51:06 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150531 21:51:06 [Note] Event Scheduler: Purging the queue. 0 events
+150531 21:51:06  InnoDB: Starting shutdown...
+150531 21:51:07  InnoDB: Shutdown completed; log sequence number 993314294
+150531 21:51:08 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150531 21:51:08 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150531 21:53:56 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150531 21:53:57 [Note] Plugin 'FEDERATED' is disabled.
+150531 21:53:57 InnoDB: The InnoDB memory heap is disabled
+150531 21:53:57 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150531 21:53:57 InnoDB: Compressed tables use zlib 1.2.7
+150531 21:53:57 InnoDB: Using Linux native AIO
+150531 21:53:57 InnoDB: Initializing buffer pool, size = 128.0M
+150531 21:53:57 InnoDB: Completed initialization of buffer pool
+150531 21:53:57 InnoDB: highest supported file format is Barracuda.
+150531 21:53:58  InnoDB: Waiting for the background threads to start
+150531 21:53:59 InnoDB: 5.5.37 started; log sequence number 993314294
+150531 21:53:59 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150531 21:53:59 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150531 21:53:59 [Note] Server socket created on IP: '0.0.0.0'.
+150531 21:53:59 [Note] Event Scheduler: Loaded 0 events
+150531 21:53:59 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150531 21:56:05 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150531 21:56:05 [Note] Event Scheduler: Purging the queue. 0 events
+150531 21:56:07 [Warning] /usr/libexec/mysqld: Forcing close of thread 13  user: 'hive'
+
+150531 21:56:07 [Warning] /usr/libexec/mysqld: Forcing close of thread 12  user: 'hive'
+
+150531 21:56:07  InnoDB: Starting shutdown...
+150531 21:56:09  InnoDB: Shutdown completed; log sequence number 993318817
+150531 21:56:09 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150531 21:56:09 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150531 21:56:09 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150531 21:56:09 [Note] Plugin 'FEDERATED' is disabled.
+150531 21:56:09 InnoDB: The InnoDB memory heap is disabled
+150531 21:56:09 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150531 21:56:09 InnoDB: Compressed tables use zlib 1.2.7
+150531 21:56:09 InnoDB: Using Linux native AIO
+150531 21:56:09 InnoDB: Initializing buffer pool, size = 128.0M
+150531 21:56:09 InnoDB: Completed initialization of buffer pool
+150531 21:56:09 InnoDB: highest supported file format is Barracuda.
+150531 21:56:09  InnoDB: Waiting for the background threads to start
+150531 21:56:10 InnoDB: 5.5.37 started; log sequence number 993318817
+150531 21:56:10 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150531 21:56:10 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150531 21:56:10 [Note] Server socket created on IP: '0.0.0.0'.
+150531 21:56:10 [Note] Event Scheduler: Loaded 0 events
+150531 21:56:10 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150608 11:01:50 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150608 11:01:50 [Note] Event Scheduler: Purging the queue. 0 events
+150608 11:01:50  InnoDB: Starting shutdown...
+150608 11:01:52  InnoDB: Shutdown completed; log sequence number 1026705949
+150608 11:01:52 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150608 11:01:52 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150608 11:04:15 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150608 11:04:15 [Note] Plugin 'FEDERATED' is disabled.
+150608 11:04:15 InnoDB: The InnoDB memory heap is disabled
+150608 11:04:15 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150608 11:04:15 InnoDB: Compressed tables use zlib 1.2.7
+150608 11:04:15 InnoDB: Using Linux native AIO
+150608 11:04:15 InnoDB: Initializing buffer pool, size = 128.0M
+150608 11:04:15 InnoDB: Completed initialization of buffer pool
+150608 11:04:15 InnoDB: highest supported file format is Barracuda.
+150608 11:04:15  InnoDB: Waiting for the background threads to start
+150608 11:04:16 InnoDB: 5.5.37 started; log sequence number 1026705949
+150608 11:04:16 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150608 11:04:16 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150608 11:04:16 [Note] Server socket created on IP: '0.0.0.0'.
+150608 11:04:16 [Note] Event Scheduler: Loaded 0 events
+150608 11:04:16 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150608 11:30:01 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150608 11:30:01 [Note] Event Scheduler: Purging the queue. 0 events
+150608 11:30:03 [Warning] /usr/libexec/mysqld: Forcing close of thread 17  user: 'hive'
+
+150608 11:30:03 [Warning] /usr/libexec/mysqld: Forcing close of thread 16  user: 'hive'
+
+150608 11:30:03 [Warning] /usr/libexec/mysqld: Forcing close of thread 13  user: 'hive'
+
+150608 11:30:03 [Warning] /usr/libexec/mysqld: Forcing close of thread 12  user: 'hive'
+
+150608 11:30:03  InnoDB: Starting shutdown...
+150608 11:30:04  InnoDB: Shutdown completed; log sequence number 1026724312
+150608 11:30:04 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150608 11:30:04 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150608 11:30:07 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150608 11:30:07 [Note] Plugin 'FEDERATED' is disabled.
+150608 11:30:07 InnoDB: The InnoDB memory heap is disabled
+150608 11:30:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150608 11:30:07 InnoDB: Compressed tables use zlib 1.2.7
+150608 11:30:07 InnoDB: Using Linux native AIO
+150608 11:30:07 InnoDB: Initializing buffer pool, size = 128.0M
+150608 11:30:07 InnoDB: Completed initialization of buffer pool
+150608 11:30:07 InnoDB: highest supported file format is Barracuda.
+150608 11:30:07  InnoDB: Waiting for the background threads to start
+150608 11:30:08 InnoDB: 5.5.37 started; log sequence number 1026724312
+150608 11:30:08 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150608 11:30:08 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150608 11:30:08 [Note] Server socket created on IP: '0.0.0.0'.
+150608 11:30:08 [Note] Event Scheduler: Loaded 0 events
+150608 11:30:08 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150608 11:35:41 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150608 11:35:41 [Note] Event Scheduler: Purging the queue. 0 events
+150608 11:35:43 [Warning] /usr/libexec/mysqld: Forcing close of thread 13  user: 'hive'
+
+150608 11:35:43 [Warning] /usr/libexec/mysqld: Forcing close of thread 12  user: 'hive'
+
+150608 11:35:43 [Warning] /usr/libexec/mysqld: Forcing close of thread 9  user: 'hive'
+
+150608 11:35:43 [Warning] /usr/libexec/mysqld: Forcing close of thread 8  user: 'hive'
+
+150608 11:35:43  InnoDB: Starting shutdown...
+150608 11:35:44  InnoDB: Shutdown completed; log sequence number 1026726585
+150608 11:35:44 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150608 11:35:44 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150608 11:35:46 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150608 11:35:46 [Note] Plugin 'FEDERATED' is disabled.
+150608 11:35:46 InnoDB: The InnoDB memory heap is disabled
+150608 11:35:46 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150608 11:35:46 InnoDB: Compressed tables use zlib 1.2.7
+150608 11:35:46 InnoDB: Using Linux native AIO
+150608 11:35:46 InnoDB: Initializing buffer pool, size = 128.0M
+150608 11:35:46 InnoDB: Completed initialization of buffer pool
+150608 11:35:46 InnoDB: highest supported file format is Barracuda.
+150608 11:35:47  InnoDB: Waiting for the background threads to start
+150608 11:35:48 InnoDB: 5.5.37 started; log sequence number 1026726585
+150608 11:35:48 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150608 11:35:48 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150608 11:35:48 [Note] Server socket created on IP: '0.0.0.0'.
+150608 11:35:48 [Note] Event Scheduler: Loaded 0 events
+150608 11:35:48 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150608 11:38:14 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150608 11:38:14 [Note] Event Scheduler: Purging the queue. 0 events
+150608 11:38:14  InnoDB: Starting shutdown...
+150608 11:38:15  InnoDB: Shutdown completed; log sequence number 1026726595
+150608 11:38:15 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150608 11:38:15 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150608 11:42:29 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150608 11:42:29 [Note] Plugin 'FEDERATED' is disabled.
+150608 11:42:29 InnoDB: The InnoDB memory heap is disabled
+150608 11:42:29 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150608 11:42:29 InnoDB: Compressed tables use zlib 1.2.7
+150608 11:42:29 InnoDB: Using Linux native AIO
+150608 11:42:29 InnoDB: Initializing buffer pool, size = 128.0M
+150608 11:42:29 InnoDB: Completed initialization of buffer pool
+150608 11:42:29 InnoDB: highest supported file format is Barracuda.
+150608 11:42:29  InnoDB: Waiting for the background threads to start
+150608 11:42:30 InnoDB: 5.5.37 started; log sequence number 1026726595
+150608 11:42:30 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150608 11:42:30 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150608 11:42:30 [Note] Server socket created on IP: '0.0.0.0'.
+150608 11:42:30 [Note] Event Scheduler: Loaded 0 events
+150608 11:42:30 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150608 11:54:13 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150608 11:54:13 [Note] Event Scheduler: Purging the queue. 0 events
+150608 11:54:13  InnoDB: Starting shutdown...
+150608 11:54:13  InnoDB: Shutdown completed; log sequence number 1026726595
+150608 11:54:13 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150608 11:54:13 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150608 11:57:02 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150608 11:57:02 [Note] Plugin 'FEDERATED' is disabled.
+150608 11:57:02 InnoDB: The InnoDB memory heap is disabled
+150608 11:57:02 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150608 11:57:02 InnoDB: Compressed tables use zlib 1.2.7
+150608 11:57:02 InnoDB: Using Linux native AIO
+150608 11:57:02 InnoDB: Initializing buffer pool, size = 128.0M
+150608 11:57:02 InnoDB: Completed initialization of buffer pool
+150608 11:57:02 InnoDB: highest supported file format is Barracuda.
+150608 11:57:02  InnoDB: Waiting for the background threads to start
+150608 11:57:03 InnoDB: 5.5.37 started; log sequence number 1026726595
+150608 11:57:03 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150608 11:57:03 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150608 11:57:03 [Note] Server socket created on IP: '0.0.0.0'.
+150608 11:57:03 [Note] Event Scheduler: Loaded 0 events
+150608 11:57:03 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150611  8:53:21 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150611  8:53:21 [Note] Event Scheduler: Purging the queue. 0 events
+150611  8:53:21  InnoDB: Starting shutdown...
+150611  8:53:23  InnoDB: Shutdown completed; log sequence number 1036604018
+150611  8:53:23 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150611 08:53:23 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150611 08:55:31 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150611  8:55:32 [Note] Plugin 'FEDERATED' is disabled.
+150611  8:55:32 InnoDB: The InnoDB memory heap is disabled
+150611  8:55:32 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150611  8:55:32 InnoDB: Compressed tables use zlib 1.2.7
+150611  8:55:32 InnoDB: Using Linux native AIO
+150611  8:55:32 InnoDB: Initializing buffer pool, size = 128.0M
+150611  8:55:32 InnoDB: Completed initialization of buffer pool
+150611  8:55:32 InnoDB: highest supported file format is Barracuda.
+150611  8:55:32  InnoDB: Waiting for the background threads to start
+150611  8:55:33 InnoDB: 5.5.37 started; log sequence number 1036604018
+150611  8:55:33 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150611  8:55:33 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150611  8:55:33 [Note] Server socket created on IP: '0.0.0.0'.
+150611  8:55:33 [Note] Event Scheduler: Loaded 0 events
+150611  8:55:33 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150611 10:25:55 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150611 10:25:55 [Note] Event Scheduler: Purging the queue. 0 events
+150611 10:25:55  InnoDB: Starting shutdown...
+150611 10:25:57  InnoDB: Shutdown completed; log sequence number 1036606275
+150611 10:25:57 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150611 10:25:57 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150611 10:33:28 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150611 10:33:29 [Note] Plugin 'FEDERATED' is disabled.
+150611 10:33:29 InnoDB: The InnoDB memory heap is disabled
+150611 10:33:29 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150611 10:33:29 InnoDB: Compressed tables use zlib 1.2.7
+150611 10:33:29 InnoDB: Using Linux native AIO
+150611 10:33:29 InnoDB: Initializing buffer pool, size = 128.0M
+150611 10:33:29 InnoDB: Completed initialization of buffer pool
+150611 10:33:29 InnoDB: highest supported file format is Barracuda.
+150611 10:33:30  InnoDB: Waiting for the background threads to start
+150611 10:33:31 InnoDB: 5.5.37 started; log sequence number 1036606275
+150611 10:33:31 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150611 10:33:31 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150611 10:33:31 [Note] Server socket created on IP: '0.0.0.0'.
+150611 10:33:31 [Note] Event Scheduler: Loaded 0 events
+150611 10:33:31 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150613 12:41:24 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150613 12:41:24 [Note] Plugin 'FEDERATED' is disabled.
+150613 12:41:24 InnoDB: The InnoDB memory heap is disabled
+150613 12:41:24 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150613 12:41:24 InnoDB: Compressed tables use zlib 1.2.7
+150613 12:41:24 InnoDB: Using Linux native AIO
+150613 12:41:24 InnoDB: Initializing buffer pool, size = 128.0M
+150613 12:41:24 InnoDB: Completed initialization of buffer pool
+150613 12:41:25 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+150613 12:41:25  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+150613 12:41:25  InnoDB: Waiting for the background threads to start
+150613 12:41:26 InnoDB: 5.5.37 started; log sequence number 1045790437
+150613 12:41:26 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150613 12:41:26 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150613 12:41:26 [Note] Server socket created on IP: '0.0.0.0'.
+150613 12:41:26 [Note] Event Scheduler: Loaded 0 events
+150613 12:41:26 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150619 15:25:18 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150619 15:25:18 [Note] Event Scheduler: Purging the queue. 0 events
+150619 15:25:18  InnoDB: Starting shutdown...
+150619 15:25:19  InnoDB: Shutdown completed; log sequence number 1076222903
+150619 15:25:19 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150619 15:25:20 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150619 15:25:20 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150619 15:25:20 [Note] Plugin 'FEDERATED' is disabled.
+150619 15:25:20 InnoDB: The InnoDB memory heap is disabled
+150619 15:25:20 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150619 15:25:20 InnoDB: Compressed tables use zlib 1.2.7
+150619 15:25:20 InnoDB: Using Linux native AIO
+150619 15:25:20 InnoDB: Initializing buffer pool, size = 128.0M
+150619 15:25:20 InnoDB: Completed initialization of buffer pool
+150619 15:25:20 InnoDB: highest supported file format is Barracuda.
+150619 15:25:21  InnoDB: Waiting for the background threads to start
+150619 15:25:22 InnoDB: 5.5.37 started; log sequence number 1076222903
+150619 15:25:22 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150619 15:25:22 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150619 15:25:22 [Note] Server socket created on IP: '0.0.0.0'.
+150619 15:25:22 [Note] Event Scheduler: Loaded 0 events
+150619 15:25:22 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150619 15:26:14 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150619 15:26:14 [Note] Event Scheduler: Purging the queue. 0 events
+150619 15:26:14  InnoDB: Starting shutdown...
+150619 15:26:15  InnoDB: Shutdown completed; log sequence number 1076222903
+150619 15:26:15 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150619 15:26:15 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150619 15:26:37 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150619 15:26:37 [Note] Plugin 'FEDERATED' is disabled.
+150619 15:26:37 InnoDB: The InnoDB memory heap is disabled
+150619 15:26:37 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150619 15:26:37 InnoDB: Compressed tables use zlib 1.2.7
+150619 15:26:37 InnoDB: Using Linux native AIO
+150619 15:26:37 InnoDB: Initializing buffer pool, size = 128.0M
+150619 15:26:37 InnoDB: Completed initialization of buffer pool
+150619 15:26:37 InnoDB: highest supported file format is Barracuda.
+150619 15:26:37  InnoDB: Waiting for the background threads to start
+150619 15:26:38 InnoDB: 5.5.37 started; log sequence number 1076222903
+150619 15:26:38 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150619 15:26:38 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150619 15:26:38 [Note] Server socket created on IP: '0.0.0.0'.
+150619 15:26:38 [Note] Event Scheduler: Loaded 0 events
+150619 15:26:38 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150623  0:12:33 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150623  0:12:33 [Note] Event Scheduler: Purging the queue. 0 events
+150623  0:12:35 [Warning] /usr/libexec/mysqld: Forcing close of thread 101  user: 'hive'
+
+150623  0:12:35 [Warning] /usr/libexec/mysqld: Forcing close of thread 100  user: 'hive'
+
+150623  0:12:35  InnoDB: Starting shutdown...
+150623  0:12:37  InnoDB: Shutdown completed; log sequence number 1089947377
+150623  0:12:37 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150623 00:12:37 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150623 00:12:38 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150623  0:12:38 [Note] Plugin 'FEDERATED' is disabled.
+150623  0:12:38 InnoDB: The InnoDB memory heap is disabled
+150623  0:12:38 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150623  0:12:38 InnoDB: Compressed tables use zlib 1.2.7
+150623  0:12:38 InnoDB: Using Linux native AIO
+150623  0:12:38 InnoDB: Initializing buffer pool, size = 128.0M
+150623  0:12:38 InnoDB: Completed initialization of buffer pool
+150623  0:12:38 InnoDB: highest supported file format is Barracuda.
+150623  0:12:39  InnoDB: Waiting for the background threads to start
+150623  0:12:40 InnoDB: 5.5.37 started; log sequence number 1089947377
+150623  0:12:40 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150623  0:12:40 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150623  0:12:40 [Note] Server socket created on IP: '0.0.0.0'.
+150623  0:12:40 [Note] Event Scheduler: Loaded 0 events
+150623  0:12:40 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150623  0:13:22 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150623  0:13:22 [Note] Event Scheduler: Purging the queue. 0 events
+150623  0:13:24 [Warning] /usr/libexec/mysqld: Forcing close of thread 8  user: 'hive'
+
+150623  0:13:24 [Warning] /usr/libexec/mysqld: Forcing close of thread 7  user: 'hive'
+
+150623  0:13:24  InnoDB: Starting shutdown...
+150623  0:13:25  InnoDB: Shutdown completed; log sequence number 1089949634
+150623  0:13:25 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150623 00:13:25 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150623 00:13:26 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150623  0:13:26 [Note] Plugin 'FEDERATED' is disabled.
+150623  0:13:26 InnoDB: The InnoDB memory heap is disabled
+150623  0:13:26 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150623  0:13:26 InnoDB: Compressed tables use zlib 1.2.7
+150623  0:13:26 InnoDB: Using Linux native AIO
+150623  0:13:26 InnoDB: Initializing buffer pool, size = 128.0M
+150623  0:13:26 InnoDB: Completed initialization of buffer pool
+150623  0:13:26 InnoDB: highest supported file format is Barracuda.
+150623  0:13:26  InnoDB: Waiting for the background threads to start
+150623  0:13:27 InnoDB: 5.5.37 started; log sequence number 1089949634
+150623  0:13:27 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150623  0:13:27 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150623  0:13:27 [Note] Server socket created on IP: '0.0.0.0'.
+150623  0:13:27 [Note] Event Scheduler: Loaded 0 events
+150623  0:13:27 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150623 11:09:46 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150623 11:09:46 [Note] Event Scheduler: Purging the queue. 0 events
+150623 11:09:48 [Warning] /usr/libexec/mysqld: Forcing close of thread 17  user: 'hive'
+
+150623 11:09:48 [Warning] /usr/libexec/mysqld: Forcing close of thread 16  user: 'hive'
+
+150623 11:09:48  InnoDB: Starting shutdown...
+150623 11:09:49  InnoDB: Shutdown completed; log sequence number 1093378633
+150623 11:09:49 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150623 11:09:49 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150623 11:09:50 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150623 11:09:50 [Note] Plugin 'FEDERATED' is disabled.
+150623 11:09:50 InnoDB: The InnoDB memory heap is disabled
+150623 11:09:50 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150623 11:09:50 InnoDB: Compressed tables use zlib 1.2.7
+150623 11:09:50 InnoDB: Using Linux native AIO
+150623 11:09:50 InnoDB: Initializing buffer pool, size = 128.0M
+150623 11:09:50 InnoDB: Completed initialization of buffer pool
+150623 11:09:50 InnoDB: highest supported file format is Barracuda.
+150623 11:09:50  InnoDB: Waiting for the background threads to start
+150623 11:09:51 InnoDB: 5.5.37 started; log sequence number 1093378633
+150623 11:09:51 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150623 11:09:51 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150623 11:09:51 [Note] Server socket created on IP: '0.0.0.0'.
+150623 11:09:52 [Note] Event Scheduler: Loaded 0 events
+150623 11:09:52 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150623 14:12:53 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150623 14:12:53 [Note] Event Scheduler: Purging the queue. 0 events
+150623 14:12:55 [Warning] /usr/libexec/mysqld: Forcing close of thread 16  user: 'hive'
+
+150623 14:12:55 [Warning] /usr/libexec/mysqld: Forcing close of thread 15  user: 'hive'
+
+150623 14:12:55  InnoDB: Starting shutdown...
+150623 14:12:57  InnoDB: Shutdown completed; log sequence number 1093664579
+150623 14:12:57 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150623 14:12:57 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150623 14:12:57 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150623 14:12:58 [Note] Plugin 'FEDERATED' is disabled.
+150623 14:12:58 InnoDB: The InnoDB memory heap is disabled
+150623 14:12:58 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150623 14:12:58 InnoDB: Compressed tables use zlib 1.2.7
+150623 14:12:58 InnoDB: Using Linux native AIO
+150623 14:12:58 InnoDB: Initializing buffer pool, size = 128.0M
+150623 14:12:58 InnoDB: Completed initialization of buffer pool
+150623 14:12:58 InnoDB: highest supported file format is Barracuda.
+150623 14:12:58  InnoDB: Waiting for the background threads to start
+150623 14:12:59 InnoDB: 5.5.37 started; log sequence number 1093664579
+150623 14:12:59 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150623 14:12:59 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150623 14:12:59 [Note] Server socket created on IP: '0.0.0.0'.
+150623 14:12:59 [Note] Event Scheduler: Loaded 0 events
+150623 14:12:59 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150623 16:59:32 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150623 16:59:32 [Note] Event Scheduler: Purging the queue. 0 events
+150623 16:59:34 [Warning] /usr/libexec/mysqld: Forcing close of thread 18  user: 'hive'
+
+150623 16:59:34 [Warning] /usr/libexec/mysqld: Forcing close of thread 17  user: 'hive'
+
+150623 16:59:34 [Warning] /usr/libexec/mysqld: Forcing close of thread 14  user: 'hive'
+
+150623 16:59:34 [Warning] /usr/libexec/mysqld: Forcing close of thread 13  user: 'hive'
+
+150623 16:59:34  InnoDB: Starting shutdown...
+150623 16:59:36  InnoDB: Shutdown completed; log sequence number 1094029485
+150623 16:59:36 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150623 16:59:36 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150623 16:59:37 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150623 16:59:37 [Note] Plugin 'FEDERATED' is disabled.
+150623 16:59:37 InnoDB: The InnoDB memory heap is disabled
+150623 16:59:37 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150623 16:59:37 InnoDB: Compressed tables use zlib 1.2.7
+150623 16:59:37 InnoDB: Using Linux native AIO
+150623 16:59:37 InnoDB: Initializing buffer pool, size = 128.0M
+150623 16:59:37 InnoDB: Completed initialization of buffer pool
+150623 16:59:37 InnoDB: highest supported file format is Barracuda.
+150623 16:59:37  InnoDB: Waiting for the background threads to start
+150623 16:59:38 InnoDB: 5.5.37 started; log sequence number 1094029485
+150623 16:59:38 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150623 16:59:38 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150623 16:59:38 [Note] Server socket created on IP: '0.0.0.0'.
+150623 16:59:38 [Note] Event Scheduler: Loaded 0 events
+150623 16:59:38 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150629 13:25:46 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150629 13:25:46 [Note] Event Scheduler: Purging the queue. 0 events
+150629 13:25:48 [Warning] /usr/libexec/mysqld: Forcing close of thread 148  user: 'hive'
+
+150629 13:25:48 [Warning] /usr/libexec/mysqld: Forcing close of thread 147  user: 'hive'
+
+150629 13:25:48 [Warning] /usr/libexec/mysqld: Forcing close of thread 144  user: 'hive'
+
+150629 13:25:48 [Warning] /usr/libexec/mysqld: Forcing close of thread 143  user: 'hive'
+
+150629 13:25:48  InnoDB: Starting shutdown...
+150629 13:25:50  InnoDB: Shutdown completed; log sequence number 1120168350
+150629 13:25:50 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150629 13:25:50 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150629 13:25:51 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150629 13:25:51 [Note] Plugin 'FEDERATED' is disabled.
+150629 13:25:51 InnoDB: The InnoDB memory heap is disabled
+150629 13:25:51 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150629 13:25:51 InnoDB: Compressed tables use zlib 1.2.7
+150629 13:25:51 InnoDB: Using Linux native AIO
+150629 13:25:51 InnoDB: Initializing buffer pool, size = 128.0M
+150629 13:25:51 InnoDB: Completed initialization of buffer pool
+150629 13:25:51 InnoDB: highest supported file format is Barracuda.
+150629 13:25:52  InnoDB: Waiting for the background threads to start
+150629 13:25:53 InnoDB: 5.5.37 started; log sequence number 1120168350
+150629 13:25:53 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150629 13:25:53 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150629 13:25:53 [Note] Server socket created on IP: '0.0.0.0'.
+150629 13:25:53 [Note] Event Scheduler: Loaded 0 events
+150629 13:25:53 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150706 21:28:41 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150706 21:28:41 [Note] Event Scheduler: Purging the queue. 0 events
+150706 21:28:43 [Warning] /usr/libexec/mysqld: Forcing close of thread 186  user: 'hive'
+
+150706 21:28:43 [Warning] /usr/libexec/mysqld: Forcing close of thread 185  user: 'hive'
+
+150706 21:28:43 [Warning] /usr/libexec/mysqld: Forcing close of thread 182  user: 'hive'
+
+150706 21:28:43 [Warning] /usr/libexec/mysqld: Forcing close of thread 181  user: 'hive'
+
+150706 21:28:43  InnoDB: Starting shutdown...
+150706 21:28:44  InnoDB: Shutdown completed; log sequence number 1151475999
+150706 21:28:44 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150706 21:28:44 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150706 21:28:46 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150706 21:28:46 [Note] Plugin 'FEDERATED' is disabled.
+150706 21:28:46 InnoDB: The InnoDB memory heap is disabled
+150706 21:28:46 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150706 21:28:46 InnoDB: Compressed tables use zlib 1.2.7
+150706 21:28:46 InnoDB: Using Linux native AIO
+150706 21:28:46 InnoDB: Initializing buffer pool, size = 128.0M
+150706 21:28:46 InnoDB: Completed initialization of buffer pool
+150706 21:28:46 InnoDB: highest supported file format is Barracuda.
+150706 21:28:46  InnoDB: Waiting for the background threads to start
+150706 21:28:47 InnoDB: 5.5.37 started; log sequence number 1151475999
+150706 21:28:47 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150706 21:28:47 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150706 21:28:47 [Note] Server socket created on IP: '0.0.0.0'.
+150706 21:28:48 [Note] Event Scheduler: Loaded 0 events
+150706 21:28:48 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150706 21:39:26 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150706 21:39:26 [Note] Event Scheduler: Purging the queue. 0 events
+150706 21:39:26  InnoDB: Starting shutdown...
+150706 21:39:27  InnoDB: Shutdown completed; log sequence number 1151476009
+150706 21:39:27 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150706 21:39:27 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150706 21:39:30 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150706 21:39:30 [Note] Plugin 'FEDERATED' is disabled.
+150706 21:39:30 InnoDB: The InnoDB memory heap is disabled
+150706 21:39:30 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150706 21:39:30 InnoDB: Compressed tables use zlib 1.2.7
+150706 21:39:30 InnoDB: Using Linux native AIO
+150706 21:39:30 InnoDB: Initializing buffer pool, size = 128.0M
+150706 21:39:30 InnoDB: Completed initialization of buffer pool
+150706 21:39:30 InnoDB: highest supported file format is Barracuda.
+150706 21:39:30  InnoDB: Waiting for the background threads to start
+150706 21:39:31 InnoDB: 5.5.37 started; log sequence number 1151476009
+150706 21:39:31 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150706 21:39:31 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150706 21:39:31 [Note] Server socket created on IP: '0.0.0.0'.
+150706 21:39:31 [Note] Event Scheduler: Loaded 0 events
+150706 21:39:31 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150706 21:43:58 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150706 21:43:58 [Note] Event Scheduler: Purging the queue. 0 events
+150706 21:43:58  InnoDB: Starting shutdown...
+150706 21:43:59  InnoDB: Shutdown completed; log sequence number 1151476009
+150706 21:43:59 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150706 21:43:59 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150706 21:44:57 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150706 21:44:57 [Note] Plugin 'FEDERATED' is disabled.
+150706 21:44:57 InnoDB: The InnoDB memory heap is disabled
+150706 21:44:57 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150706 21:44:57 InnoDB: Compressed tables use zlib 1.2.7
+150706 21:44:57 InnoDB: Using Linux native AIO
+150706 21:44:57 InnoDB: Initializing buffer pool, size = 128.0M
+150706 21:44:57 InnoDB: Completed initialization of buffer pool
+150706 21:44:57 InnoDB: highest supported file format is Barracuda.
+150706 21:44:57  InnoDB: Waiting for the background threads to start
+150706 21:44:58 InnoDB: 5.5.37 started; log sequence number 1151476009
+150706 21:44:58 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150706 21:44:58 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150706 21:44:58 [Note] Server socket created on IP: '0.0.0.0'.
+150706 21:44:58 [Note] Event Scheduler: Loaded 0 events
+150706 21:44:58 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150707 13:37:00 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150707 13:37:00 [Note] Event Scheduler: Purging the queue. 0 events
+150707 13:37:02 [Warning] /usr/libexec/mysqld: Forcing close of thread 31  user: 'hive'
+
+150707 13:37:02 [Warning] /usr/libexec/mysqld: Forcing close of thread 30  user: 'hive'
+
+150707 13:37:02 [Warning] /usr/libexec/mysqld: Forcing close of thread 27  user: 'hive'
+
+150707 13:37:02 [Warning] /usr/libexec/mysqld: Forcing close of thread 26  user: 'hive'
+
+150707 13:37:02  InnoDB: Starting shutdown...
+150707 13:37:03  InnoDB: Shutdown completed; log sequence number 1155525673
+150707 13:37:03 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150707 13:37:04 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150707 13:37:05 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150707 13:37:06 [Note] Plugin 'FEDERATED' is disabled.
+150707 13:37:06 InnoDB: The InnoDB memory heap is disabled
+150707 13:37:06 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150707 13:37:06 InnoDB: Compressed tables use zlib 1.2.7
+150707 13:37:06 InnoDB: Using Linux native AIO
+150707 13:37:06 InnoDB: Initializing buffer pool, size = 128.0M
+150707 13:37:06 InnoDB: Completed initialization of buffer pool
+150707 13:37:06 InnoDB: highest supported file format is Barracuda.
+150707 13:37:06  InnoDB: Waiting for the background threads to start
+150707 13:37:07 InnoDB: 5.5.37 started; log sequence number 1155525673
+150707 13:37:07 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150707 13:37:07 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150707 13:37:07 [Note] Server socket created on IP: '0.0.0.0'.
+150707 13:37:07 [Note] Event Scheduler: Loaded 0 events
+150707 13:37:07 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150722 16:26:17 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150722 16:26:17 [Note] Event Scheduler: Purging the queue. 0 events
+150722 16:26:19 [Warning] /usr/libexec/mysqld: Forcing close of thread 360  user: 'hive'
+
+150722 16:26:19 [Warning] /usr/libexec/mysqld: Forcing close of thread 359  user: 'hive'
+
+150722 16:26:19 [Warning] /usr/libexec/mysqld: Forcing close of thread 356  user: 'hive'
+
+150722 16:26:19 [Warning] /usr/libexec/mysqld: Forcing close of thread 355  user: 'hive'
+
+150722 16:26:19  InnoDB: Starting shutdown...
+150722 16:26:21  InnoDB: Shutdown completed; log sequence number 1294389263
+150722 16:26:21 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150722 16:26:21 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150722 16:26:22 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150722 16:26:23 [Note] Plugin 'FEDERATED' is disabled.
+150722 16:26:23 InnoDB: The InnoDB memory heap is disabled
+150722 16:26:23 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150722 16:26:23 InnoDB: Compressed tables use zlib 1.2.7
+150722 16:26:23 InnoDB: Using Linux native AIO
+150722 16:26:23 InnoDB: Initializing buffer pool, size = 128.0M
+150722 16:26:23 InnoDB: Completed initialization of buffer pool
+150722 16:26:23 InnoDB: highest supported file format is Barracuda.
+150722 16:26:23  InnoDB: Waiting for the background threads to start
+150722 16:26:24 InnoDB: 5.5.37 started; log sequence number 1294389263
+150722 16:26:24 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150722 16:26:24 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150722 16:26:24 [Note] Server socket created on IP: '0.0.0.0'.
+150722 16:26:24 [Note] Event Scheduler: Loaded 0 events
+150722 16:26:24 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150826 16:55:37 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150826 16:55:37 [Note] Event Scheduler: Purging the queue. 0 events
+150826 16:55:39 [Warning] /usr/libexec/mysqld: Forcing close of thread 1482  user: 'hive'
+
+150826 16:55:39 [Warning] /usr/libexec/mysqld: Forcing close of thread 1481  user: 'hive'
+
+150826 16:55:39 [Warning] /usr/libexec/mysqld: Forcing close of thread 1478  user: 'hive'
+
+150826 16:55:39 [Warning] /usr/libexec/mysqld: Forcing close of thread 1477  user: 'hive'
+
+150826 16:55:40  InnoDB: Starting shutdown...
+150826 16:55:41  InnoDB: Shutdown completed; log sequence number 1468461386
+150826 16:55:41 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150826 16:55:41 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150826 16:55:42 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150826 16:55:43 [Note] Plugin 'FEDERATED' is disabled.
+150826 16:55:43 InnoDB: The InnoDB memory heap is disabled
+150826 16:55:43 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150826 16:55:43 InnoDB: Compressed tables use zlib 1.2.7
+150826 16:55:43 InnoDB: Using Linux native AIO
+150826 16:55:43 InnoDB: Initializing buffer pool, size = 128.0M
+150826 16:55:43 InnoDB: Completed initialization of buffer pool
+150826 16:55:43 InnoDB: highest supported file format is Barracuda.
+150826 16:55:43  InnoDB: Waiting for the background threads to start
+150826 16:55:44 InnoDB: 5.5.37 started; log sequence number 1468461386
+150826 16:55:44 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150826 16:55:44 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150826 16:55:44 [Note] Server socket created on IP: '0.0.0.0'.
+150826 16:55:44 [Note] Event Scheduler: Loaded 0 events
+150826 16:55:44 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150827  8:46:25 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150827  8:46:25 [Note] Event Scheduler: Purging the queue. 0 events
+150827  8:46:27 [Warning] /usr/libexec/mysqld: Forcing close of thread 19  user: 'hive'
+
+150827  8:46:27 [Warning] /usr/libexec/mysqld: Forcing close of thread 18  user: 'hive'
+
+150827  8:46:27  InnoDB: Starting shutdown...
+150827  8:46:29  InnoDB: Shutdown completed; log sequence number 1475251691
+150827  8:46:29 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150827 08:46:29 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150827 08:46:30 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150827  8:46:30 [Note] Plugin 'FEDERATED' is disabled.
+150827  8:46:30 InnoDB: The InnoDB memory heap is disabled
+150827  8:46:30 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150827  8:46:30 InnoDB: Compressed tables use zlib 1.2.7
+150827  8:46:30 InnoDB: Using Linux native AIO
+150827  8:46:30 InnoDB: Initializing buffer pool, size = 128.0M
+150827  8:46:30 InnoDB: Completed initialization of buffer pool
+150827  8:46:30 InnoDB: highest supported file format is Barracuda.
+150827  8:46:30  InnoDB: Waiting for the background threads to start
+150827  8:46:31 InnoDB: 5.5.37 started; log sequence number 1475251691
+150827  8:46:31 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150827  8:46:31 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150827  8:46:31 [Note] Server socket created on IP: '0.0.0.0'.
+150827  8:46:31 [Note] Event Scheduler: Loaded 0 events
+150827  8:46:31 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150827 20:20:20 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150827 20:20:20 [Note] Event Scheduler: Purging the queue. 0 events
+150827 20:20:22 [Warning] /usr/libexec/mysqld: Forcing close of thread 22  user: 'hive'
+
+150827 20:20:22 [Warning] /usr/libexec/mysqld: Forcing close of thread 21  user: 'hive'
+
+150827 20:20:22 [Warning] /usr/libexec/mysqld: Forcing close of thread 18  user: 'hive'
+
+150827 20:20:22 [Warning] /usr/libexec/mysqld: Forcing close of thread 17  user: 'hive'
+
+150827 20:20:22  InnoDB: Starting shutdown...
+150827 20:20:24  InnoDB: Shutdown completed; log sequence number 1476891153
+150827 20:20:24 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150827 20:20:24 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150827 20:20:25 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150827 20:20:25 [Note] Plugin 'FEDERATED' is disabled.
+150827 20:20:25 InnoDB: The InnoDB memory heap is disabled
+150827 20:20:25 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150827 20:20:25 InnoDB: Compressed tables use zlib 1.2.7
+150827 20:20:25 InnoDB: Using Linux native AIO
+150827 20:20:25 InnoDB: Initializing buffer pool, size = 128.0M
+150827 20:20:25 InnoDB: Completed initialization of buffer pool
+150827 20:20:25 InnoDB: highest supported file format is Barracuda.
+150827 20:20:25  InnoDB: Waiting for the background threads to start
+150827 20:20:26 InnoDB: 5.5.37 started; log sequence number 1476891153
+150827 20:20:26 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150827 20:20:26 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150827 20:20:26 [Note] Server socket created on IP: '0.0.0.0'.
+150827 20:20:27 [Note] Event Scheduler: Loaded 0 events
+150827 20:20:27 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150828 17:56:53 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150828 17:56:53 [Note] Event Scheduler: Purging the queue. 0 events
+150828 17:56:55 [Warning] /usr/libexec/mysqld: Forcing close of thread 61  user: 'hive'
+
+150828 17:56:55 [Warning] /usr/libexec/mysqld: Forcing close of thread 60  user: 'hive'
+
+150828 17:56:55 [Warning] /usr/libexec/mysqld: Forcing close of thread 57  user: 'hive'
+
+150828 17:56:55 [Warning] /usr/libexec/mysqld: Forcing close of thread 56  user: 'hive'
+
+150828 17:56:55 [Warning] /usr/libexec/mysqld: Forcing close of thread 47  user: 'oozie'
+
+150828 17:56:55 [Warning] /usr/libexec/mysqld: Forcing close of thread 46  user: 'oozie'
+
+150828 17:56:55 [Warning] /usr/libexec/mysqld: Forcing close of thread 45  user: 'oozie'
+
+150828 17:56:55 [Warning] /usr/libexec/mysqld: Forcing close of thread 44  user: 'oozie'
+
+150828 17:56:55 [Warning] /usr/libexec/mysqld: Forcing close of thread 43  user: 'oozie'
+
+150828 17:56:55 [Warning] /usr/libexec/mysqld: Forcing close of thread 42  user: 'oozie'
+
+150828 17:56:55  InnoDB: Starting shutdown...
+150828 17:56:57  InnoDB: Shutdown completed; log sequence number 1482281155
+150828 17:56:57 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150828 17:56:57 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150828 17:56:58 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150828 17:56:58 [Note] Plugin 'FEDERATED' is disabled.
+150828 17:56:58 InnoDB: The InnoDB memory heap is disabled
+150828 17:56:58 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150828 17:56:58 InnoDB: Compressed tables use zlib 1.2.7
+150828 17:56:58 InnoDB: Using Linux native AIO
+150828 17:56:58 InnoDB: Initializing buffer pool, size = 128.0M
+150828 17:56:58 InnoDB: Completed initialization of buffer pool
+150828 17:56:58 InnoDB: highest supported file format is Barracuda.
+150828 17:56:58  InnoDB: Waiting for the background threads to start
+150828 17:56:59 InnoDB: 5.5.37 started; log sequence number 1482281155
+150828 17:56:59 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150828 17:56:59 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150828 17:56:59 [Note] Server socket created on IP: '0.0.0.0'.
+150828 17:56:59 [Note] Event Scheduler: Loaded 0 events
+150828 17:56:59 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150829 11:49:16 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150829 11:49:16 [Note] Plugin 'FEDERATED' is disabled.
+150829 11:49:16 InnoDB: The InnoDB memory heap is disabled
+150829 11:49:16 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150829 11:49:16 InnoDB: Compressed tables use zlib 1.2.7
+150829 11:49:16 InnoDB: Using Linux native AIO
+150829 11:49:16 InnoDB: Initializing buffer pool, size = 128.0M
+150829 11:49:16 InnoDB: Completed initialization of buffer pool
+150829 11:49:16 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+150829 11:49:16  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+150829 11:49:17  InnoDB: Waiting for the background threads to start
+150829 11:49:18 InnoDB: 5.5.37 started; log sequence number 1483596377
+150829 11:49:18 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150829 11:49:18 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150829 11:49:18 [Note] Server socket created on IP: '0.0.0.0'.
+150829 11:49:18 [Note] Event Scheduler: Loaded 0 events
+150829 11:49:18 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150905 15:31:13 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150905 15:31:13 [Note] Event Scheduler: Purging the queue. 0 events
+150905 15:31:15 [Warning] /usr/libexec/mysqld: Forcing close of thread 179  user: 'hive'
+
+150905 15:31:15 [Warning] /usr/libexec/mysqld: Forcing close of thread 178  user: 'hive'
+
+150905 15:31:15 [Warning] /usr/libexec/mysqld: Forcing close of thread 175  user: 'hive'
+
+150905 15:31:15 [Warning] /usr/libexec/mysqld: Forcing close of thread 174  user: 'hive'
+
+150905 15:31:15 [Warning] /usr/libexec/mysqld: Forcing close of thread 156  user: 'oozie'
+
+150905 15:31:15  InnoDB: Starting shutdown...
+150905 15:31:17  InnoDB: Shutdown completed; log sequence number 1584229582
+150905 15:31:17 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150905 15:31:17 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150905 15:31:18 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150905 15:31:18 [Note] Plugin 'FEDERATED' is disabled.
+150905 15:31:18 InnoDB: The InnoDB memory heap is disabled
+150905 15:31:18 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150905 15:31:18 InnoDB: Compressed tables use zlib 1.2.7
+150905 15:31:18 InnoDB: Using Linux native AIO
+150905 15:31:18 InnoDB: Initializing buffer pool, size = 128.0M
+150905 15:31:18 InnoDB: Completed initialization of buffer pool
+150905 15:31:18 InnoDB: highest supported file format is Barracuda.
+150905 15:31:18  InnoDB: Waiting for the background threads to start
+150905 15:31:19 InnoDB: 5.5.37 started; log sequence number 1584229582
+150905 15:31:19 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150905 15:31:19 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150905 15:31:19 [Note] Server socket created on IP: '0.0.0.0'.
+150905 15:31:20 [Note] Event Scheduler: Loaded 0 events
+150905 15:31:20 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150905 15:37:03 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150905 15:37:03 [Note] Event Scheduler: Purging the queue. 0 events
+150905 15:37:05 [Warning] /usr/libexec/mysqld: Forcing close of thread 22  user: 'hive'
+
+150905 15:37:05 [Warning] /usr/libexec/mysqld: Forcing close of thread 21  user: 'hive'
+
+150905 15:37:05 [Warning] /usr/libexec/mysqld: Forcing close of thread 18  user: 'hive'
+
+150905 15:37:05 [Warning] /usr/libexec/mysqld: Forcing close of thread 17  user: 'hive'
+
+150905 15:37:05 [Warning] /usr/libexec/mysqld: Forcing close of thread 13  user: 'oozie'
+
+150905 15:37:05 [Warning] /usr/libexec/mysqld: Forcing close of thread 12  user: 'oozie'
+
+150905 15:37:05 [Warning] /usr/libexec/mysqld: Forcing close of thread 11  user: 'oozie'
+
+150905 15:37:05 [Warning] /usr/libexec/mysqld: Forcing close of thread 10  user: 'oozie'
+
+150905 15:37:05 [Warning] /usr/libexec/mysqld: Forcing close of thread 9  user: 'oozie'
+
+150905 15:37:05  InnoDB: Starting shutdown...
+150905 15:37:06  InnoDB: Shutdown completed; log sequence number 1584234336
+150905 15:37:06 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150905 15:37:06 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150905 15:37:07 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150905 15:37:07 [Note] Plugin 'FEDERATED' is disabled.
+150905 15:37:07 InnoDB: The InnoDB memory heap is disabled
+150905 15:37:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150905 15:37:07 InnoDB: Compressed tables use zlib 1.2.7
+150905 15:37:07 InnoDB: Using Linux native AIO
+150905 15:37:07 InnoDB: Initializing buffer pool, size = 128.0M
+150905 15:37:07 InnoDB: Completed initialization of buffer pool
+150905 15:37:07 InnoDB: highest supported file format is Barracuda.
+150905 15:37:07  InnoDB: Waiting for the background threads to start
+150905 15:37:08 InnoDB: 5.5.37 started; log sequence number 1584234336
+150905 15:37:08 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150905 15:37:08 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150905 15:37:08 [Note] Server socket created on IP: '0.0.0.0'.
+150905 15:37:08 [Note] Event Scheduler: Loaded 0 events
+150905 15:37:08 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150906 17:32:01 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150906 17:32:01 [Note] Event Scheduler: Purging the queue. 0 events
+150906 17:32:03 [Warning] /usr/libexec/mysqld: Forcing close of thread 43  user: 'hive'
+
+150906 17:32:03 [Warning] /usr/libexec/mysqld: Forcing close of thread 42  user: 'hive'
+
+150906 17:32:03 [Warning] /usr/libexec/mysqld: Forcing close of thread 39  user: 'hive'
+
+150906 17:32:03 [Warning] /usr/libexec/mysqld: Forcing close of thread 38  user: 'hive'
+
+150906 17:32:03 [Warning] /usr/libexec/mysqld: Forcing close of thread 2  user: 'oozie'
+
+150906 17:32:03  InnoDB: Starting shutdown...
+150906 17:32:05  InnoDB: Shutdown completed; log sequence number 1589898899
+150906 17:32:05 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150906 17:32:05 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150906 17:32:06 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150906 17:32:06 [Note] Plugin 'FEDERATED' is disabled.
+150906 17:32:06 InnoDB: The InnoDB memory heap is disabled
+150906 17:32:06 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150906 17:32:06 InnoDB: Compressed tables use zlib 1.2.7
+150906 17:32:06 InnoDB: Using Linux native AIO
+150906 17:32:06 InnoDB: Initializing buffer pool, size = 128.0M
+150906 17:32:06 InnoDB: Completed initialization of buffer pool
+150906 17:32:06 InnoDB: highest supported file format is Barracuda.
+150906 17:32:06  InnoDB: Waiting for the background threads to start
+150906 17:32:07 InnoDB: 5.5.37 started; log sequence number 1589898899
+150906 17:32:07 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150906 17:32:07 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150906 17:32:07 [Note] Server socket created on IP: '0.0.0.0'.
+150906 17:32:07 [Note] Event Scheduler: Loaded 0 events
+150906 17:32:07 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150930 13:30:23 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150930 13:30:23 [Note] Event Scheduler: Purging the queue. 0 events
+150930 13:30:25 [Warning] /usr/libexec/mysqld: Forcing close of thread 21  user: 'oozie'
+
+150930 13:30:25 [Warning] /usr/libexec/mysqld: Forcing close of thread 4  user: 'oozie'
+
+150930 13:30:25  InnoDB: Starting shutdown...
+150930 13:30:28  InnoDB: Shutdown completed; log sequence number 1980595035
+150930 13:30:28 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150930 13:30:28 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150930 13:30:31 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150930 13:30:31 [Note] Plugin 'FEDERATED' is disabled.
+150930 13:30:31 InnoDB: The InnoDB memory heap is disabled
+150930 13:30:31 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150930 13:30:31 InnoDB: Compressed tables use zlib 1.2.7
+150930 13:30:31 InnoDB: Using Linux native AIO
+150930 13:30:31 InnoDB: Initializing buffer pool, size = 128.0M
+150930 13:30:31 InnoDB: Completed initialization of buffer pool
+150930 13:30:31 InnoDB: highest supported file format is Barracuda.
+150930 13:30:31  InnoDB: Waiting for the background threads to start
+150930 13:30:32 InnoDB: 5.5.37 started; log sequence number 1980595035
+150930 13:30:32 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150930 13:30:32 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150930 13:30:32 [Note] Server socket created on IP: '0.0.0.0'.
+150930 13:30:32 [Note] Event Scheduler: Loaded 0 events
+150930 13:30:32 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150930 13:43:39 [Note] /usr/libexec/mysqld: Normal shutdown
+
+150930 13:43:39 [Note] Event Scheduler: Purging the queue. 0 events
+150930 13:43:39  InnoDB: Starting shutdown...
+150930 13:43:40  InnoDB: Shutdown completed; log sequence number 1980595035
+150930 13:43:40 [Note] /usr/libexec/mysqld: Shutdown complete
+
+150930 13:43:40 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+150930 13:48:43 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+150930 13:48:43 [Note] Plugin 'FEDERATED' is disabled.
+150930 13:48:43 InnoDB: The InnoDB memory heap is disabled
+150930 13:48:43 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150930 13:48:43 InnoDB: Compressed tables use zlib 1.2.7
+150930 13:48:43 InnoDB: Using Linux native AIO
+150930 13:48:43 InnoDB: Initializing buffer pool, size = 128.0M
+150930 13:48:43 InnoDB: Completed initialization of buffer pool
+150930 13:48:43 InnoDB: highest supported file format is Barracuda.
+150930 13:48:43  InnoDB: Waiting for the background threads to start
+150930 13:48:44 InnoDB: 5.5.37 started; log sequence number 1980595035
+150930 13:48:44 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150930 13:48:44 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150930 13:48:44 [Note] Server socket created on IP: '0.0.0.0'.
+150930 13:48:44 [Note] Event Scheduler: Loaded 0 events
+150930 13:48:44 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+151008 12:42:13 [Note] /usr/libexec/mysqld: Normal shutdown
+
+151008 12:42:13 [Note] Event Scheduler: Purging the queue. 0 events
+151008 12:42:13  InnoDB: Starting shutdown...
+151008 12:42:15  InnoDB: Shutdown completed; log sequence number 2026309932
+151008 12:42:15 [Note] /usr/libexec/mysqld: Shutdown complete
+
+151008 12:42:15 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+151008 12:43:20 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+151008 12:43:20 [Note] Plugin 'FEDERATED' is disabled.
+151008 12:43:20 InnoDB: The InnoDB memory heap is disabled
+151008 12:43:20 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+151008 12:43:20 InnoDB: Compressed tables use zlib 1.2.7
+151008 12:43:20 InnoDB: Using Linux native AIO
+151008 12:43:20 InnoDB: Initializing buffer pool, size = 128.0M
+151008 12:43:20 InnoDB: Completed initialization of buffer pool
+151008 12:43:20 InnoDB: highest supported file format is Barracuda.
+151008 12:43:21  InnoDB: Waiting for the background threads to start
+151008 12:43:22 InnoDB: 5.5.37 started; log sequence number 2026309932
+151008 12:43:22 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+151008 12:43:22 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+151008 12:43:22 [Note] Server socket created on IP: '0.0.0.0'.
+151008 12:43:22 [Note] Event Scheduler: Loaded 0 events
+151008 12:43:22 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+151008 12:47:09 [Note] /usr/libexec/mysqld: Normal shutdown
+
+151008 12:47:09 [Note] Event Scheduler: Purging the queue. 0 events
+151008 12:47:09  InnoDB: Starting shutdown...
+151008 12:47:10  InnoDB: Shutdown completed; log sequence number 2026309932
+151008 12:47:10 [Note] /usr/libexec/mysqld: Shutdown complete
+
+151008 12:47:10 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+151008 12:47:10 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+151008 12:47:10 [Note] Plugin 'FEDERATED' is disabled.
+151008 12:47:10 InnoDB: The InnoDB memory heap is disabled
+151008 12:47:10 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+151008 12:47:10 InnoDB: Compressed tables use zlib 1.2.7
+151008 12:47:10 InnoDB: Using Linux native AIO
+151008 12:47:10 InnoDB: Initializing buffer pool, size = 128.0M
+151008 12:47:10 InnoDB: Completed initialization of buffer pool
+151008 12:47:10 InnoDB: highest supported file format is Barracuda.
+151008 12:47:10  InnoDB: Waiting for the background threads to start
+151008 12:47:11 InnoDB: 5.5.37 started; log sequence number 2026309932
+151008 12:47:11 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+151008 12:47:11 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+151008 12:47:11 [Note] Server socket created on IP: '0.0.0.0'.
+151008 12:47:11 [Note] Event Scheduler: Loaded 0 events
+151008 12:47:11 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+151008 12:57:08 [Note] /usr/libexec/mysqld: Normal shutdown
+
+151008 12:57:08 [Note] Event Scheduler: Purging the queue. 0 events
+151008 12:57:10 [Warning] /usr/libexec/mysqld: Forcing close of thread 10  user: 'oozie'
+
+151008 12:57:10 [Warning] /usr/libexec/mysqld: Forcing close of thread 9  user: 'oozie'
+
+151008 12:57:10 [Warning] /usr/libexec/mysqld: Forcing close of thread 8  user: 'oozie'
+
+151008 12:57:10 [Warning] /usr/libexec/mysqld: Forcing close of thread 7  user: 'oozie'
+
+151008 12:57:10 [Warning] /usr/libexec/mysqld: Forcing close of thread 6  user: 'oozie'
+
+151008 12:57:10  InnoDB: Starting shutdown...
+151008 12:57:11  InnoDB: Shutdown completed; log sequence number 2027917267
+151008 12:57:11 [Note] /usr/libexec/mysqld: Shutdown complete
+
+151008 12:57:11 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+151008 12:57:12 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+151008 12:57:12 [Note] Plugin 'FEDERATED' is disabled.
+151008 12:57:12 InnoDB: The InnoDB memory heap is disabled
+151008 12:57:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+151008 12:57:12 InnoDB: Compressed tables use zlib 1.2.7
+151008 12:57:12 InnoDB: Using Linux native AIO
+151008 12:57:12 InnoDB: Initializing buffer pool, size = 128.0M
+151008 12:57:12 InnoDB: Completed initialization of buffer pool
+151008 12:57:12 InnoDB: highest supported file format is Barracuda.
+151008 12:57:12  InnoDB: Waiting for the background threads to start
+151008 12:57:13 InnoDB: 5.5.37 started; log sequence number 2027917267
+151008 12:57:13 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+151008 12:57:13 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+151008 12:57:13 [Note] Server socket created on IP: '0.0.0.0'.
+151008 12:57:13 [Note] Event Scheduler: Loaded 0 events
+151008 12:57:13 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+151008 13:12:51 [Note] /usr/libexec/mysqld: Normal shutdown
+
+151008 13:12:51 [Note] Event Scheduler: Purging the queue. 0 events
+151008 13:12:53 [Warning] /usr/libexec/mysqld: Forcing close of thread 25  user: 'hive'
+
+151008 13:12:53 [Warning] /usr/libexec/mysqld: Forcing close of thread 24  user: 'hive'
+
+151008 13:12:53 [Warning] /usr/libexec/mysqld: Forcing close of thread 21  user: 'hive'
+
+151008 13:12:53 [Warning] /usr/libexec/mysqld: Forcing close of thread 20  user: 'hive'
+
+151008 13:12:53 [Warning] /usr/libexec/mysqld: Forcing close of thread 16  user: 'oozie'
+
+151008 13:12:53 [Warning] /usr/libexec/mysqld: Forcing close of thread 3  user: 'oozie'
+
+151008 13:12:53 [Warning] /usr/libexec/mysqld: Forcing close of thread 2  user: 'oozie'
+
+151008 13:12:53  InnoDB: Starting shutdown...
+151008 13:12:55  InnoDB: Shutdown completed; log sequence number 2029852054
+151008 13:12:55 [Note] /usr/libexec/mysqld: Shutdown complete
+
+151008 13:12:55 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+151008 13:12:55 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+151008 13:12:55 [Note] Plugin 'FEDERATED' is disabled.
+151008 13:12:55 InnoDB: The InnoDB memory heap is disabled
+151008 13:12:55 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+151008 13:12:55 InnoDB: Compressed tables use zlib 1.2.7
+151008 13:12:55 InnoDB: Using Linux native AIO
+151008 13:12:55 InnoDB: Initializing buffer pool, size = 128.0M
+151008 13:12:55 InnoDB: Completed initialization of buffer pool
+151008 13:12:55 InnoDB: highest supported file format is Barracuda.
+151008 13:12:55  InnoDB: Waiting for the background threads to start
+151008 13:12:56 InnoDB: 5.5.37 started; log sequence number 2029852054
+151008 13:12:56 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+151008 13:12:56 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+151008 13:12:56 [Note] Server socket created on IP: '0.0.0.0'.
+151008 13:12:56 [Note] Event Scheduler: Loaded 0 events
+151008 13:12:56 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+151008 13:39:10 [Note] /usr/libexec/mysqld: Normal shutdown
+
+151008 13:39:10 [Note] Event Scheduler: Purging the queue. 0 events
+151008 13:39:12 [Warning] /usr/libexec/mysqld: Forcing close of thread 17  user: 'hive'
+
+151008 13:39:12 [Warning] /usr/libexec/mysqld: Forcing close of thread 16  user: 'hive'
+
+151008 13:39:12 [Warning] /usr/libexec/mysqld: Forcing close of thread 13  user: 'hive'
+
+151008 13:39:12 [Warning] /usr/libexec/mysqld: Forcing close of thread 12  user: 'hive'
+
+151008 13:39:12 [Warning] /usr/libexec/mysqld: Forcing close of thread 7  user: 'oozie'
+
+151008 13:39:12 [Warning] /usr/libexec/mysqld: Forcing close of thread 6  user: 'oozie'
+
+151008 13:39:12  InnoDB: Starting shutdown...
+151008 13:39:13  InnoDB: Shutdown completed; log sequence number 2033566689
+151008 13:39:13 [Note] /usr/libexec/mysqld: Shutdown complete
+
+151008 13:39:13 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+151008 13:39:14 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+151008 13:39:14 [Note] Plugin 'FEDERATED' is disabled.
+151008 13:39:14 InnoDB: The InnoDB memory heap is disabled
+151008 13:39:14 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+151008 13:39:14 InnoDB: Compressed tables use zlib 1.2.7
+151008 13:39:14 InnoDB: Using Linux native AIO
+151008 13:39:14 InnoDB: Initializing buffer pool, size = 128.0M
+151008 13:39:14 InnoDB: Completed initialization of buffer pool
+151008 13:39:14 InnoDB: highest supported file format is Barracuda.
+151008 13:39:14  InnoDB: Waiting for the background threads to start
+151008 13:39:15 InnoDB: 5.5.37 started; log sequence number 2033566689
+151008 13:39:15 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+151008 13:39:15 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+151008 13:39:15 [Note] Server socket created on IP: '0.0.0.0'.
+151008 13:39:15 [Note] Event Scheduler: Loaded 0 events
+151008 13:39:15 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+151023 15:15:59 [Note] /usr/libexec/mysqld: Normal shutdown
+
+151023 15:15:59 [Note] Event Scheduler: Purging the queue. 0 events
+151023 15:16:01 [Warning] /usr/libexec/mysqld: Forcing close of thread 281  user: 'hive'
+
+151023 15:16:01 [Warning] /usr/libexec/mysqld: Forcing close of thread 280  user: 'hive'
+
+151023 15:16:01 [Warning] /usr/libexec/mysqld: Forcing close of thread 277  user: 'hive'
+
+151023 15:16:01 [Warning] /usr/libexec/mysqld: Forcing close of thread 276  user: 'hive'
+
+151023 15:16:01 [Warning] /usr/libexec/mysqld: Forcing close of thread 104  user: 'oozie'
+
+151023 15:16:01 [Warning] /usr/libexec/mysqld: Forcing close of thread 94  user: 'oozie'
+
+151023 15:16:01  InnoDB: Starting shutdown...
+151023 15:16:03  InnoDB: Shutdown completed; log sequence number 2360939093
+151023 15:16:03 [Note] /usr/libexec/mysqld: Shutdown complete
+
+151023 15:16:03 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+151023 15:16:05 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+151023 15:16:05 [Note] Plugin 'FEDERATED' is disabled.
+151023 15:16:05 InnoDB: The InnoDB memory heap is disabled
+151023 15:16:05 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+151023 15:16:05 InnoDB: Compressed tables use zlib 1.2.7
+151023 15:16:05 InnoDB: Using Linux native AIO
+151023 15:16:05 InnoDB: Initializing buffer pool, size = 128.0M
+151023 15:16:05 InnoDB: Completed initialization of buffer pool
+151023 15:16:05 InnoDB: highest supported file format is Barracuda.
+151023 15:16:05  InnoDB: Waiting for the background threads to start
+151023 15:16:06 InnoDB: 5.5.37 started; log sequence number 2360939093
+151023 15:16:06 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+151023 15:16:06 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+151023 15:16:06 [Note] Server socket created on IP: '0.0.0.0'.
+151023 15:16:06 [Note] Event Scheduler: Loaded 0 events
+151023 15:16:06 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+151023 15:33:25 [Note] /usr/libexec/mysqld: Normal shutdown
+
+151023 15:33:25 [Note] Event Scheduler: Purging the queue. 0 events
+151023 15:33:27 [Warning] /usr/libexec/mysqld: Forcing close of thread 13  user: 'hive'
+
+151023 15:33:27 [Warning] /usr/libexec/mysqld: Forcing close of thread 12  user: 'hive'
+
+151023 15:33:27  InnoDB: Starting shutdown...
+151023 15:33:29  InnoDB: Shutdown completed; log sequence number 2360983401
+151023 15:33:29 [Note] /usr/libexec/mysqld: Shutdown complete
+
+151023 15:33:29 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+151023 15:33:31 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+151023 15:33:31 [Note] Plugin 'FEDERATED' is disabled.
+151023 15:33:31 InnoDB: The InnoDB memory heap is disabled
+151023 15:33:31 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+151023 15:33:31 InnoDB: Compressed tables use zlib 1.2.7
+151023 15:33:31 InnoDB: Using Linux native AIO
+151023 15:33:31 InnoDB: Initializing buffer pool, size = 128.0M
+151023 15:33:31 InnoDB: Completed initialization of buffer pool
+151023 15:33:31 InnoDB: highest supported file format is Barracuda.
+151023 15:33:31  InnoDB: Waiting for the background threads to start
+151023 15:33:32 InnoDB: 5.5.37 started; log sequence number 2360983401
+151023 15:33:32 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+151023 15:33:32 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+151023 15:33:32 [Note] Server socket created on IP: '0.0.0.0'.
+151023 15:33:32 [Note] Event Scheduler: Loaded 0 events
+151023 15:33:32 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+151023 15:34:29 [Note] /usr/libexec/mysqld: Normal shutdown
+
+151023 15:34:29 [Note] Event Scheduler: Purging the queue. 0 events
+151023 15:34:31 [Warning] /usr/libexec/mysqld: Forcing close of thread 30  user: 'hive'
+
+151023 15:34:31 [Warning] /usr/libexec/mysqld: Forcing close of thread 29  user: 'hive'
+
+151023 15:34:31 [Warning] /usr/libexec/mysqld: Forcing close of thread 28  user: 'hive'
+
+151023 15:34:31 [Warning] /usr/libexec/mysqld: Forcing close of thread 27  user: 'hive'
+
+151023 15:34:31 [Warning] /usr/libexec/mysqld: Forcing close of thread 26  user: 'hive'
+
+151023 15:34:31 [Warning] /usr/libexec/mysqld: Forcing close of thread 25  user: 'hive'
+
+151023 15:34:31 [Warning] /usr/libexec/mysqld: Forcing close of thread 24  user: 'hive'
+
+151023 15:34:31 [Warning] /usr/libexec/mysqld: Forcing close of thread 23  user: 'hive'
+
+151023 15:34:31 [Warning] /usr/libexec/mysqld: Forcing close of thread 22  user: 'hive'
+
+151023 15:34:31 [Warning] /usr/libexec/mysqld: Forcing close of thread 21  user: 'hive'
+
+151023 15:34:31 [Warning] /usr/libexec/mysqld: Forcing close of thread 18  user: 'hive'
+
+151023 15:34:31 [Warning] /usr/libexec/mysqld: Forcing close of thread 17  user: 'hive'
+
+151023 15:34:31  InnoDB: Starting shutdown...
+151023 15:34:33  InnoDB: Shutdown completed; log sequence number 2360985769
+151023 15:34:33 [Note] /usr/libexec/mysqld: Shutdown complete
+
+151023 15:34:33 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+151023 15:34:35 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+151023 15:34:35 [Note] Plugin 'FEDERATED' is disabled.
+151023 15:34:35 InnoDB: The InnoDB memory heap is disabled
+151023 15:34:35 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+151023 15:34:35 InnoDB: Compressed tables use zlib 1.2.7
+151023 15:34:35 InnoDB: Using Linux native AIO
+151023 15:34:35 InnoDB: Initializing buffer pool, size = 128.0M
+151023 15:34:35 InnoDB: Completed initialization of buffer pool
+151023 15:34:35 InnoDB: highest supported file format is Barracuda.
+151023 15:34:35  InnoDB: Waiting for the background threads to start
+151023 15:34:36 InnoDB: 5.5.37 started; log sequence number 2360985769
+151023 15:34:36 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+151023 15:34:36 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+151023 15:34:36 [Note] Server socket created on IP: '0.0.0.0'.
+151023 15:34:36 [Note] Event Scheduler: Loaded 0 events
+151023 15:34:36 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+151023 15:37:25 [Note] /usr/libexec/mysqld: Normal shutdown
+
+151023 15:37:25 [Note] Event Scheduler: Purging the queue. 0 events
+151023 15:37:27 [Warning] /usr/libexec/mysqld: Forcing close of thread 14  user: 'hive'
+
+151023 15:37:27 [Warning] /usr/libexec/mysqld: Forcing close of thread 13  user: 'hive'
+
+151023 15:37:27 [Warning] /usr/libexec/mysqld: Forcing close of thread 10  user: 'hive'
+
+151023 15:37:27 [Warning] /usr/libexec/mysqld: Forcing close of thread 9  user: 'hive'
+
+151023 15:37:27  InnoDB: Starting shutdown...
+151023 15:37:29  InnoDB: Shutdown completed; log sequence number 2360988087
+151023 15:37:29 [Note] /usr/libexec/mysqld: Shutdown complete
+
+151023 15:37:29 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+151023 15:37:31 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+151023 15:37:31 [Note] Plugin 'FEDERATED' is disabled.
+151023 15:37:31 InnoDB: The InnoDB memory heap is disabled
+151023 15:37:31 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+151023 15:37:31 InnoDB: Compressed tables use zlib 1.2.7
+151023 15:37:31 InnoDB: Using Linux native AIO
+151023 15:37:31 InnoDB: Initializing buffer pool, size = 128.0M
+151023 15:37:31 InnoDB: Completed initialization of buffer pool
+151023 15:37:31 InnoDB: highest supported file format is Barracuda.
+151023 15:37:31  InnoDB: Waiting for the background threads to start
+151023 15:37:32 InnoDB: 5.5.37 started; log sequence number 2360988087
+151023 15:37:32 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+151023 15:37:32 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+151023 15:37:32 [Note] Server socket created on IP: '0.0.0.0'.
+151023 15:37:32 [Note] Event Scheduler: Loaded 0 events
+151023 15:37:32 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+151023 15:39:27 [Note] /usr/libexec/mysqld: Normal shutdown
+
+151023 15:39:27 [Note] Event Scheduler: Purging the queue. 0 events
+151023 15:39:29 [Warning] /usr/libexec/mysqld: Forcing close of thread 10  user: 'hive'
+
+151023 15:39:29 [Warning] /usr/libexec/mysqld: Forcing close of thread 9  user: 'hive'
+
+151023 15:39:29  InnoDB: Starting shutdown...
+151023 15:39:31  InnoDB: Shutdown completed; log sequence number 2360990387
+151023 15:39:31 [Note] /usr/libexec/mysqld: Shutdown complete
+
+151023 15:39:31 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+151023 15:39:33 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+151023 15:39:33 [Note] Plugin 'FEDERATED' is disabled.
+151023 15:39:33 InnoDB: The InnoDB memory heap is disabled
+151023 15:39:33 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+151023 15:39:33 InnoDB: Compressed tables use zlib 1.2.7
+151023 15:39:33 InnoDB: Using Linux native AIO
+151023 15:39:33 InnoDB: Initializing buffer pool, size = 128.0M
+151023 15:39:33 InnoDB: Completed initialization of buffer pool
+151023 15:39:33 InnoDB: highest supported file format is Barracuda.
+151023 15:39:34  InnoDB: Waiting for the background threads to start
+151023 15:39:35 InnoDB: 5.5.37 started; log sequence number 2360990387
+151023 15:39:35 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+151023 15:39:35 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+151023 15:39:35 [Note] Server socket created on IP: '0.0.0.0'.
+151023 15:39:35 [Note] Event Scheduler: Loaded 0 events
+151023 15:39:35 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+151023 15:41:07 [Note] /usr/libexec/mysqld: Normal shutdown
+
+151023 15:41:07 [Note] Event Scheduler: Purging the queue. 0 events
+151023 15:41:09 [Warning] /usr/libexec/mysqld: Forcing close of thread 16  user: 'hive'
+
+151023 15:41:09 [Warning] /usr/libexec/mysqld: Forcing close of thread 15  user: 'hive'
+
+151023 15:41:09 [Warning] /usr/libexec/mysqld: Forcing close of thread 12  user: 'hive'
+
+151023 15:41:09 [Warning] /usr/libexec/mysqld: Forcing close of thread 11  user: 'hive'
+
+151023 15:41:09  InnoDB: Starting shutdown...
+151023 15:41:10  InnoDB: Waiting for 12 pages to be flushed
+151023 15:41:11  InnoDB: Shutdown completed; log sequence number 2360999047
+151023 15:41:11 [Note] /usr/libexec/mysqld: Shutdown complete
+
+151023 15:41:11 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+151023 15:41:12 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+151023 15:41:12 [Note] Plugin 'FEDERATED' is disabled.
+151023 15:41:12 InnoDB: The InnoDB memory heap is disabled
+151023 15:41:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+151023 15:41:12 InnoDB: Compressed tables use zlib 1.2.7
+151023 15:41:12 InnoDB: Using Linux native AIO
+151023 15:41:12 InnoDB: Initializing buffer pool, size = 128.0M
+151023 15:41:12 InnoDB: Completed initialization of buffer pool
+151023 15:41:12 InnoDB: highest supported file format is Barracuda.
+151023 15:41:12  InnoDB: Waiting for the background threads to start
+151023 15:41:13 InnoDB: 5.5.37 started; log sequence number 2360999047
+151023 15:41:13 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+151023 15:41:13 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+151023 15:41:13 [Note] Server socket created on IP: '0.0.0.0'.
+151023 15:41:13 [Note] Event Scheduler: Loaded 0 events
+151023 15:41:13 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+151023 15:42:49 [Note] /usr/libexec/mysqld: Normal shutdown
+
+151023 15:42:49 [Note] Event Scheduler: Purging the queue. 0 events
+151023 15:42:51 [Warning] /usr/libexec/mysqld: Forcing close of thread 10  user: 'hive'
+
+151023 15:42:51 [Warning] /usr/libexec/mysqld: Forcing close of thread 9  user: 'hive'
+
+151023 15:42:51 [Warning] /usr/libexec/mysqld: Forcing close of thread 6  user: 'hive'
+
+151023 15:42:51 [Warning] /usr/libexec/mysqld: Forcing close of thread 5  user: 'hive'
+
+151023 15:42:51  InnoDB: Starting shutdown...
+151023 15:42:52  InnoDB: Shutdown completed; log sequence number 2361001349
+151023 15:42:52 [Note] /usr/libexec/mysqld: Shutdown complete
+
+151023 15:42:52 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+151023 15:42:53 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+151023 15:42:53 [Note] Plugin 'FEDERATED' is disabled.
+151023 15:42:53 InnoDB: The InnoDB memory heap is disabled
+151023 15:42:53 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+151023 15:42:53 InnoDB: Compressed tables use zlib 1.2.7
+151023 15:42:53 InnoDB: Using Linux native AIO
+151023 15:42:53 InnoDB: Initializing buffer pool, size = 128.0M
+151023 15:42:53 InnoDB: Completed initialization of buffer pool
+151023 15:42:53 InnoDB: highest supported file format is Barracuda.
+151023 15:42:53  InnoDB: Waiting for the background threads to start
+151023 15:42:54 InnoDB: 5.5.37 started; log sequence number 2361001349
+151023 15:42:54 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+151023 15:42:54 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+151023 15:42:54 [Note] Server socket created on IP: '0.0.0.0'.
+151023 15:42:54 [Note] Event Scheduler: Loaded 0 events
+151023 15:42:54 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+151113 12:24:30 [Note] /usr/libexec/mysqld: Normal shutdown
+
+151113 12:24:30 [Note] Event Scheduler: Purging the queue. 0 events
+151113 12:24:32 [Warning] /usr/libexec/mysqld: Forcing close of thread 199  user: 'hive'
+
+151113 12:24:32 [Warning] /usr/libexec/mysqld: Forcing close of thread 198  user: 'hive'
+
+151113 12:24:32 [Warning] /usr/libexec/mysqld: Forcing close of thread 171  user: 'oozie'
+
+151113 12:24:32 [Warning] /usr/libexec/mysqld: Forcing close of thread 170  user: 'oozie'
+
+151113 12:24:32  InnoDB: Starting shutdown...
+151113 12:24:32  InnoDB: Waiting for 1 pages to be flushed
+151113 12:24:33  InnoDB: Shutdown completed; log sequence number 2694781612
+151113 12:24:33 [Note] /usr/libexec/mysqld: Shutdown complete
+
+151113 12:24:33 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+151113 12:24:35 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+151113 12:24:35 [Note] Plugin 'FEDERATED' is disabled.
+151113 12:24:35 InnoDB: The InnoDB memory heap is disabled
+151113 12:24:35 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+151113 12:24:35 InnoDB: Compressed tables use zlib 1.2.7
+151113 12:24:35 InnoDB: Using Linux native AIO
+151113 12:24:35 InnoDB: Initializing buffer pool, size = 128.0M
+151113 12:24:35 InnoDB: Completed initialization of buffer pool
+151113 12:24:35 InnoDB: highest supported file format is Barracuda.
+151113 12:24:35  InnoDB: Waiting for the background threads to start
+151113 12:24:36 InnoDB: 5.5.37 started; log sequence number 2694781612
+151113 12:24:36 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+151113 12:24:36 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+151113 12:24:36 [Note] Server socket created on IP: '0.0.0.0'.
+151113 12:24:36 [Note] Event Scheduler: Loaded 0 events
+151113 12:24:36 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+151113 12:39:26 [Note] /usr/libexec/mysqld: Normal shutdown
+
+151113 12:39:26 [Note] Event Scheduler: Purging the queue. 0 events
+151113 12:39:28 [Warning] /usr/libexec/mysqld: Forcing close of thread 17  user: 'hive'
+
+151113 12:39:28 [Warning] /usr/libexec/mysqld: Forcing close of thread 16  user: 'hive'
+
+151113 12:39:28 [Warning] /usr/libexec/mysqld: Forcing close of thread 13  user: 'hive'
+
+151113 12:39:28 [Warning] /usr/libexec/mysqld: Forcing close of thread 12  user: 'hive'
+
+151113 12:39:28  InnoDB: Starting shutdown...
+151113 12:39:29  InnoDB: Shutdown completed; log sequence number 2694844781
+151113 12:39:29 [Note] /usr/libexec/mysqld: Shutdown complete
+
+151113 12:39:29 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+151113 12:39:31 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+151113 12:39:31 [Note] Plugin 'FEDERATED' is disabled.
+151113 12:39:31 InnoDB: The InnoDB memory heap is disabled
+151113 12:39:31 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+151113 12:39:31 InnoDB: Compressed tables use zlib 1.2.7
+151113 12:39:31 InnoDB: Using Linux native AIO
+151113 12:39:31 InnoDB: Initializing buffer pool, size = 128.0M
+151113 12:39:31 InnoDB: Completed initialization of buffer pool
+151113 12:39:31 InnoDB: highest supported file format is Barracuda.
+151113 12:39:31  InnoDB: Waiting for the background threads to start
+151113 12:39:32 InnoDB: 5.5.37 started; log sequence number 2694844781
+151113 12:39:32 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+151113 12:39:32 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+151113 12:39:32 [Note] Server socket created on IP: '0.0.0.0'.
+151113 12:39:32 [Note] Event Scheduler: Loaded 0 events
+151113 12:39:32 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+151207 13:13:30 [Note] /usr/libexec/mysqld: Normal shutdown
+
+151207 13:13:30 [Note] Event Scheduler: Purging the queue. 0 events
+151207 13:13:30  InnoDB: Starting shutdown...
+151207 13:13:32  InnoDB: Shutdown completed; log sequence number 2833988339
+151207 13:13:32 [Note] /usr/libexec/mysqld: Shutdown complete
+
+151207 13:13:32 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+151207 13:14:34 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+151207 13:14:34 [Note] Plugin 'FEDERATED' is disabled.
+151207 13:14:34 InnoDB: The InnoDB memory heap is disabled
+151207 13:14:34 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+151207 13:14:34 InnoDB: Compressed tables use zlib 1.2.7
+151207 13:14:34 InnoDB: Using Linux native AIO
+151207 13:14:34 InnoDB: Initializing buffer pool, size = 128.0M
+151207 13:14:34 InnoDB: Completed initialization of buffer pool
+151207 13:14:35 InnoDB: highest supported file format is Barracuda.
+151207 13:14:35  InnoDB: Waiting for the background threads to start
+151207 13:14:36 InnoDB: 5.5.37 started; log sequence number 2833988339
+151207 13:14:36 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+151207 13:14:36 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+151207 13:14:36 [Note] Server socket created on IP: '0.0.0.0'.
+151207 13:14:36 [Note] Event Scheduler: Loaded 0 events
+151207 13:14:36 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+151207 13:24:37 [Note] /usr/libexec/mysqld: Normal shutdown
+
+151207 13:24:37 [Note] Event Scheduler: Purging the queue. 0 events
+151207 13:24:37  InnoDB: Starting shutdown...
+151207 13:24:38  InnoDB: Shutdown completed; log sequence number 2834013418
+151207 13:24:38 [Note] /usr/libexec/mysqld: Shutdown complete
+
+151207 13:24:38 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+151207 13:25:34 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+151207 13:25:34 [Note] Plugin 'FEDERATED' is disabled.
+151207 13:25:34 InnoDB: The InnoDB memory heap is disabled
+151207 13:25:34 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+151207 13:25:34 InnoDB: Compressed tables use zlib 1.2.7
+151207 13:25:34 InnoDB: Using Linux native AIO
+151207 13:25:34 InnoDB: Initializing buffer pool, size = 128.0M
+151207 13:25:34 InnoDB: Completed initialization of buffer pool
+151207 13:25:34 InnoDB: highest supported file format is Barracuda.
+151207 13:25:34  InnoDB: Waiting for the background threads to start
+151207 13:25:35 InnoDB: 5.5.37 started; log sequence number 2834013418
+151207 13:25:35 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+151207 13:25:35 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+151207 13:25:35 [Note] Server socket created on IP: '0.0.0.0'.
+151207 13:25:35 [Note] Event Scheduler: Loaded 0 events
+151207 13:25:35 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+151228 11:32:28 [Note] /usr/libexec/mysqld: Normal shutdown
+
+151228 11:32:28 [Note] Event Scheduler: Purging the queue. 0 events
+151228 11:32:28  InnoDB: Starting shutdown...
+151228 11:32:30  InnoDB: Shutdown completed; log sequence number 2977651334
+151228 11:32:30 [Note] /usr/libexec/mysqld: Shutdown complete
+
+151228 11:32:30 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+151228 11:37:01 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+151228 11:37:02 [Note] Plugin 'FEDERATED' is disabled.
+151228 11:37:02 InnoDB: The InnoDB memory heap is disabled
+151228 11:37:02 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+151228 11:37:02 InnoDB: Compressed tables use zlib 1.2.7
+151228 11:37:02 InnoDB: Using Linux native AIO
+151228 11:37:02 InnoDB: Initializing buffer pool, size = 128.0M
+151228 11:37:02 InnoDB: Completed initialization of buffer pool
+151228 11:37:02 InnoDB: highest supported file format is Barracuda.
+151228 11:37:02  InnoDB: Waiting for the background threads to start
+151228 11:37:03 InnoDB: 5.5.37 started; log sequence number 2977651334
+151228 11:37:03 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+151228 11:37:03 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+151228 11:37:03 [Note] Server socket created on IP: '0.0.0.0'.
+151228 11:37:03 [Note] Event Scheduler: Loaded 0 events
+151228 11:37:03 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+151228 13:00:40 [Note] /usr/libexec/mysqld: Normal shutdown
+
+151228 13:00:40 [Note] Event Scheduler: Purging the queue. 0 events
+151228 13:00:40  InnoDB: Starting shutdown...
+151228 13:00:42  InnoDB: Shutdown completed; log sequence number 2977868882
+151228 13:00:42 [Note] /usr/libexec/mysqld: Shutdown complete
+
+151228 13:00:42 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+151228 13:05:14 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+151228 13:05:14 [Note] Plugin 'FEDERATED' is disabled.
+151228 13:05:14 InnoDB: The InnoDB memory heap is disabled
+151228 13:05:14 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+151228 13:05:14 InnoDB: Compressed tables use zlib 1.2.7
+151228 13:05:14 InnoDB: Using Linux native AIO
+151228 13:05:14 InnoDB: Initializing buffer pool, size = 128.0M
+151228 13:05:14 InnoDB: Completed initialization of buffer pool
+151228 13:05:14 InnoDB: highest supported file format is Barracuda.
+151228 13:05:14  InnoDB: Waiting for the background threads to start
+151228 13:05:15 InnoDB: 5.5.37 started; log sequence number 2977868882
+151228 13:05:15 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+151228 13:05:15 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+151228 13:05:15 [Note] Server socket created on IP: '0.0.0.0'.
+151228 13:05:15 [Note] Event Scheduler: Loaded 0 events
+151228 13:05:15 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+151228 19:15:03 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYpaQ9Nn' (Errcode: 28)
+151228 19:15:04 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYmVcDVM' (Errcode: 28)
+151228 19:15:04 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MY65Q6Mc' (Errcode: 28)
+151228 19:15:04 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYwYfHHC' (Errcode: 28)
+151228 20:15:03 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYmHT3M4' (Errcode: 28)
+151228 20:15:03 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYGPpAVw' (Errcode: 28)
+151228 20:15:03 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYVFEZQZ' (Errcode: 28)
+151228 20:15:03 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYA2EGPs' (Errcode: 28)
+151228 23:15:05 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYAEzaCd' (Errcode: 28)
+151228 23:15:05 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYzmYgrY' (Errcode: 28)
+151228 23:15:06 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYLCqvUJ' (Errcode: 28)
+151228 23:15:06 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYTdqhqv' (Errcode: 28)
+151229  0:14:48 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYZvNZuz' (Errcode: 28)
+151229  0:14:48 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MY3iHmCD' (Errcode: 28)
+151229  0:14:48 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MY4sshsI' (Errcode: 28)
+151229  0:14:48 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYYpyYkN' (Errcode: 28)
+151229  2:15:12 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYU1TFp3' (Errcode: 28)
+151229  2:15:12 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MY18udxj' (Errcode: 28)
+151229  2:15:12 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYg69jjA' (Errcode: 28)
+151229  2:15:12 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYg0087Q' (Errcode: 28)
+151229  3:15:12 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYGPMi2b' (Errcode: 28)
+151229  3:15:12 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/160107 12:59:44 [Note] /usr/libexec/mysqld: Normal shutdown
+
+160107 12:59:44 [Note] Event Scheduler: Purging the queue. 0 events
+160107 12:59:44  InnoDB: Starting shutdown...
+160107 12:59:46  InnoDB: Shutdown completed; log sequence number 3068979704
+160107 12:59:46 [Note] /usr/libexec/mysqld: Shutdown complete
+
+160107 12:59:46 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+160107 13:01:47 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+160107 13:01:48 [Note] Plugin 'FEDERATED' is disabled.
+160107 13:01:48 InnoDB: The InnoDB memory heap is disabled
+160107 13:01:48 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160107 13:01:48 InnoDB: Compressed tables use zlib 1.2.7
+160107 13:01:48 InnoDB: Using Linux native AIO
+160107 13:01:48 InnoDB: Initializing buffer pool, size = 128.0M
+160107 13:01:48 InnoDB: Completed initialization of buffer pool
+160107 13:01:48 InnoDB: highest supported file format is Barracuda.
+160107 13:01:48  InnoDB: Waiting for the background threads to start
+160107 13:01:49 InnoDB: 5.5.37 started; log sequence number 3068979704
+160107 13:01:49 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160107 13:01:49 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160107 13:01:49 [Note] Server socket created on IP: '0.0.0.0'.
+160107 13:01:49 [Note] Event Scheduler: Loaded 0 events
+160107 13:01:49 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+160109  4:15:19 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYrGfp7h' (Errcode: 28)
+160109  4:15:19 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYepgOLS' (Errcode: 28)
+160109  4:15:19 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYgRthiu' (Errcode: 28)
+160109  4:15:19 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYGEbcR5' (Errcode: 28)
+160109  4:15:20 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYbrG4PI' (Errcode: 28)
+160109  4:15:20 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYhpIagm' (Errcode: 28)
+160109  4:15:20 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MY5R7ds0' (Errcode: 28)
+160109  4:15:20 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MY7vqwKE' (Errcode: 28)
+160109  4:15:21 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYDntVOl' (Errcode: 28)
+160109  4:15:21 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYGs7gY2' (Errcode: 28)
+160109  4:15:21 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MY1zRPIK' (Errcode: 28)
+160109  4:15:21 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MY8zqXvs' (Errcode: 28)
+160109  4:15:21 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYHXBfua' (Errcode: 28)
+160109  4:15:21 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MY8E3FxS' (Errcode: 28)
+160109  4:15:22 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYkng4bB' (Errcode: 28)
+160109  4:15:22 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYrTEJVj' (Errcode: 28)
+160109  5:16:42 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYs2G1kE' (Errcode: 28)
+160109  5:16:42 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYZ36tPY' (Errcode: 28)
+160109  5:16:43 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYdxXgWj' (Errcode: 28)
+160109  5:16:43 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYFiW97E' (Errcode: 28)
+160109  5:16:43 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MY8muEp2' (Errcode: 28)
+160109  5:16:43 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYY9UnMp' (Errcode: 28)
+160109  5:16:44 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYECX0NN' (Errcode: 28)
+160109  5:16:44 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYe160110 11:44:34 [Note] /usr/libexec/mysqld: Normal shutdown
+
+160110 11:44:34 [Note] Event Scheduler: Purging the queue. 0 events
+160110 11:44:34  InnoDB: Starting shutdown...
+160110 11:44:36  InnoDB: Shutdown completed; log sequence number 3092402701
+160110 11:44:36 [Note] /usr/libexec/mysqld: Shutdown complete
+
+160110 11:44:36 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+160110 11:51:12 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+160110 11:51:12 [Note] Plugin 'FEDERATED' is disabled.
+160110 11:51:12 InnoDB: The InnoDB memory heap is disabled
+160110 11:51:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160110 11:51:12 InnoDB: Compressed tables use zlib 1.2.7
+160110 11:51:12 InnoDB: Using Linux native AIO
+160110 11:51:12 InnoDB: Initializing buffer pool, size = 128.0M
+160110 11:51:12 InnoDB: Completed initialization of buffer pool
+160110 11:51:12 InnoDB: highest supported file format is Barracuda.
+160110 11:51:12  InnoDB: Waiting for the background threads to start
+160110 11:51:13 InnoDB: 5.5.37 started; log sequence number 3092402701
+160110 11:51:13 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160110 11:51:13 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160110 11:51:13 [Note] Server socket created on IP: '0.0.0.0'.
+160110 11:51:13 [Note] Event Scheduler: Loaded 0 events
+160110 11:51:13 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+160111  9:39:16 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYy1FYsZ' (Errcode: 28)
+160111  9:39:16 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MY3OHFYh' (Errcode: 28)
+160111  9:39:16 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYsXOZiB' (Errcode: 28)
+160111  9:39:16 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYl7yUIU' (Errcode: 28)
+160111  9:39:17 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MY4aTPtg' (Errcode: 28)
+160111  9:39:17 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYsWKckC' (Errcode: 28)
+160111  9:39:18 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYkMMySY' (Errcode: 28)
+160111  9:39:18 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MY23Oizl' (Errcode: 28)
+160111  9:39:18 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYrt7mvK' (Errcode: 28)
+160111  9:39:18 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MY5IUpw9' (Errcode: 28)
+160111  9:39:19 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYT51Z9y' (Errcode: 28)
+160111  9:39:19 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MY2KtBTY' (Errcode: 28)
+160121  3:16:26 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MY6s5d5D' (Errcode: 28)
+160121  3:16:27 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYSlsEyG' (Errcode: 28)
+160121  3:16:27 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYv15OTJ' (Errcode: 28)
+160121  3:16:27 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYqHCDkN' (Errcode: 28)
+160121  3:16:28 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYrH8zdT' (Errcode: 28)
+160121  3:16:28 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYEZBObZ' (Errcode: 28)
+160121  3:16:28 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYqtMnW5' (Errcode: 28)
+160121  3:16:28 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MY8s41Mc' (Errcode: 28)
+160121  3:16:29 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYYzG2Cl' (Errcode: 28)
+160121  3:16:29 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYx9mWxu' (Errcode: 28)
+160121  3:16:29 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYvFTe8D' (Errcode: 28)
+160121  3:16:29 [ERROR] /usr/libexec/mysqld: Sort aborted: Error writing file '/tmp/MYX160127 21:50:14 [Note] /usr/libexec/mysqld: Normal shutdown
+
+160127 21:50:14 [Note] Event Scheduler: Purging the queue. 0 events
+160127 21:50:16 [Warning] /usr/libexec/mysqld: Forcing close of thread 273  user: 'hive'
+
+160127 21:50:16 [Warning] /usr/libexec/mysqld: Forcing close of thread 272  user: 'hive'
+
+160127 21:50:16 [Warning] /usr/libexec/mysqld: Forcing close of thread 270  user: 'hive'
+
+160127 21:50:16 [Warning] /usr/libexec/mysqld: Forcing close of thread 245  user: 'hive'
+
+160127 21:50:16 [Warning] /usr/libexec/mysqld: Forcing close of thread 244  user: 'hive'
+
+160127 21:50:16 [Warning] /usr/libexec/mysqld: Forcing close of thread 243  user: 'hive'
+
+160127 21:50:16 [Warning] /usr/libexec/mysqld: Forcing close of thread 242  user: 'hive'
+
+160127 21:50:16 [Warning] /usr/libexec/mysqld: Forcing close of thread 241  user: 'hive'
+
+160127 21:50:16 [Warning] /usr/libexec/mysqld: Forcing close of thread 239  user: 'hive'
+
+160127 21:50:16 [Warning] /usr/libexec/mysqld: Forcing close of thread 238  user: 'hive'
+
+160127 21:50:16 [Warning] /usr/libexec/mysqld: Forcing close of thread 235  user: 'hive'
+
+160127 21:50:16 [Warning] /usr/libexec/mysqld: Forcing close of thread 234  user: 'hive'
+
+160127 21:50:16  InnoDB: Starting shutdown...
+160127 21:50:18  InnoDB: Shutdown completed; log sequence number 3239584448
+160127 21:50:18 [Note] /usr/libexec/mysqld: Shutdown complete
+
+160127 21:50:18 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+160127 22:12:55 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+160127 22:12:55 [Note] Plugin 'FEDERATED' is disabled.
+160127 22:12:55 InnoDB: The InnoDB memory heap is disabled
+160127 22:12:55 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160127 22:12:55 InnoDB: Compressed tables use zlib 1.2.7
+160127 22:12:55 InnoDB: Using Linux native AIO
+160127 22:12:55 InnoDB: Initializing buffer pool, size = 128.0M
+160127 22:12:55 InnoDB: Completed initialization of buffer pool
+160127 22:12:55 InnoDB: highest supported file format is Barracuda.
+160127 22:12:56  InnoDB: Waiting for the background threads to start
+160127 22:12:57 InnoDB: 5.5.37 started; log sequence number 3239584448
+160127 22:12:57 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160127 22:12:57 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160127 22:12:57 [Note] Server socket created on IP: '0.0.0.0'.
+160127 22:12:57 [Note] Event Scheduler: Loaded 0 events
+160127 22:12:57 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+160127 22:24:52 [Note] /usr/libexec/mysqld: Normal shutdown
+
+160127 22:24:52 [Note] Event Scheduler: Purging the queue. 0 events
+160127 22:24:54 [Warning] /usr/libexec/mysqld: Forcing close of thread 25  user: 'hive'
+
+160127 22:24:54 [Warning] /usr/libexec/mysqld: Forcing close of thread 24  user: 'hive'
+
+160127 22:24:54 [Warning] /usr/libexec/mysqld: Forcing close of thread 20  user: 'oozie'
+
+160127 22:24:54 [Warning] /usr/libexec/mysqld: Forcing close of thread 19  user: 'oozie'
+
+160127 22:24:54 [Warning] /usr/libexec/mysqld: Forcing close of thread 18  user: 'oozie'
+
+160127 22:24:54 [Warning] /usr/libexec/mysqld: Forcing close of thread 17  user: 'oozie'
+
+160127 22:24:54 [Warning] /usr/libexec/mysqld: Forcing close of thread 16  user: 'oozie'
+
+160127 22:24:54  InnoDB: Starting shutdown...
+160127 22:24:56  InnoDB: Shutdown completed; log sequence number 3239807747
+160127 22:24:56 [Note] /usr/libexec/mysqld: Shutdown complete
+
+160127 22:24:56 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+160127 22:24:56 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+160127 22:24:56 [Note] Plugin 'FEDERATED' is disabled.
+160127 22:24:56 InnoDB: The InnoDB memory heap is disabled
+160127 22:24:56 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160127 22:24:56 InnoDB: Compressed tables use zlib 1.2.7
+160127 22:24:56 InnoDB: Using Linux native AIO
+160127 22:24:56 InnoDB: Initializing buffer pool, size = 128.0M
+160127 22:24:56 InnoDB: Completed initialization of buffer pool
+160127 22:24:56 InnoDB: highest supported file format is Barracuda.
+160127 22:24:57  InnoDB: Waiting for the background threads to start
+160127 22:24:58 InnoDB: 5.5.37 started; log sequence number 3239807747
+160127 22:24:58 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160127 22:24:58 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160127 22:24:58 [Note] Server socket created on IP: '0.0.0.0'.
+160127 22:24:58 [Note] Event Scheduler: Loaded 0 events
+160127 22:24:58 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+160127 22:37:17 [Note] /usr/libexec/mysqld: Normal shutdown
+
+160127 22:37:17 [Note] Event Scheduler: Purging the queue. 0 events
+160127 22:37:19 [Warning] /usr/libexec/mysqld: Forcing close of thread 16  user: 'hive'
+
+160127 22:37:19 [Warning] /usr/libexec/mysqld: Forcing close of thread 15  user: 'hive'
+
+160127 22:37:19 [Warning] /usr/libexec/mysqld: Forcing close of thread 12  user: 'hive'
+
+160127 22:37:19 [Warning] /usr/libexec/mysqld: Forcing close of thread 11  user: 'hive'
+
+160127 22:37:19 [Warning] /usr/libexec/mysqld: Forcing close of thread 5  user: 'oozie'
+
+160127 22:37:19 [Warning] /usr/libexec/mysqld: Forcing close of thread 4  user: 'oozie'
+
+160127 22:37:19  InnoDB: Starting shutdown...
+160127 22:37:21  InnoDB: Shutdown completed; log sequence number 3240125817
+160127 22:37:21 [Note] /usr/libexec/mysqld: Shutdown complete
+
+160127 22:37:21 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+160127 22:37:22 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+160127 22:37:22 [Note] Plugin 'FEDERATED' is disabled.
+160127 22:37:22 InnoDB: The InnoDB memory heap is disabled
+160127 22:37:22 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160127 22:37:22 InnoDB: Compressed tables use zlib 1.2.7
+160127 22:37:22 InnoDB: Using Linux native AIO
+160127 22:37:22 InnoDB: Initializing buffer pool, size = 128.0M
+160127 22:37:22 InnoDB: Completed initialization of buffer pool
+160127 22:37:22 InnoDB: highest supported file format is Barracuda.
+160127 22:37:22  InnoDB: Waiting for the background threads to start
+160127 22:37:23 InnoDB: 5.5.37 started; log sequence number 3240125817
+160127 22:37:23 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160127 22:37:23 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160127 22:37:23 [Note] Server socket created on IP: '0.0.0.0'.
+160127 22:37:23 [Note] Event Scheduler: Loaded 0 events
+160127 22:37:23 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+160202 17:31:33 [Note] /usr/libexec/mysqld: Normal shutdown
+
+160202 17:31:33 [Note] Event Scheduler: Purging the queue. 0 events
+160202 17:31:35 [Warning] /usr/libexec/mysqld: Forcing close of thread 57  user: 'hive'
+
+160202 17:31:35 [Warning] /usr/libexec/mysqld: Forcing close of thread 56  user: 'hive'
+
+160202 17:31:35 [Warning] /usr/libexec/mysqld: Forcing close of thread 53  user: 'hive'
+
+160202 17:31:35 [Warning] /usr/libexec/mysqld: Forcing close of thread 52  user: 'hive'
+
+160202 17:31:35 [Warning] /usr/libexec/mysqld: Forcing close of thread 4  user: 'oozie'
+
+160202 17:31:35  InnoDB: Starting shutdown...
+160202 17:31:36  InnoDB: Shutdown completed; log sequence number 3377664320
+160202 17:31:36 [Note] /usr/libexec/mysqld: Shutdown complete
+
+160202 17:31:36 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+160202 17:31:37 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+160202 17:31:38 [Note] Plugin 'FEDERATED' is disabled.
+160202 17:31:38 InnoDB: The InnoDB memory heap is disabled
+160202 17:31:38 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160202 17:31:38 InnoDB: Compressed tables use zlib 1.2.7
+160202 17:31:38 InnoDB: Using Linux native AIO
+160202 17:31:38 InnoDB: Initializing buffer pool, size = 128.0M
+160202 17:31:38 InnoDB: Completed initialization of buffer pool
+160202 17:31:38 InnoDB: highest supported file format is Barracuda.
+160202 17:31:38  InnoDB: Waiting for the background threads to start
+160202 17:31:39 InnoDB: 5.5.37 started; log sequence number 3377664320
+160202 17:31:39 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160202 17:31:39 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160202 17:31:39 [Note] Server socket created on IP: '0.0.0.0'.
+160202 17:31:39 [Note] Event Scheduler: Loaded 0 events
+160202 17:31:39 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.5.37'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+160221 15:28:05 [Note] /usr/libexec/mysqld: Normal shutdown
+
+160221 15:28:05 [Note] Event Scheduler: Purging the queue. 0 events
+160221 15:28:07 [Warning] /usr/libexec/mysqld: Forcing close of thread 63  user: 'hive'
+
+160221 15:28:07 [Warning] /usr/libexec/mysqld: Forcing close of thread 62  user: 'hive'
+
+160221 15:28:07 [Warning] /usr/libexec/mysqld: Forcing close of thread 24  user: 'hive'
+
+160221 15:28:07 [Warning] /usr/libexec/mysqld: Forcing close of thread 23  user: 'hive'
+
+160221 15:28:07 [Warning] /usr/libexec/mysqld: Forcing close of thread 10  user: 'hive'
+
+160221 15:28:07 [Warning] /usr/libexec/mysqld: Forcing close of thread 9  user: 'hive'
+
+160221 15:28:07 [Warning] /usr/libexec/mysqld: Forcing close of thread 8  user: 'hive'
+
+160221 15:28:07 [Warning] /usr/libexec/mysqld: Forcing close of thread 7  user: 'hive'
+
+160221 15:28:07 [Warning] /usr/libexec/mysqld: Forcing close of thread 3  user: 'hive'
+
+160221 15:28:07 [Warning] /usr/libexec/mysqld: Forcing close of thread 2  user: 'hive'
+
+160221 15:28:07  InnoDB: Starting shutdown...
+160221 15:28:08  InnoDB: Shutdown completed; log sequence number 3510663981
+160221 15:28:08 [Note] /usr/libexec/mysqld: Shutdown complete
+
+160221 15:28:08 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+160221 15:28:09 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+160221 15:28:09 [Note] /usr/libexec/mysql55/mysqld (mysqld 5.5.46) starting as process 27425 ...
+160221 15:28:09 [Note] Plugin 'FEDERATED' is disabled.
+160221 15:28:09 InnoDB: The InnoDB memory heap is disabled
+160221 15:28:09 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160221 15:28:09 InnoDB: Compressed tables use zlib 1.2.8
+160221 15:28:09 InnoDB: Using Linux native AIO
+160221 15:28:09 InnoDB: Initializing buffer pool, size = 128.0M
+160221 15:28:09 InnoDB: Completed initialization of buffer pool
+160221 15:28:09 InnoDB: highest supported file format is Barracuda.
+160221 15:28:09  InnoDB: Waiting for the background threads to start
+160221 15:28:10 InnoDB: 5.5.46 started; log sequence number 3510663981
+160221 15:28:10 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160221 15:28:10 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160221 15:28:10 [Note] Server socket created on IP: '0.0.0.0'.
+160221 15:28:10 [Note] Event Scheduler: Loaded 0 events
+160221 15:28:10 [Note] /usr/libexec/mysql55/mysqld: ready for connections.
+Version: '5.5.46'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+160302 12:48:48 [Note] /usr/libexec/mysql55/mysqld: Normal shutdown
+
+160302 12:48:48 [Note] Event Scheduler: Purging the queue. 0 events
+160302 12:48:50 [Warning] /usr/libexec/mysql55/mysqld: Forcing close of thread 93  user: 'hive'
+
+160302 12:48:50 [Warning] /usr/libexec/mysql55/mysqld: Forcing close of thread 92  user: 'hive'
+
+160302 12:48:50 [Warning] /usr/libexec/mysql55/mysqld: Forcing close of thread 89  user: 'hive'
+
+160302 12:48:50 [Warning] /usr/libexec/mysql55/mysqld: Forcing close of thread 88  user: 'hive'
+
+160302 12:48:50  InnoDB: Starting shutdown...
+160302 12:48:51  InnoDB: Shutdown completed; log sequence number 3561163064
+160302 12:48:51 [Note] /usr/libexec/mysql55/mysqld: Shutdown complete
+
+160302 12:48:51 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+160302 12:48:53 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+160302 12:48:53 [Note] /usr/libexec/mysql55/mysqld (mysqld 5.5.46) starting as process 4836 ...
+160302 12:48:53 [Note] Plugin 'FEDERATED' is disabled.
+160302 12:48:53 InnoDB: The InnoDB memory heap is disabled
+160302 12:48:53 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160302 12:48:53 InnoDB: Compressed tables use zlib 1.2.8
+160302 12:48:53 InnoDB: Using Linux native AIO
+160302 12:48:53 InnoDB: Initializing buffer pool, size = 128.0M
+160302 12:48:53 InnoDB: Completed initialization of buffer pool
+160302 12:48:53 InnoDB: highest supported file format is Barracuda.
+160302 12:48:53  InnoDB: Waiting for the background threads to start
+160302 12:48:54 InnoDB: 5.5.46 started; log sequence number 3561163064
+160302 12:48:54 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160302 12:48:54 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160302 12:48:54 [Note] Server socket created on IP: '0.0.0.0'.
+160302 12:48:54 [Note] Event Scheduler: Loaded 0 events
+160302 12:48:54 [Note] /usr/libexec/mysql55/mysqld: ready for connections.
+Version: '5.5.46'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+160317 15:57:46 [Note] /usr/libexec/mysql55/mysqld: Normal shutdown
+
+160317 15:57:46 [Note] Event Scheduler: Purging the queue. 0 events
+160317 15:57:48 [Warning] /usr/libexec/mysql55/mysqld: Forcing close of thread 86  user: 'hive'
+
+160317 15:57:48 [Warning] /usr/libexec/mysql55/mysqld: Forcing close of thread 85  user: 'hive'
+
+160317 15:57:48 [Warning] /usr/libexec/mysql55/mysqld: Forcing close of thread 82  user: 'hive'
+
+160317 15:57:48 [Warning] /usr/libexec/mysql55/mysqld: Forcing close of thread 81  user: 'hive'
+
+160317 15:57:48  InnoDB: Starting shutdown...
+160317 15:57:49  InnoDB: Shutdown completed; log sequence number 3625661901
+160317 15:57:49 [Note] /usr/libexec/mysql55/mysqld: Shutdown complete
+
+160317 15:57:49 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+160317 15:57:51 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+160317 15:57:51 [Note] /usr/libexec/mysql55/mysqld (mysqld 5.5.46) starting as process 8712 ...
+160317 15:57:51 [Note] Plugin 'FEDERATED' is disabled.
+160317 15:57:51 InnoDB: The InnoDB memory heap is disabled
+160317 15:57:51 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160317 15:57:51 InnoDB: Compressed tables use zlib 1.2.8
+160317 15:57:51 InnoDB: Using Linux native AIO
+160317 15:57:51 InnoDB: Initializing buffer pool, size = 128.0M
+160317 15:57:51 InnoDB: Completed initialization of buffer pool
+160317 15:57:51 InnoDB: highest supported file format is Barracuda.
+160317 15:57:51  InnoDB: Waiting for the background threads to start
+160317 15:57:52 InnoDB: 5.5.46 started; log sequence number 3625661901
+160317 15:57:52 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160317 15:57:52 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160317 15:57:52 [Note] Server socket created on IP: '0.0.0.0'.
+160317 15:57:52 [Note] Event Scheduler: Loaded 0 events
+160317 15:57:52 [Note] /usr/libexec/mysql55/mysqld: ready for connections.
+Version: '5.5.46'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+160318 18:50:27 [Note] /usr/libexec/mysql55/mysqld: Normal shutdown
+
+160318 18:50:27 [Note] Event Scheduler: Purging the queue. 0 events
+160318 18:50:29 [Warning] /usr/libexec/mysql55/mysqld: Forcing close of thread 28  user: 'hive'
+
+160318 18:50:29 [Warning] /usr/libexec/mysql55/mysqld: Forcing close of thread 27  user: 'hive'
+
+160318 18:50:29 [Warning] /usr/libexec/mysql55/mysqld: Forcing close of thread 24  user: 'hive'
+
+160318 18:50:29 [Warning] /usr/libexec/mysql55/mysqld: Forcing close of thread 23  user: 'hive'
+
+160318 18:50:29  InnoDB: Starting shutdown...
+160318 18:50:31  InnoDB: Shutdown completed; log sequence number 3630881553
+160318 18:50:31 [Note] /usr/libexec/mysql55/mysqld: Shutdown complete
+
+160318 18:50:31 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+160318 18:50:32 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+160318 18:50:32 [Note] /usr/libexec/mysql55/mysqld (mysqld 5.5.46) starting as process 8778 ...
+160318 18:50:32 [Note] Plugin 'FEDERATED' is disabled.
+160318 18:50:32 InnoDB: The InnoDB memory heap is disabled
+160318 18:50:32 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160318 18:50:32 InnoDB: Compressed tables use zlib 1.2.8
+160318 18:50:32 InnoDB: Using Linux native AIO
+160318 18:50:32 InnoDB: Initializing buffer pool, size = 128.0M
+160318 18:50:32 InnoDB: Completed initialization of buffer pool
+160318 18:50:32 InnoDB: highest supported file format is Barracuda.
+160318 18:50:32  InnoDB: Waiting for the background threads to start
+160318 18:50:33 InnoDB: 5.5.46 started; log sequence number 3630881553
+160318 18:50:33 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160318 18:50:33 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160318 18:50:33 [Note] Server socket created on IP: '0.0.0.0'.
+160318 18:50:34 [Note] Event Scheduler: Loaded 0 events
+160318 18:50:34 [Note] /usr/libexec/mysql55/mysqld: ready for connections.
+Version: '5.5.46'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+160321 21:21:37 [Note] /usr/libexec/mysql55/mysqld: Normal shutdown
+
+160321 21:21:37 [Note] Event Scheduler: Purging the queue. 0 events
+160321 21:21:39 [Warning] /usr/libexec/mysql55/mysqld: Forcing close of thread 41  user: 'hive'
+
+160321 21:21:39 [Warning] /usr/libexec/mysql55/mysqld: Forcing close of thread 40  user: 'hive'
+
+160321 21:21:39 [Warning] /usr/libexec/mysql55/mysqld: Forcing close of thread 37  user: 'hive'
+
+160321 21:21:39 [Warning] /usr/libexec/mysql55/mysqld: Forcing close of thread 36  user: 'hive'
+
+160321 21:21:39  InnoDB: Starting shutdown...
+160321 21:21:41  InnoDB: Shutdown completed; log sequence number 3641509780
+160321 21:21:41 [Note] /usr/libexec/mysql55/mysqld: Shutdown complete
+
+160321 21:21:41 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+160321 21:21:42 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+160321 21:21:42 [Note] /usr/libexec/mysql55/mysqld (mysqld 5.5.46) starting as process 9991 ...
+160321 21:21:42 [Note] Plugin 'FEDERATED' is disabled.
+160321 21:21:42 InnoDB: The InnoDB memory heap is disabled
+160321 21:21:42 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160321 21:21:42 InnoDB: Compressed tables use zlib 1.2.8
+160321 21:21:42 InnoDB: Using Linux native AIO
+160321 21:21:42 InnoDB: Initializing buffer pool, size = 128.0M
+160321 21:21:42 InnoDB: Completed initialization of buffer pool
+160321 21:21:42 InnoDB: highest supported file format is Barracuda.
+160321 21:21:43  InnoDB: Waiting for the background threads to start
+160321 21:21:44 InnoDB: 5.5.46 started; log sequence number 3641509780
+160321 21:21:44 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160321 21:21:44 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160321 21:21:44 [Note] Server socket created on IP: '0.0.0.0'.
+160321 21:21:44 [Note] Event Scheduler: Loaded 0 events
+160321 21:21:44 [Note] /usr/libexec/mysql55/mysqld: ready for connections.
+Version: '5.5.46'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)

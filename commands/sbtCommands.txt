@@ -1,0 +1,14 @@
+sbt assemblyPackageDependency   (to create a jar named designpathshala-assembly-0.1.0-deps.jar)
+sbt package  (to package only project classes, create jar designpathshala_2.10-0.1.0.jar)
+
+sbt eclipse
+sbt eclipse with-source=true
+
+
+sbt package; 
+./bin/spark-submit \
+--class {class} \
+--master yarn-client \
+--num-executors 2 \
+--jars {path to your jaar}/scala-2.10/designpathshala-assembly-0.1.0-deps.jar \
+{path to your jaar}/scala-2.10/designpathshala_2.10-0.1.0.jar   

@@ -29,9 +29,8 @@ object Celebrity {
 
     //(iii)Twitter profile image link (uploaded image link not default image) & number of such profile:
 
-    val linesWithHttpFiltered = csv.filter(x => x.contains("http://s3.amazonaws.com/twitter_production/profile_images/"))
-
-    println("Lines with Http filtered: " + linesWithHttpFiltered.count)
+    var profileIMages = csv.filter(_.contains("http://s3.amazonaws.com/twitter_production/profile_images/")).map(x => x.split(",")).filter(x => x.length == 26).map(x => x(13))
+    profileIMages.take(10).foreach(println)
     //res10: Long = 6205
 
     //-------------------------------------------------------------------------------------------------------------------------------------

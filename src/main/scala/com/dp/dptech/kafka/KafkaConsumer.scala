@@ -35,11 +35,11 @@ object KafkaConsumer {
 
     /**Configures Spark. */
     val conf = new SparkConf(true).
-      set("spark.cassandra.connection.host", spark_cassandra_connection_host).
+//      set("spark.cassandra.connection.host", spark_cassandra_connection_host).
       setAppName("DPKafkaWindowStreaming")
 
     val ssc = new StreamingContext(conf, Seconds(10))
-    ssc.checkpoint("checkpoint")
+//    ssc.checkpoint("checkpoint")
 
     props.load(getClass.getResourceAsStream("/" + jobMode + "/spark-job.properties"))
 
@@ -56,8 +56,7 @@ object KafkaConsumer {
     lines foreachRDD {
       (dpRdd, time) =>
         println("Running for loop...." + dpRdd.count())
-        val sqlContext = SQLContext.getOrCreate(dpRdd.sparkContext)
-//        SQLUtilities.runOperations(dpRdd, false, sqlContext, cc, dpEventsTopic, jobMode)
+        dpRdd.foreach(println)
     }
 
     ssc.start()

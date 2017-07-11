@@ -28,14 +28,13 @@ object KafkaConsumer {
     // load a properties file
     props.load(getClass().getClassLoader().getResourceAsStream(jobMode + "/spark-job.properties"));
 
-    //    val dpPaymentsTopic = props.getProperty("kafka.topic.dp.payments", "dpPayments")
     val dpEventsTopic = props.getProperty("kafka.topic.dp.events")
     val metadata_broker_list = props.getProperty("metadata.broker.list")
     val spark_cassandra_connection_host = props.getProperty("spark.cassandra.connection.host")
 
     /**Configures Spark. */
     val conf = new SparkConf(true).
-//      set("spark.cassandra.connection.host", spark_cassandra_connection_host).
+     set("spark.cassandra.connection.host", spark_cassandra_connection_host).
       setAppName("DPKafkaWindowStreaming")
 
     val ssc = new StreamingContext(conf, Seconds(10))
@@ -50,8 +49,8 @@ object KafkaConsumer {
     println("STARTING READING: topics: " + topicsSet + "   Kafka servers: " + metadata_broker_list + "  spark servers: " + spark_cassandra_connection_host)
     println("----------No of lines read: " + lines.count().count())
 
-//    val cc = new CassandraSQLContext(ssc.sparkContext)
-//    cc.setKeyspace("ks_dptech")
+    val cc = new CassandraSQLContext(ssc.sparkContext)
+    cc.setKeyspace("ks_dptech")
 
     lines foreachRDD {
       (dpRdd, time) =>

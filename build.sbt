@@ -11,12 +11,14 @@ javacOptions ++= Seq("-source", "1.7", "-target", "1.7")
 
 // additional libraries
 libraryDependencies ++= Seq(
-  // spark 1.5.0
-  "org.apache.spark" %% "spark-core" % "1.5.0" % "provided",
-  "org.apache.spark" %% "spark-hive" % "1.5.0",
-  "org.apache.spark" %% "spark-sql" % "1.5.0",
-  "org.apache.spark" %% "spark-streaming" % "1.5.0",
-  "org.apache.spark" %% "spark-streaming-kafka" % "1.5.0"  
+  // spark 1.6.0
+  "org.apache.spark" %% "spark-core" % "1.6.0" % "provided",
+  "org.apache.spark" %% "spark-hive" % "1.6.0",
+  "org.apache.spark" %% "spark-sql" % "1.6.0",
+  "org.apache.spark" %% "spark-streaming" % "1.6.0",
+  "org.apache.spark" %% "spark-streaming-kafka" % "1.6.0" ,
+  "com.datastax.spark" %% "spark-cassandra-connector" % "1.6.8"
+  
   )
 
 resolvers ++= Seq(

@@ -26,7 +26,7 @@ object SparkSQLExample {
 
   private def runBasicDataFrameExample(sqlContext: SQLContext): Unit = {
     // $example on:create_df$
-    val df = sqlContext.read.json("examples/src/main/resources/people.json")
+    val df = sqlContext.read.json("/user/hue/dp/spark/people.json")
 
     // Displays the content of the DataFrame to stdout
     df.show()
@@ -109,7 +109,7 @@ object SparkSQLExample {
 
     // Create an RDD of Person objects from a text file, convert it to a Dataframe
     val peopleDF = sqlContext.sparkContext
-      .textFile("examples/src/main/resources/people.txt")
+      .textFile("/user/hue/dp/spark/people.txt")
       .map(_.split(","))
       .map(attributes => Person(attributes(0), attributes(1).trim.toInt))
       .toDF()
@@ -147,20 +147,17 @@ object SparkSQLExample {
     import sqlContext.implicits._
     // $example on:programmatic_schema$
     // Create an RDD
-    val peopleRDD = sqlContext.sparkContext.textFile("examples/src/main/resources/people.txt")
+    val peopleRDD = sqlContext.sparkContext.textFile("/user/hue/dp/spark/people.txt")
 
     // The schema is encoded in a string
     val schemaString = "name age"
 
     // Generate the schema based on the string of schema
-    val fields = schemaString.split(" ")
-      .map(fieldName => StructField(fieldName, StringType, nullable = true))
+    val fields = schemaString.split(" ").map(fieldName => StructField(fieldName, StringType, nullable = true))
     val schema = StructType(fields)
 
     // Convert records of the RDD (people) to Rows
-    val rowRDD = peopleRDD
-      .map(_.split(","))
-      .map(attributes => Row(attributes(0), attributes(1).trim))
+    val rowRDD = peopleRDD.map(_.split(",")).map(attributes => Row(attributes(0), attributes(1).trim))
 
     // Apply the schema to the RDD
     val peopleDF = sqlContext.createDataFrame(rowRDD, schema)

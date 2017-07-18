@@ -9,11 +9,12 @@ import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.SQLContext
 import java.util.Properties
 import java.io.FileInputStream
-
+import com.datastax.spark.connector.streaming._
+import com.datastax.spark.connector.SomeColumns
 /**
  * Created by DP on 6/23/16.
  */
-object KafkaConsumer {
+object RealTimeWordCountCass {
 
   val props = new Properties()
 
@@ -35,6 +36,7 @@ object KafkaConsumer {
       setAppName("DPKafkaWindowStreaming")
 
     val ssc = new StreamingContext(conf, Seconds(10))
+    //    ssc.checkpoint("checkpoint")
 
     props.load(getClass.getResourceAsStream("/" + jobMode + "/spark-job.properties"))
 
@@ -42,16 +44,13 @@ object KafkaConsumer {
     val kafkaParams = Map[String, String]("metadata.broker.list" -> metadata_broker_list)
     val lines = KafkaUtils.createDirectStream[String, String, StringDecoder, StringDecoder](ssc, kafkaParams, topicsSet)
 
-    println("STARTING READING: topics: " + topicsSet + "   Kafka servers: " + metadata_broker_list )
+    println("STARTING READING: topics: " + topicsSet + "   Kafka servers: " + metadata_broker_list)
     println("----------No of lines read: " + lines.count().count())
 
-
-    lines foreachRDD {
-      (dpRdd, time) =>
-        println("Running for loop...." + dpRdd.count())
-        dpRdd.foreach(println)
-        
-    }
+   val wc = lines.map(x=> x._2).flatMap(_.split("\\s+"))
+        .map(x => (x, 1))
+        .reduceByKey(_ + _)
+        .saveToCassandra("streaming_test", "words", SomeColumns("word", "count")) 
 
     ssc.start()
     ssc.awaitTermination()

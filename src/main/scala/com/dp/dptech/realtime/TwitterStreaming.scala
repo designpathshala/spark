@@ -9,10 +9,10 @@ import org.apache.spark.streaming.Minutes
 
 object TwitterStreaming {
   
-  System.setProperty("twitter4j.oauth.consumerKey", "")
-  System.setProperty("twitter4j.oauth.consumerSecret", "")
-  System.setProperty("twitter4j.oauth.accessToken", "")
-  System.setProperty("twitter4j.oauth.accessTokenSecret", "")
+  System.setProperty("twitter4j.oauth.consumerKey", "FlRx3d0n8duIQ0UvGeGtTA")
+  System.setProperty("twitter4j.oauth.consumerSecret", "DS7TTbxhmQ7oCUlDntpQQRqQllFFOiyNoOMEDD0lA")
+  System.setProperty("twitter4j.oauth.accessToken", "1643982224-xTfNpLrARoWKxRh9KtFqc7aoB8KAAHkCcfC5vDk")
+  System.setProperty("twitter4j.oauth.accessTokenSecret", "PqkbuBqF3AVskgx1OKgXKOZzV7EMWRmRG0p8hvLQYKs")
 
   val filters = Array("narendramodi","modi","trump","delhi","Mayawati")
 

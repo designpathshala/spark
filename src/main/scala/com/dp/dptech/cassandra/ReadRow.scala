@@ -9,7 +9,7 @@ import com.datastax.spark.connector.cql._
 /**
  * @author miraj
  */
-class ReadRow {
+object ReadRow {
   val conf = new SparkConf(true)
     .set("spark.cassandra.connection.host", "127.0.0.1")
   //    .set("spark.cassandra.auth.username", "cassandra")

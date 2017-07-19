@@ -1,4 +1,4 @@
-package com.dp.dptech.kafka
+package com.dp.dptech.realtime
 
 import kafka.serializer.StringDecoder
 import org.apache.spark.SparkConf

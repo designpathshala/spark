@@ -18,14 +18,14 @@ object ReadCollections {
 
     val row = sc.cassandraTable("test", "users").first
 
-    row.getList[String]("emails") // Vector(someone@email.com, s@email.com)
-    row.get[List[String]]("emails") // List(someone@email.com, s@email.com)    
-    row.get[Seq[String]]("emails") // List(someone@email.com, s@email.com)   :Seq[String]
-    row.get[IndexedSeq[String]]("emails") // Vector(someone@email.com, s@email.com) :IndexedSeq[String]
-    row.get[Set[String]]("emails") // Set(someone@email.com, s@email.com)
+    println(row.getList[String]("emails")) // Vector(someone@email.com, s@email.com)
+    println(row.get[List[String]]("emails")) // List(someone@email.com, s@email.com)    
+    println(row.get[Seq[String]]("emails")) // List(someone@email.com, s@email.com)   :Seq[String]
+    println(row.get[IndexedSeq[String]]("emails")) // Vector(someone@email.com, s@email.com) :IndexedSeq[String]
+    println(row.get[Set[String]]("emails")) // Set(someone@email.com, s@email.com)
 
     //It is also possible to convert a collection to CQL String representation:
-    row.get[String]("emails") // "[someone@email.com, s@email.com]"
+    println(row.get[String]("emails")) // "[someone@email.com, s@email.com]"
   }
 }
 

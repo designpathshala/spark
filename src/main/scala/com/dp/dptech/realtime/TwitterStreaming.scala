@@ -9,12 +9,12 @@ import org.apache.spark.streaming.Minutes
 
 object TwitterStreaming {
   
-  System.setProperty("twitter4j.oauth.consumerKey", "FlRx3d0n8duIQ0UvGeGtTA")
-  System.setProperty("twitter4j.oauth.consumerSecret", "DS7TTbxhmQ7oCUlDntpQQRqQllFFOiyNoOMEDD0lA")
-  System.setProperty("twitter4j.oauth.accessToken", "1643982224-xTfNpLrARoWKxRh9KtFqc7aoB8KAAHkCcfC5vDk")
-  System.setProperty("twitter4j.oauth.accessTokenSecret", "PqkbuBqF3AVskgx1OKgXKOZzV7EMWRmRG0p8hvLQYKs")
+  System.setProperty("twitter4j.oauth.consumerKey", "")
+  System.setProperty("twitter4j.oauth.consumerSecret", "")
+  System.setProperty("twitter4j.oauth.accessToken", "")
+  System.setProperty("twitter4j.oauth.accessTokenSecret", "")
 
-  val filters = Array("narendramodi")
+  val filters = Array("narendramodi","modi","trump","delhi","Mayawati")
 
   Logger.getLogger("org").setLevel(Level.OFF)
   Logger.getLogger("akka").setLevel(Level.OFF)
@@ -24,7 +24,7 @@ object TwitterStreaming {
 
     val conf = new SparkConf().setAppName("TwitterAnalysis").setMaster("local[2]")
     val ssc = new StreamingContext(conf,Seconds(5))
-    ssc.checkpoint(this.getClass.getClassLoader.getResource("")+"/spark/staging")
+    ssc.checkpoint("checkpoint")
 
     val streams = TwitterUtils.createStream(ssc,None,filters)
 

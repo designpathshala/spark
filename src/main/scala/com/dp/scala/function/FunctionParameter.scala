@@ -1,4 +1,4 @@
-package com.dp.function
+package com.dp.scala.function
 
 /**
  * @author miraj

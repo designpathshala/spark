@@ -1,4 +1,4 @@
-package com.dp.sparkSQL
+package com.dp.dptech.sparkSQL
 
 import org.apache.spark.sql.Row
 import org.apache.spark.sql.types._

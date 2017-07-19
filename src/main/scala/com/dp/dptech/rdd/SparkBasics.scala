@@ -1,4 +1,4 @@
-package com.dp.rdd
+package com.dp.dptech.rdd
 
 import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext

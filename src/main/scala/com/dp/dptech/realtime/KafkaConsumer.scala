@@ -45,7 +45,6 @@ object KafkaConsumer {
     println("STARTING READING: topics: " + topicsSet + "   Kafka servers: " + metadata_broker_list )
     println("----------No of lines read: " + lines.count().count())
 
-
     lines foreachRDD {
       (dpRdd, time) =>
         println("Running for loop...." + dpRdd.count())

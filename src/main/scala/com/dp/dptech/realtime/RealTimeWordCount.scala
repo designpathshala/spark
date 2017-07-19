@@ -1,4 +1,4 @@
-package com.dp.dptech.kafka
+package com.dp.dptech.realtime
 
 import kafka.serializer.StringDecoder
 import org.apache.spark.SparkConf
@@ -34,26 +34,22 @@ object RealTimeWordCount {
     val conf = new SparkConf(true).
       setAppName("DPKafkaWindowStreaming")
 
-    val ssc = new StreamingContext(conf, Seconds(10))
-    //    ssc.checkpoint("checkpoint")
+    val ssc = new StreamingContext(conf, Seconds(2))
+    ssc.checkpoint("checkpoint")
 
     props.load(getClass.getResourceAsStream("/" + jobMode + "/spark-job.properties"))
 
     val topicsSet = dpEventsTopic.split(",").toSet
     val kafkaParams = Map[String, String]("metadata.broker.list" -> metadata_broker_list)
-    val lines = KafkaUtils.createDirectStream[String, String, StringDecoder, StringDecoder](ssc, kafkaParams, topicsSet)
+    val lines = KafkaUtils.createDirectStream[String, String, StringDecoder, StringDecoder](ssc, kafkaParams, topicsSet) map (_._2)
 
     println("STARTING READING: topics: " + topicsSet + "   Kafka servers: " + metadata_broker_list)
     println("----------No of lines read: " + lines.count().count())
 
-    lines foreachRDD {
-      (dpRdd, time) =>
-        println("Running for loop...." + dpRdd.count())
-        dpRdd.foreach(println)
-        val words = lines.map(x => x._2).flatMap(_.split(" "))
-        val wordCounts = words.map(x => (x, 1)).reduceByKey(_ + _)
-        wordCounts.print
-    }
+    val words = lines.flatMap(_.split(" "))
+    val wordCounts = words.map(x => (x, 1L))
+      .reduceByKeyAndWindow(_ + _, _ - _, Minutes(10), Seconds(2), 2)
+    wordCounts.print()
 
     ssc.start()
     ssc.awaitTermination()
@@ -62,3 +58,4 @@ object RealTimeWordCount {
 }
 
 
+// spark-submit --class com.dp.dptech.kafka.RealTimeWordCount --jars /usr/lib/hue/designpathshala/spark/dp-spark-assembly-0.1.0-deps.jar /usr/lib/hue/designpathshala/spark/dp-spark_2.10-0.1.0.jar prod

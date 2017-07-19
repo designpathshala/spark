@@ -10,21 +10,23 @@ import com.datastax.spark.connector.cql._
  * @author miraj
  */
 object ReadCollections {
-  val conf = new SparkConf(true)
-    .set("spark.cassandra.connection.host", "127.0.0.1")
+  def main(args: Array[String]) {
+    val conf = new SparkConf(true)
+      .set("spark.cassandra.connection.host", "127.0.0.1")
 
-  val sc = new SparkContext(conf)
+    val sc = new SparkContext(conf)
 
-  val row = sc.cassandraTable("test", "users").first
+    val row = sc.cassandraTable("test", "users").first
 
-  row.getList[String]("emails") // Vector(someone@email.com, s@email.com)
-  row.get[List[String]]("emails") // List(someone@email.com, s@email.com)    
-  row.get[Seq[String]]("emails") // List(someone@email.com, s@email.com)   :Seq[String]
-  row.get[IndexedSeq[String]]("emails") // Vector(someone@email.com, s@email.com) :IndexedSeq[String]
-  row.get[Set[String]]("emails") // Set(someone@email.com, s@email.com)
+    row.getList[String]("emails") // Vector(someone@email.com, s@email.com)
+    row.get[List[String]]("emails") // List(someone@email.com, s@email.com)    
+    row.get[Seq[String]]("emails") // List(someone@email.com, s@email.com)   :Seq[String]
+    row.get[IndexedSeq[String]]("emails") // Vector(someone@email.com, s@email.com) :IndexedSeq[String]
+    row.get[Set[String]]("emails") // Set(someone@email.com, s@email.com)
 
-  //It is also possible to convert a collection to CQL String representation:
-  row.get[String]("emails") // "[someone@email.com, s@email.com]"
+    //It is also possible to convert a collection to CQL String representation:
+    row.get[String]("emails") // "[someone@email.com, s@email.com]"
+  }
 }
 
 

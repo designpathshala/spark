@@ -10,21 +10,23 @@ import com.datastax.spark.connector.cql._
  * @author miraj
  */
 object ReadUDT {
-  val conf = new SparkConf(true)
-    .set("spark.cassandra.connection.host", "127.0.0.1")
-  //    .set("spark.cassandra.auth.username", "cassandra")
-  //    .set("spark.cassandra.auth.password", "cassandra")
+  def main(args: Array[String]) {
+    val conf = new SparkConf(true)
+      .set("spark.cassandra.connection.host", "127.0.0.1")
+    //    .set("spark.cassandra.auth.username", "cassandra")
+    //    .set("spark.cassandra.auth.password", "cassandra")
 
-  val sc = new SparkContext(conf)
+    val sc = new SparkContext(conf)
 
-  val rdd = sc.cassandraTable("test", "companies")
-  val row = rdd.first
+    val rdd = sc.cassandraTable("test", "companies")
+    val row = rdd.first
 
-  val address: UDTValue = row.getUDTValue("address")
-  val city = address.getString("city")
-  val street = address.getString("street")
-  val number = address.getInt("number")
+    val address: UDTValue = row.getUDTValue("address")
+    val city = address.getString("city")
+    val street = address.getString("street")
+    val number = address.getInt("number")
 
+  }
 }
 
 

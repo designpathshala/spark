@@ -10,15 +10,17 @@ import com.datastax.spark.connector.cql._
  * @author miraj
  */
 object ReadRow {
-  val conf = new SparkConf(true)
-    .set("spark.cassandra.connection.host", "127.0.0.1")
-  //    .set("spark.cassandra.auth.username", "cassandra")
-  //    .set("spark.cassandra.auth.password", "cassandra")
+  def main(args: Array[String]) {
+    val conf = new SparkConf(true)
+      .set("spark.cassandra.connection.host", "127.0.0.1")
+    //    .set("spark.cassandra.auth.username", "cassandra")
+    //    .set("spark.cassandra.auth.password", "cassandra")
 
-  val sc = new SparkContext(conf)
+    val sc = new SparkContext(conf)
 
-  val rdd = sc.cassandraTable("test", "words")
-  rdd.foreach(println)
+    val rdd = sc.cassandraTable("test", "words")
+    rdd.foreach(println)
+  }
 }
 
 

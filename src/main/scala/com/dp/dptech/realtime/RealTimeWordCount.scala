@@ -58,4 +58,4 @@ object RealTimeWordCount {
 }
 
 
-// spark-submit --class com.dp.dptech.kafka.RealTimeWordCount --jars /usr/lib/hue/designpathshala/spark/dp-spark-assembly-0.1.0-deps.jar /usr/lib/hue/designpathshala/spark/dp-spark_2.10-0.1.0.jar prod
+// spark-submit --class com.dp.dptech.realtime.RealTimeWordCount --jars /usr/lib/hue/designpathshala/spark/dp-spark-assembly-0.1.0-deps.jar /usr/lib/hue/designpathshala/spark/dp-spark_2.10-0.1.0.jar prod

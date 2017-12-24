@@ -36,6 +36,6 @@ CREATE TYPE test.address (city text, street text, number int);
 CREATE TABLE test.companies (name text PRIMARY KEY, address FROZEN<address>);
 INSERT INTO test.companies (name, address) VALUES (
   'FRAME', 
-  { city : 'NY', street : 'Richmond Street', number : '908089' }
+  { city : 'NY', street : 'Richmond Street', number : 908089 }
 );
 */

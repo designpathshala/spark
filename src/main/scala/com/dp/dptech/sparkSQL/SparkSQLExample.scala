@@ -108,11 +108,11 @@ object SparkSQLExample {
     import sqlContext.implicits._
 
     // Create an RDD of Person objects from a text file, convert it to a Dataframe
-    val peopleDF = sqlContext.sparkContext
-      .textFile("/user/hue/dp/spark/people.txt")
-      .map(_.split(","))
-      .map(attributes => Person(attributes(0), attributes(1).trim.toInt))
-      .toDF()
+    val peopleDF = sqlContext.sparkContext.
+      textFile("/user/hue/dp/spark/people.txt").
+      map(_.split(",")).
+      map(attributes => Person(attributes(0), attributes(1).trim.toInt)).
+      toDF()
     // Register the DataFrame as a temporary view
     peopleDF.registerTempTable("people")
 

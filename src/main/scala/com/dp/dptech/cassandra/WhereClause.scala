@@ -19,11 +19,11 @@ object WhereClause {
 
     val sc = new SparkContext(conf)
 
-    sc.cassandraTable("test", "cars").select("id", "model").where("color = ?", "black").toArray.foreach(println)
-    // CassandraRow[id: KF-334L, model: Ford Mondeo]
-    // CassandraRow[id: MT-8787, model: Hyundai x35]
-
-    sc.cassandraTable("test", "cars").select("id", "model").where("color = ?", "silver").toArray.foreach(println)
+//    sc.cassandraTable("test", "cars").select("id", "model").where("color = ?", "black").toArray.foreach(println)
+//    // CassandraRow[id: KF-334L, model: Ford Mondeo]
+//    // CassandraRow[id: MT-8787, model: Hyundai x35]
+//
+//    sc.cassandraTable("test", "cars").select("id", "model").where("color = ?", "silver").toArray.foreach(println)
     // CassandraRow[id: WX-2234, model: Toyota Yaris] 
 
     //Grouping rows by partition key

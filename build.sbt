@@ -24,24 +24,25 @@ libraryDependencies ++= Seq(
   //  "com.datastax.spark" %% "spark-cassandra-connector" % "1.5.0"
    
    // spark 1.6.0
-  "org.apache.spark" %% "spark-core" % "1.6.0" % "provided",
-  "org.apache.spark" %% "spark-hive" % "1.6.0",
-  "org.apache.spark" %% "spark-sql" % "1.6.0",
-  "org.apache.spark" %% "spark-streaming" % "1.6.0",
-  "org.apache.spark" %% "spark-streaming-kafka" % "1.6.0" ,
-  "com.datastax.spark" %% "spark-cassandra-connector" % "1.6.0",
-     "org.apache.spark" %% "spark-graphx" % "1.6.0",
-  "org.apache.spark" % "spark-streaming-twitter_2.10" % "1.6.3"
+  // "org.apache.spark" %% "spark-core" % "1.6.0" % "provided",
+  // "org.apache.spark" %% "spark-hive" % "1.6.0",
+  // "org.apache.spark" %% "spark-sql" % "1.6.0",
+  // "org.apache.spark" %% "spark-streaming" % "1.6.0",
+  // "org.apache.spark" %% "spark-streaming-kafka" % "1.6.0" ,
+  // "com.datastax.spark" %% "spark-cassandra-connector" % "1.6.0",
+  //    "org.apache.spark" %% "spark-graphx" % "1.6.0",
+  // "org.apache.spark" % "spark-streaming-twitter_2.10" % "1.6.3"
   
 
   // spark 2.1.0
- // "org.apache.spark" %% "spark-core" % "2.1.0" % "provided",
- // "org.apache.spark" %% "spark-hive" % "2.1.0",
- // "org.apache.spark" %% "spark-sql" % "2.1.0",
- // "org.apache.spark" %% "spark-streaming" % "2.1.0",
- // "org.apache.spark" %% "spark-streaming-kafka" % "1.6.3"  
- // "com.datastax.spark" %% "spark-cassandra-connector" % "1.6.0",
- // "org.apache.spark" % "spark-streaming-twitter" % "1.6.0"
+ "org.apache.spark" %% "spark-core" % "2.1.0" % "provided",
+  "org.apache.spark" %% "spark-hive" % "2.1.0",
+  "org.apache.spark" %% "spark-sql" % "2.1.0",
+  "org.apache.spark" %% "spark-streaming" % "2.1.0",
+  "org.apache.spark" %% "spark-streaming-kafka" % "1.6.3",
+  "com.datastax.spark" %% "spark-cassandra-connector" % "2.0.10",
+  "org.apache.spark" % "spark-streaming-twitter_2.10" % "1.6.3",
+  "org.apache.spark" %% "spark-graphx" % "2.1.0"
   )
 
 resolvers ++= Seq(

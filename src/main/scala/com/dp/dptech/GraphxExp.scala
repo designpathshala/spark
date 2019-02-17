@@ -20,7 +20,7 @@ class GraphxExp {
   def main(args: Array[String]) {
     val conf = new SparkConf(true)
 
-    val sc = new SparkContext(conf)
+ /*   val sc = new SparkContext(conf)
     val sqlContext = new org.apache.spark.sql.SQLContext(sc)
     import sqlContext.implicits._
 
@@ -112,7 +112,7 @@ class GraphxExp {
 
     // get just the airport names
     val impAirports = temp2.map(_._2._2)
-    impAirports.take(4).foreach(println)
+    impAirports.take(4).foreach(println)*/
   }
 
 }

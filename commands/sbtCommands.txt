@@ -12,3 +12,6 @@ sbt package;
 --num-executors 2 \
 --jars {path to your jaar}/scala-2.10/designpathshala-assembly-0.1.0-deps.jar \
 {path to your jaar}/scala-2.10/designpathshala_2.10-0.1.0.jar   
+
+
+Mirgrate SBT: https://github.com/sbt/sbt-assembly/blob/master/Migration.md#upgrading-with-bare-buildsbt

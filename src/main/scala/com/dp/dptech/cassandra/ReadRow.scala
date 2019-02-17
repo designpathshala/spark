@@ -9,7 +9,8 @@ import com.datastax.spark.connector.cql._
 /**
  * @author miraj
  */
-class ReadRow {
+object ReadRow {
+def main(args: Array[String]) {
   val conf = new SparkConf(true)
     .set("spark.cassandra.connection.host", "127.0.0.1")
   //    .set("spark.cassandra.auth.username", "cassandra")
@@ -19,6 +20,7 @@ class ReadRow {
 
   val rdd = sc.cassandraTable("test", "words")
   rdd.foreach(println)
+}
 }
 
 

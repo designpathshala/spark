@@ -9,7 +9,8 @@ import com.datastax.spark.connector.cql._
 /**
  * @author miraj
  */
-class ReadCollections {
+object ReadCollections {
+def main(args: Array[String]) {
   val conf = new SparkConf(true)
     .set("spark.cassandra.connection.host", "127.0.0.1")
 
@@ -26,7 +27,7 @@ class ReadCollections {
   //It is also possible to convert a collection to CQL String representation:
   row.get[String]("emails") // "[someone@email.com, s@email.com]"
 }
-
+}
 
 /**
 Cassandra table scripts

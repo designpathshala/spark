@@ -98,6 +98,7 @@ object SparkSQLExample {
     // +----+-------+
   }
 
+
   /**
    * User power of spark to infer schema
    */
@@ -128,8 +129,8 @@ object SparkSQLExample {
     // +------------+
 
     // or by field name
-    val teenagerMapped1 = teenagersDF.map(teenager => "Name: " + teenager.getAs[String]("name"))
-    teenagerMapped1.foreach { x => println(x) }
+     val teenagerMapped1 = teenagersDF.map(teenager => "Name: " + teenager.getAs[String]("name"))
+     teenagerMapped1.foreach { x => println(x) }
     // +------------+
     // |       value|
     // +------------+
@@ -178,22 +179,6 @@ object SparkSQLExample {
     // | Name: Justin|
     // +-------------+
   }
-
-  /**
-   * Create schema programatically
-   * using StructType and Row
-   */
-  private def connnectWithRDBMS(sqlContext: SQLContext): Unit = {
-    val prop = new java.util.Properties
-    prop.setProperty("user", "username")
-    prop.setProperty("password", "mypassword")
-    val url = "jdbc:mysql://localhost:3306/mysqlDB"
-    val people = sqlContext.read.jdbc(url, "myTable", prop)
-    people.write.jdbc(url, "myTable", prop)
-    //Class.forname
-    //spark-shell -–driver-class-path /path-to-mysql-jar/mysql-connector-java-5.1.34-bin.jar
-  }
-
 }
 
 // /mnt/spark/bin/spark-submit --class sparkSQL.SparkSQLExample --jars /mnt/git/spark/target/scala-2.10/adtech-assembly-0.1.0-deps.jar /mnt/git/spark/target/scala-2.10/adtech_2.10-0.1.0.jar

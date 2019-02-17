@@ -6,3 +6,13 @@ start kafka console producer
 
 start kafka console consumer
 /usr/hdp/2.2.0.0-2041/kafka/bin/kafka-console-consumer.sh  --zookeeper localhost:2181 --topic test --from-beginning
+
+##for hdp
+create kafka test topic:
+/usr/hdp/current/kafka-broker/bin/kafka-topics.sh --zookeeper localhost:2181 --create --topic test1 --replication-factor 1 --partitions 1
+start kafka console producer
+/usr/hdp/current/kafka-broker/bin/kafka-console-producer.sh --broker-list sandbox.hortonworks.com:6667 --topic test
+
+start kafka console consumer
+/usr/hdp/current/kafka-broker/bin/kafka-console-consumer.sh  --zookeeper sandbox.hortonworks.com:2181 --topic test --from-beginning
+

@@ -1,4 +1,4 @@
-package com.dp.dptech.realtime
+package com.dp.dptech.kafka
 
 import kafka.serializer.StringDecoder
 import org.apache.spark.SparkConf
@@ -44,6 +44,7 @@ object KafkaConsumer {
 
     println("STARTING READING: topics: " + topicsSet + "   Kafka servers: " + metadata_broker_list )
     println("----------No of lines read: " + lines.count().count())
+
 
     lines foreachRDD {
       (dpRdd, time) =>

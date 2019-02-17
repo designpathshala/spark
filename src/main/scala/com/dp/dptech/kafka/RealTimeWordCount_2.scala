@@ -3,17 +3,14 @@ package com.dp.dptech.kafka
 import kafka.serializer.StringDecoder
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming._
-import org.apache.spark.streaming.dstream.DStream
 import org.apache.spark.streaming.kafka._
-import org.apache.spark.rdd.RDD
-import org.apache.spark.sql.SQLContext
 import java.util.Properties
-import java.io.FileInputStream
+import org.apache.spark.streaming.dstream.DStream.toPairDStreamFunctions
 
 /**
  * Created by DP on 6/23/16.
  */
-object KafkaConsumer1 {
+object RealTimeWordCount_2 {
 
   val props = new Properties()
 
@@ -34,24 +31,22 @@ object KafkaConsumer1 {
     val conf = new SparkConf(true).
       setAppName("DPKafkaWindowStreaming")
 
-    val ssc = new StreamingContext(conf, Seconds(10))
+    val ssc = new StreamingContext(conf, Seconds(2))
+    ssc.checkpoint("checkpoint")
 
     props.load(getClass.getResourceAsStream("/" + jobMode + "/spark-job.properties"))
 
     val topicsSet = dpEventsTopic.split(",").toSet
     val kafkaParams = Map[String, String]("metadata.broker.list" -> metadata_broker_list)
-    val lines = KafkaUtils.createDirectStream[String, String, StringDecoder, StringDecoder](ssc, kafkaParams, topicsSet)
+    val lines = KafkaUtils.createDirectStream[String, String, StringDecoder, StringDecoder](ssc, kafkaParams, topicsSet) map (_._2)
 
-    println("STARTING READING: topics: " + topicsSet + "   Kafka servers: " + metadata_broker_list )
+    println("STARTING READING: topics: " + topicsSet + "   Kafka servers: " + metadata_broker_list)
     println("----------No of lines read: " + lines.count().count())
 
-
-    lines foreachRDD {
-      (dpRdd, time) =>
-        println("Running for loop...." + dpRdd.count())
-        dpRdd.foreach(println)
-        
-    }
+    val words = lines.flatMap(_.split(" "))
+    val wordCounts = words.map(x => (x, 1L))
+      .reduceByKeyAndWindow(_ + _, _ - _, Minutes(10), Seconds(2), 2)
+    wordCounts.print()
 
     ssc.start()
     ssc.awaitTermination()
@@ -60,3 +55,4 @@ object KafkaConsumer1 {
 }
 
 
+// spark-submit --class com.dp.dptech.twitter.RealTimeWordCount --jars /usr/lib/hue/designpathshala/spark/dp-spark-assembly-0.1.0-deps.jar /usr/lib/hue/designpathshala/spark/dp-spark_2.10-0.1.0.jar prod

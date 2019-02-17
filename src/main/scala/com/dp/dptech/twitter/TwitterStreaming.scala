@@ -1,4 +1,4 @@
-package com.dp.dptech.realtime
+package com.dp.dptech.twitter
 
 import org.apache.log4j.{ Level, Logger }
 import org.apache.spark.SparkConf
@@ -67,7 +67,7 @@ object TwitterStreaming {
   }
 }
 
-//spark-submit --class com.dp.dptech.realtime.TwitterStreaming --jars /usr/lib/hue/designpathshala/spark/dp-spark-assembly-0.1.0-deps.jar /usr/lib/hue/designpathshala/spark/dp-spark_2.10-0.1.0.jar
+//spark-submit --class com.dp.dptech.twitter.TwitterStreaming --jars /usr/lib/hue/designpathshala/spark/dp-spark-assembly-0.1.0-deps.jar /usr/lib/hue/designpathshala/spark/dp-spark_2.10-0.1.0.jar
 
 //If getting credintials issue, check system time
 //chkconfig ntpd on

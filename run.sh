@@ -7,9 +7,6 @@ sbt package;
 #Elastic search
 #1 Write
 /usr/hdp/current/spark2-client/bin/spark-submit \
---conf spark.es.nodes=192.168.134.125 \
---conf spark.es.port=9200 \
---conf spark.es.nodes.wan.only=false \
 --class com.dp.dptech.es.Write \
 --jars /root/spark/spark/target/scala-2.10/dp-spark-assembly-0.1.0-deps.jar,/root/spark/spark/target/scala-2.10/dp-spark_2.10-0.1.0.jar \
 /root/spark/spark/target/scala-2.10/dp-spark_2.10-0.1.0.jar dev
@@ -19,3 +16,8 @@ sbt package;
 #5 WriteWithMeta
 #6 WriteWithMetaPlus
 #7 WriteWithMetaIDPlus
+#8 
+/usr/hdp/current/spark2-client/bin/spark-submit \
+--class com.dp.dptech.es.Read \
+--jars /root/spark/spark/target/scala-2.10/dp-spark-assembly-0.1.0-deps.jar,/root/spark/spark/target/scala-2.10/dp-spark_2.10-0.1.0.jar \
+/root/spark/spark/target/scala-2.10/dp-spark_2.10-0.1.0.jar dev

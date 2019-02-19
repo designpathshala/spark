@@ -43,7 +43,9 @@ libraryDependencies ++= Seq(
   "com.datastax.spark" %% "spark-cassandra-connector" % "2.0.10",
   "org.apache.spark" % "spark-streaming-twitter_2.10" % "1.6.3",
   "org.apache.spark" %% "spark-graphx" % "2.1.0",
-  "org.elasticsearch" %% "elasticsearch-spark" % "2.4.5"
+//  "org.elasticsearch" %% "elasticsearch-spark" % "2.4.5",
+"org.elasticsearch" % "elasticsearch-hadoop" % "6.0.0"
+
   )
 
 resolvers ++= Seq(
@@ -51,6 +53,9 @@ resolvers ++= Seq(
   "scala-tools" at "https://oss.sonatype.org/content/groups/scala-tools",
   Resolver.sonatypeRepo("public")
 )
+
+resolvers += "clojars" at "https://clojars.org/repo"
+resolvers += "conjars" at "http://conjars.org/repo"
 
 assemblyMergeStrategy in assembly := {
   case m if m.toLowerCase.endsWith("manifest.mf")          => MergeStrategy.discard

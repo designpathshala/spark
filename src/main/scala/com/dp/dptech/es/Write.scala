@@ -27,6 +27,7 @@ object Write {
     val es_port = props.getProperty("es.port")
     conf.set("es.nodes", es_nodes)
     conf.set("es.port", es_port)
+//conf.set("es.nodes.wan.only", "false")
 
     val sc = new SparkContext(conf)
 
@@ -36,8 +37,10 @@ object Write {
     sc.makeRDD(Seq(numbers, airports)).saveToEs("spark/docs")
 
     //another way to pass es conf while saving data
-    //    var esconf = Map("es.nodes" -> es_nodes, "es.port" -> es_port)
-    //    sc.makeRDD(Seq(numbers, airports)).saveToEs("spark/docs",esconf)
+//println("nodes -------------"+ es_nodes)
+//println("port---------------" + es_port)
+//        var esconf = Map("es.nodes" -> es_nodes, "es.port" -> es_port)
+//        sc.makeRDD(Seq(numbers, airports)).saveToEs("spark/docs",esconf)
   }
 }
 

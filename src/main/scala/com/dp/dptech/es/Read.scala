@@ -15,11 +15,11 @@ object Read {
     val conf = new SparkConf().setAppName("elasticSearch")
     conf.set("es.index.auto.create", "true")
 
-    if (args.length < 1) {
-      System.err.println("Usage: DP dptech parameters <mode> ")
+    if (args.length < 2) {
+      System.err.println("Usage: DP dptech parameters <mode> <index>")
       System.exit(1)
     }
-    val Array(jobMode) = args
+    val Array(jobMode,index) = args
 
     // load a properties file
     props.load(getClass().getClassLoader().getResourceAsStream(jobMode + "/spark-job.properties"));
@@ -28,6 +28,7 @@ object Read {
     val es_port = props.getProperty("es.port")
     conf.set("es.nodes", es_nodes)
     conf.set("es.port", es_port)
+    conf.set("es.index.read.missing.as.empty", "true")
     val sc = new SparkContext(conf)
 
     
@@ -37,11 +38,11 @@ object Read {
     
     //Read data with a query parameter
     //create an RDD streaming all the documents matching me* from index radio/artists
-    val rdd_query = sc.esRDD("radio/artists", "?q=me*") 
+    val rdd_query = sc.esRDD(index, "?q=me*") 
     rdd_query.foreach(println)
     
     //Reading data in JSON format
-    val rdd_json = sc.esJsonRDD("radio/artists", "?q=me*") 
+    val rdd_json = sc.esJsonRDD(index, "?q=me*") 
     rdd_query.foreach(println)
   }
 }

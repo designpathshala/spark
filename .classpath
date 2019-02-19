@@ -844,6 +844,11 @@
       <attribute name="javadoc_location" value="jar:file:/Users/miraj.godha/.ivy2/cache/com.chuusai/shapeless_2.10.4/docs/shapeless_2.10.4-2.0.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
+  <classpathentry sourcepath="/Users/miraj.godha/.ivy2/cache/org.elasticsearch/elasticsearch-spark_2.10/srcs/elasticsearch-spark_2.10-2.4.5-sources.jar" kind="lib" path="/Users/miraj.godha/.ivy2/cache/org.elasticsearch/elasticsearch-spark_2.10/jars/elasticsearch-spark_2.10-2.4.5.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/Users/miraj.godha/.ivy2/cache/org.elasticsearch/elasticsearch-spark_2.10/docs/elasticsearch-spark_2.10-2.4.5-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
   <classpathentry kind="output" path="bin"/>
 </classpath>

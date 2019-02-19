@@ -42,7 +42,8 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-streaming-kafka" % "1.6.3",
   "com.datastax.spark" %% "spark-cassandra-connector" % "2.0.10",
   "org.apache.spark" % "spark-streaming-twitter_2.10" % "1.6.3",
-  "org.apache.spark" %% "spark-graphx" % "2.1.0"
+  "org.apache.spark" %% "spark-graphx" % "2.1.0",
+  "org.elasticsearch" %% "elasticsearch-spark" % "2.4.5"
   )
 
 resolvers ++= Seq(

@@ -12,7 +12,7 @@ sbt package;
 --conf spark.es.nodes.wan.only=false \
 --class com.dp.dptech.es.Write \
 --jars /root/spark/spark/target/scala-2.10/dp-spark-assembly-0.1.0-deps.jar,/root/spark/spark/target/scala-2.10/dp-spark_2.10-0.1.0.jar \
-/root/spark/spark/target/scala-2.10/dp-spark_2.10-0.1.0.jar
+/root/spark/spark/target/scala-2.10/dp-spark_2.10-0.1.0.jar dev
 #2 WriteCaseClass
 #3 WriteJson
 #4 WriteMultipleIndex

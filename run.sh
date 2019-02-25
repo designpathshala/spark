@@ -20,4 +20,4 @@ sbt package;
 /usr/hdp/current/spark2-client/bin/spark-submit \
 --class com.dp.dptech.es.Read \
 --jars /root/spark/spark/target/scala-2.10/dp-spark-assembly-0.1.0-deps.jar,/root/spark/spark/target/scala-2.10/dp-spark_2.10-0.1.0.jar \
-/root/spark/spark/target/scala-2.10/dp-spark_2.10-0.1.0.jar dev
+/root/spark/spark/target/scala-2.10/dp-spark_2.10-0.1.0.jar dev spark/docs

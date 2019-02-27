@@ -43,8 +43,12 @@ libraryDependencies ++= Seq(
   "com.datastax.spark" %% "spark-cassandra-connector" % "2.0.10",
   "org.apache.spark" % "spark-streaming-twitter_2.10" % "1.6.3",
   "org.apache.spark" %% "spark-graphx" % "2.1.0",
-//  "org.elasticsearch" %% "elasticsearch-spark" % "2.4.5",
-"org.elasticsearch" % "elasticsearch-hadoop" % "6.0.0"
+ 
+  //If use this one it gives elastic search version issue
+  //"org.elasticsearch" %% "elasticsearch-spark" % "2.4.5",
+  
+  //Used for elastic  search 
+  "org.elasticsearch" % "elasticsearch-hadoop" % "6.0.0"
 
   )
 
